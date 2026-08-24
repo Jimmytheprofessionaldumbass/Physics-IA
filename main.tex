@@ -2,6 +2,15 @@
 \documentclass[12pt]{article}
 
 \usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
+\definecolor{icegreen}{HTML}{20D68A}
+\definecolor{iceteal}{HTML}{16C7B7}
+\definecolor{icecyan}{HTML}{18C9E8}
+\definecolor{iceblue}{HTML}{239FE8}
+\definecolor{icedark}{HTML}{202B32}
+\definecolor{icegray}{HTML}{C9D0D3}
 
 \title{An investigation on the relationship between slit distance and fringe spacing}
 \author{Jimmy Zeng}
@@ -11,6 +20,42 @@
 \tableofcontents
 \section{Introduction and Background}
 Wave Phenomena states that wave could interfere when they overlap. When two waves are in opposite phase, it is said to interfere destructively and cancel out. However, if they are the same phase and interferes, it is said to be constructive, reaching a greater amplitude.
+\begin{figure}[htbp]
+    \center
+    \begin{tikzpicture}
+        \begin{axis} [
+            axis lines=middle,
+            axis y line=none,
+            % axis x line=none,
+            clip=false,
+            xmin=0,
+            xmax=7*pi/2,
+            ymax= 9,
+            xtick = {0, pi/2, pi, 3*pi/2, 2*pi, 5*pi/2, 3*pi, 7*pi/2},
+            xticklabels={
+                % $0$,
+                % $\frac{\pi}{2}$,
+                % $\pi$,
+                % $\frac{3\pi}{2}$,
+                % $2\pi$,
+                % $\frac{5\pi}{2}$,
+                % $3\pi$,
+                % $\frac{7\pi}{2}$
+            },
+            yticklabels={},
+            xticklabel style={anchor=north, text=black},
+            xmajorgrids = true,
+            grid style = dashed
+        ]
+            \addplot[samples=50, color = icegreen, domain=0:7*pi/2] {sin(deg(x))+5};
+            \addplot[samples=50, color = iceblue, domain=0:7*pi/2] {cos(deg(x))+8};
+            \draw [thick] (0, 5) -- (7*pi/2, 5);
+            \draw [thick] (0, 8) -- (7*pi/2, 8);
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Illustration of wave interference}
+    \label{fig:wave interference illustration}
+\end{figure}
 % Include Diagram
 The debate of whether light is a particle or a wave was challenged by Thomas Young's famous Double Slit Experiment in Young's Course of Lectures on Natural Philosophy and the Mechanical Arts of 1807, where a coherent light source shinning through two tiny slits projected an interference pattern with alternation between light and dark fringes rather than two individual bright fringes in a dark background. The formula proposed by Thomas Young was
 %Include Citations
@@ -51,5 +96,3 @@ Our guiding question is \textbf{What is the relationship with the distance betwe
 
 
 \end{document}
-
-
