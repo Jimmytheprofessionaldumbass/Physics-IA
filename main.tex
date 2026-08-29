@@ -3,6 +3,7 @@
 
 \usepackage{tikz}
 \usepackage{pgfplots}
+\usepackage{subcaption}
 \pgfplotsset{compat=1.18}
 
 \definecolor{icegreen}{HTML}{20D68A}
@@ -18,52 +19,194 @@
 \begin{document}
 \maketitle
 \tableofcontents
+\pagebreak
 \section{Introduction and Background}
 Wave Phenomena states that wave could interfere when they overlap. When two waves are in opposite phase, it is said to interfere destructively and cancel out. However, if they are the same phase and interferes, it is said to be constructive, reaching a greater amplitude.
+\par
 \begin{figure}[htbp]
-    \center
-    \begin{tikzpicture}
-        \begin{axis} [
-            axis lines=middle,
-            axis y line=none,
-            % axis x line=none,
-            clip=false,
-            xmin=0,
-            xmax=7*pi/2,
-            ymax= 9,
-            xtick = {0, pi/2, pi, 3*pi/2, 2*pi, 5*pi/2, 3*pi, 7*pi/2},
-            xticklabels={
-                % $0$,
-                % $\frac{\pi}{2}$,
-                % $\pi$,
-                % $\frac{3\pi}{2}$,
-                % $2\pi$,
-                % $\frac{5\pi}{2}$,
-                % $3\pi$,
-                % $\frac{7\pi}{2}$
-            },
-            yticklabels={},
-            xticklabel style={anchor=north, text=black},
-            xmajorgrids = true,
-            grid style = dashed
-        ]
-            \addplot[samples=50, color = icegreen, domain=0:7*pi/2] {sin(deg(x))+5};
-            \addplot[samples=50, color = iceblue, domain=0:7*pi/2] {cos(deg(x))+8};
-            \draw [thick] (0, 5) -- (7*pi/2, 5);
-            \draw [thick] (0, 8) -- (7*pi/2, 8);
-        \end{axis}
-    \end{tikzpicture}
+    \centering
+
+    \begin{subfigure}[t]{0.45\textwidth}
+        \begin{tikzpicture}
+            \begin{axis} [
+                axis lines=middle,
+                axis y line=none,
+                xmin = 0,
+                xmax = 16,
+                ymin = -1.1,
+                ymax = 1.1,
+                height = 3cm,
+                width=\textwidth,
+                xticklabels={},
+                xtick={0, pi/2, pi, 3*pi/2, 2*pi, 5*pi/2, 3*pi, 7*pi/2, 4*pi, 9*pi/2, 5*pi, 11*pi/2}
+                ]
+                \addplot[samples=50, color = iceblue, domain=0:16]{sin(deg(x))};
+            \end{axis}
+        \end{tikzpicture}
+        \par
+        \vspace{0.25cm}
+        \begin{tikzpicture}
+            \begin{axis} [
+                axis lines=middle,
+                axis y line=none,
+                xmin = 0,
+                xmax = 16,
+                ymin = -1.1,
+                ymax = 1.1,
+                height = 3cm,
+                width=\textwidth,
+                xticklabels={},
+                xtick={0, pi/2, pi, 3*pi/2, 2*pi, 5*pi/2, 3*pi, 7*pi/2, 4*pi, 9*pi/2, 5*pi, 11*pi/2}
+                ]
+                \addplot[samples=50, color = icegreen, domain=0:16]{-sin(deg(x))};
+            \end{axis}
+        \end{tikzpicture}
+    \end{subfigure}%
+    \hspace{-0.075\textwidth}%
+    \begin{subfigure}[c]{0.1\textwidth}
+        \centering
+        \begin{tikzpicture}
+            \draw [very thick,->] (0,0) -- (1,0);
+        \end{tikzpicture}
+    \end{subfigure}%
+    \hspace{0.025\textwidth}
+    \begin{subfigure}[c]{0.45\textwidth}
+        \begin{tikzpicture}
+            \begin{axis} [
+                axis lines=middle,
+                axis y line=none,
+                xmin = 0,
+                xmax = 8,
+                ymin = -1.1,
+                ymax = 1.1,
+                height = 4cm,
+                width=\textwidth,
+                xticklabels={},
+                xtick={0, pi/2, pi, 3*pi/2, 2*pi, 5*pi/2, 3*pi, 7*pi/2}
+                ]
+                \addplot[samples=50, color = icecyan, domain=0:8]{0};
+                \addplot[samples=50, dashed, color = icegreen, domain=0:8]{-sin(deg(x))};
+                \addplot[samples=50, dashed, color = iceblue, domain=0:8]{sin(deg(x))};
+            \end{axis}
+        \end{tikzpicture}
+    \end{subfigure}%
+
+    \par
+
+    \begin{subfigure}[t]{0.45\textwidth}
+        \begin{tikzpicture}
+            \begin{axis} [
+                axis lines=middle,
+                axis y line=none,
+                xmin = 0,
+                xmax = 8,
+                ymin = -1.1,
+                ymax = 1.1,
+                height = 3cm,
+                width=\textwidth,
+                xticklabels={},
+                xtick={0, pi/2, pi, 3*pi/2, 2*pi, 5*pi/2, 3*pi, 7*pi/2}
+                ]
+                \addplot[samples=50, color = iceblue, domain=0:8]{sin(deg(x))};
+            \end{axis}
+        \end{tikzpicture}
+        \par
+        \vspace{0.25cm}
+        \begin{tikzpicture}
+            \begin{axis} [
+                axis lines=middle,
+                axis y line=none,
+                xmin = 0,
+                xmax = 8,
+                ymin = -1.1,
+                ymax = 1.1,
+                height = 3cm,
+                width=\textwidth,
+                xticklabels={},
+                xtick={0, pi/2, pi, 3*pi/2, 2*pi, 5*pi/2, 3*pi, 7*pi/2}
+                ]
+                \addplot[samples=50, color = icegreen, domain=0:8]{sin(deg(x))};
+            \end{axis}
+        \end{tikzpicture}
+    \end{subfigure}%
+    \hspace{-0.075\textwidth}%
+    \begin{subfigure}[c]{0.1\textwidth}
+        \centering
+        \begin{tikzpicture}
+            \draw [very thick,->] (0,0) -- (1,0);
+        \end{tikzpicture}
+    \end{subfigure}%
+    \hspace{0.025\textwidth}%
+    \begin{subfigure}[c]{0.45\textwidth}
+        \begin{tikzpicture}
+            \begin{axis} [
+                axis lines=middle,
+                axis y line=none,
+                xmin = 0,
+                xmax = 8,
+                ymin = -3.1,
+                ymax = 3.1,
+                height = 4cm,
+                width=\textwidth,
+                xticklabels={},
+                xtick={0, pi/2, pi, 3*pi/2, 2*pi, 5*pi/2, 3*pi, 7*pi/2}
+                ]
+                \addplot[samples=50, color = icecyan, domain=0:8]{3*sin(deg(x))};
+                \addplot[samples=50, dashed, color = iceblue, domain=0:8]{sin(deg(x))};
+                \addplot[samples=50, dashed, dash phase=3pt, color = icegreen, domain=0:8]{sin(deg(x))};
+            \end{axis}
+        \end{tikzpicture}
+    \end{subfigure}
     \caption{Illustration of wave interference}
     \label{fig:wave interference illustration}
 \end{figure}
-% Include Diagram
-The debate of whether light is a particle or a wave was challenged by Thomas Young's famous Double Slit Experiment in Young's Course of Lectures on Natural Philosophy and the Mechanical Arts of 1807, where a coherent light source shinning through two tiny slits projected an interference pattern with alternation between light and dark fringes rather than two individual bright fringes in a dark background. The formula proposed by Thomas Young was
+% Include an image maybe idk
+The debate of whether light is a particle or a wave was challenged by Thomas Young's famous Double Slit Experiment in Young's Course of Lectures on Natural Philosophy and the Mechanical Arts of 1807, where a coherent light source shinning through two tiny slits projected an interference pattern with alternation between light and dark fringes rather than two individual bright fringes in a dark background. Illustrated In Figure \ref{fig:double slit system}
+\begin{figure}[htbp]
+    \center
+    
+    \begin{tikzpicture}
+        \draw [very thick] (0, 0) -- (0, 1.95);
+        \draw [very thick] (0, 2.05) -- (0, 4);
+
+        \draw [very thick] (2, 0) -- (2, 1.7);
+        \draw [very thick] (2, 1.9) -- (2, 2.1);
+        \draw [very thick] (2, 2.3) -- (2, 4);
+
+        \draw [very thick] (10, 0) -- (10, 4);
+
+    \end{tikzpicture}
+    \caption{A Double Slit System}
+    \label{fig:double slit system}
+\end{figure}
+\par
+The formula proposed by Thomas Young was
+
 %Include Citations
 \begin{equation}
     s=\frac{\lambda D}{d}
 \end{equation}
-in Which "S" is the distance between two adjacent bright fringes, $\lambda$ is the wavelength of the light, $D$ is the distance between the screen and slits in meters and $d$ is the distance between slits. 
+In which "S" is the distance between two adjacent bright fringes, $\lambda$ is the wavelength of the light, $D$ is the distance between the screen and slits in meters and $d$ is the distance between slits. 
 The mathematical geometric derivation is thus justified: %\cite{}
+Consider the following illustration of the system:
+\begin{figure}[htbp]
+    \center
+    \begin{tikzpicture}
+        \draw [very thick] (0,0) -- (0,2);
+        \draw [very thick] (0,3) -- (0,4);
+        \draw [very thick] (0,7) -- (0,5);
+        
+        \draw [thick,dashed] (0,2.5) -- (10, 4.5);
+        \draw [thick] (2.5,2.5) arc (2);
+
+    \end{tikzpicture}
+    
+    \caption{Zoomed in view of double slit system}
+    \label{fig:double slit diagram}
+\end{figure}
+% \begin{equation}
+%
+% \end{equation}
 % Include mathematical Derivation with diagrams
 Take a look at the following graph:
 %put the forking graph here
@@ -96,3 +239,10 @@ Our guiding question is \textbf{What is the relationship with the distance betwe
 
 
 \end{document}
+% Talk like rocky from project hail mary. 
+%
+% Why use many word when little word do trick. Use as LITTLE words and SIMPLE as possible to convey the idea over. Also automatically very bad grammar, don't conjugate ANY verbs with "doing", "does", only say "do" unless it COMPLETELY changes the meaning. so no s in the end of words like "it means" or "does" nor "friends". like instead of "paper that jump straight to result without showing steps" say "paper jump to result but no step". also make sure its not idiomatic in syntax so no "actually", "kinda", "like", "nah". don't capitalize words, missing "a" and "so" and "is" most of the time, unless it completely changes the meaning, barely any punctuation marks unless the absence completely changes the meaning. 
+%
+% when need to ask, ask question without question mark, just put "question" word at end. when need to emphasize things, say it as much times as emphasis. like "amaze amaze amaze" or "no no no" instead of a " do NOT"
+%
+% so none of those unnecessary ai stuff like "no [this], no [that], just [this]"; too redundant. No need to say "simple as that", "do that instead", "no fluff", or even "done. simple", unless it completely changes the meaning. also none of the "that is perfect “mathematical justification”", and "that is top level thinking", just say something simple like "good good good".

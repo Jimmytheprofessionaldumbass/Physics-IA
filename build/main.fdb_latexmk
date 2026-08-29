@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1787579563.23983 "main.tex" "build/main.pdf" "main" 1787579564.17659 0
+["pdflatex"] 1787728604.29274 "main.tex" "build/main.pdf" "main" 1787728605.49003 2
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -113,6 +113,9 @@
   "/usr/local/texlive/2026/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex" 1312159636 3286 c17079ba50483e1ac1721268ea016041 ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls" 1748806692 20144 b966087dda3b194755eb460d32e2ef75 ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/base/size12.clo" 1748806692 8449 8dc66c6c313c8eb2d774af83bca435dd ""
+  "/usr/local/texlive/2026/texmf-dist/tex/latex/caption/caption.sty" 1696191071 56128 c2ccf1a29d78c33bc553880402e4fb9a ""
+  "/usr/local/texlive/2026/texmf-dist/tex/latex/caption/caption3.sty" 1696191071 72619 ee90b6612147680fd73c3b1406a74245 ""
+  "/usr/local/texlive/2026/texmf-dist/tex/latex/caption/subcaption.sty" 1690576852 12494 0c0cdb824278a4d51cefeb2e79901315 ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1579991033 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1459978653 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
@@ -140,9 +143,9 @@
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1786347609 5573038 b99aad5e4898a9034e953632f940512b ""
   "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1786347505 3636769 de43c7c004d607240510bdcfcd858e52 ""
   "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
-  "build/main.aux" 1787579564.13157 583 ae87eef1a182e46d17ece20c64347491 "pdflatex"
-  "build/main.toc" 1787579564.13422 224 8db726937d579304ca37ca45041afaac "pdflatex"
-  "main.tex" 1787579561.3122 4639 54dc5b13afda65e46242cc0145a94f57 ""
+  "build/main.aux" 1787728605.45819 594 19fef7091541a2364d84b2d631b37be2 "pdflatex"
+  "build/main.toc" 1787728605.45878 74 fa90adc2c06ef0ddc9b5e2e8d3a8c726 "pdflatex"
+  "main.tex" 1787728602.74416 10561 fd3f2ffb00ecc3486413d0a9dd6afaec ""
   (generated)
   "build/main.aux"
   "build/main.log"
