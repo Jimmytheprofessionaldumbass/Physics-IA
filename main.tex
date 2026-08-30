@@ -4,6 +4,8 @@
 \usepackage{tikz}
 \usepackage{pgfplots}
 \usepackage{subcaption}
+\usepackage{amsmath}
+\usetikzlibrary{arrows.meta}
 \pgfplotsset{compat=1.18}
 
 \definecolor{icegreen}{HTML}{20D68A}
@@ -188,38 +190,83 @@ The formula proposed by Thomas Young was
 \end{equation}
 In which "S" is the distance between two adjacent bright fringes, $\lambda$ is the wavelength of the light, $D$ is the distance between the screen and slits in meters and $d$ is the distance between slits. 
 The mathematical geometric derivation is thus justified: %\cite{}
-Consider the following illustration of the system:
+Consider a point a on the screen of a double slit system at which two light rays touch from their respective slits.
+This is illustrated in figure \ref{fig:double slit diagram}
 \begin{figure}[htbp]
     \center
     \begin{tikzpicture}
-        \draw [very thick] (0,0) -- (0,2);
+        \coordinate (Fringe) at (10, 8);
+        \draw [very thick] (0,-1) -- (0,2);
         \draw [very thick] (0,3) -- (0,4);
-        \draw [very thick] (0,7) -- (0,5);
+        \draw [very thick] (0,8) -- (0,5);
         
-        \draw [thick,dashed] (0,2.5) -- (10, 4.5);
-        \draw [thick] (2.5,2.5) arc (2);
+        
+        \draw [thick,color=icegreen] (0.5870021,2.82285115) -- node[fill=white] {$n\lambda$} (Fringe);
+        \draw [thick,color=iceblue] (0,4.5) -- node[fill=white] {$n\lambda$} (Fringe);
+        \draw [thick,color=icecyan,dashed] (0.37422, 3.6684) -- (Fringe);
+
+        \draw [thick,color=icecyan] (0,4.5) -- (0.72144289,2.89679359);
+        \draw [thick,color=icecyan] (0,2.5) -- node[below] {$\Delta x$}(0.72144289,2.89679359);
+        \draw [dashed,thin] (0,3.5) -- (10, 3.5);
+
+        \draw [{Rays[n=2]}-{Rays[n=2]}] (0,-1.2) -- node[fill=white] {D} (10,-1.2);
+        \draw [{Rays[n=2]}-{Rays[n=2]}] (-0.4,2.5) -- node[fill=white] {d} (-0.4,4.5);
+        \draw [{Rays[n=2]}-{Rays[n=2]}] (10.4,3.5) -- node[fill=white] {y} (10.4,8);
+        
+        \draw [thick] (0,3) arc (270:270+atan(0.82335774588/1.75805516913):1.5) node[font=\small,midway,fill=white, inner sep=0.5pt] {$\theta$}; 
+        \draw [thick] (1.5,3.5) arc (0:atan(4.5/10):1.5) node[font=\small,midway,fill=white,inner sep=0.5pt] {$\theta$}; 
+
+        % \draw [thick,->]  (5,2) node[left] {Central (bright) fringe} to [bend right = 30] (10,7);
 
     \end{tikzpicture}
     
     \caption{Zoomed in view of double slit system}
     \label{fig:double slit diagram}
 \end{figure}
-% \begin{equation}
-%
-% \end{equation}
+\par
+
 % Include mathematical Derivation with diagrams
-Take a look at the following graph:
 %put the forking graph here
-We observe that the path difference from the wave from the bottom slit and top slit is illustrated as $\Delta x$, this coincides with the equation
+We observe that the $\theta$ that is related by the equation
 \begin{equation}
-    d sin(\theta) = \Delta x
+    \sin(\theta) = \frac{\Delta x}{d}
 \end{equation}
+is equal to the $\theta$ represented by
+\begin{equation}
+    \tan(\theta) = \frac{y}{D}
+\end{equation}
+When the distance of both light rays' traveled paths is a multiple of the wavelength of the light, they engage in constructive interference.
 We observe the fact that the path difference ($\Delta x$) for constructive waves is
 \begin{equation}
     n\lambda
+    \label{eq:path difference constructive}
 \end{equation}
-where $\lambda$ is the wavelength of the light and $n$ is an integer representing the interested bright fringe.
-
+where $\lambda$ is the wavelength of the light and $n$ is an integer representing the interested bright fringe. Hence we derive the equation
+\begin{align}
+    \sin(\theta) &= \frac{\Delta x}{d} \\
+    \sin(\theta) &= \frac{n\lambda}{d} \\
+    \theta &= \sin^{-1}\left(\frac{n\lambda}{d}\right)
+\end{align}
+and since we know that the wavelength $\lambda$ of light is orders of magnitudes larger than slit spacing $d$, and hence the value in $\sin$ is close to zero, we can use the sin angle approximation $\lim_{\theta \to 0} \sin(\theta) = \theta$ to simplify to
+\begin{equation}
+    \theta = \frac{n\lambda}{d}
+\end{equation}
+relating $\theta$ to $d$ and $\lambda$.
+This angle approximation for small values of $\theta$ also apply to $\tan(\theta)$ in the other representation of $\theta$
+\begin{equation}
+    \tan(\theta) = \frac{y}{D}
+\end{equation}
+and since we know that this is the same $\theta$ we can simplify to
+\begin{equation}
+    \theta = \frac{y}{D}
+\end{equation}
+and putting them together
+\begin{align}
+    \frac{y}{D} &= \theta \\
+    \frac{n \lambda}{d} &= \theta \\
+    \frac{y}{D} &= \frac{n \lambda}{d} \\
+    y  &= \frac{Dn\lambda}{d} \\
+\end{align}
 %Use diagrams to better explain and stuff
 
 \section{Methodology}
