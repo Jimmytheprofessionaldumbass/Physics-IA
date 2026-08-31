@@ -216,6 +216,8 @@ This is illustrated in figure \ref{fig:double slit diagram}
         \draw [thick] (0,3) arc (270:270+atan(0.82335774588/1.75805516913):1.5) node[font=\small,midway,fill=white, inner sep=0.5pt] {$\theta$}; 
         \draw [thick] (1.5,3.5) arc (0:atan(4.5/10):1.5) node[font=\small,midway,fill=white,inner sep=0.5pt] {$\theta$}; 
 
+        \draw [thick] (10,-1) -- (10,8);
+
         % \draw [thick,->]  (5,2) node[left] {Central (bright) fringe} to [bend right = 30] (10,7);
 
     \end{tikzpicture}
@@ -224,9 +226,6 @@ This is illustrated in figure \ref{fig:double slit diagram}
     \label{fig:double slit diagram}
 \end{figure}
 \par
-
-% Include mathematical Derivation with diagrams
-%put the forking graph here
 We observe that the $\theta$ that is related by the equation
 \begin{equation}
     \sin(\theta) = \frac{\Delta x}{d}
@@ -265,21 +264,68 @@ and putting them together
     \frac{y}{D} &= \theta \\
     \frac{n \lambda}{d} &= \theta \\
     \frac{y}{D} &= \frac{n \lambda}{d} \\
-    y  &= \frac{Dn\lambda}{d} \\
+    y  &= n\frac{D\lambda}{d} \\
 \end{align}
-%Use diagrams to better explain and stuff
+to find the distance between fringes we need to find the distance of a fringe to the central maxima and distance of a consecutive fringe to the central maxima and find the the difference between their distances.
+\par
+We have defined the distance from the central maximum to 
+\begin{itemize}
+    \item the nth fringe as $y  = n\frac{D\lambda}{d}$
+    \item the nth + 1 fringe as $y  = \left(n+1)\right)\frac{D\lambda}{d}$
+\end{itemize}
+finding the difference $\Delta y = s$ gives us the spacing between adjacent fringes
+\begin{align}
+    \Delta y = s&= \left(n+1\right) \frac{D \lambda}{d} - n \frac{D \lambda}{d} \\
+    s &= \left(n+1-n\right) \frac{D \lambda}{d} \\
+    s &= \frac{D \lambda}{d} 
+\end{align}
+and now we arrive at our destination.
 
 \section{Methodology}
     
 
 \subsection{Research Hypothesis and Method variables}
 
-The independent variable is the distance between the slit and the screen and will include values that range from the [nearby and further apart]. The [nearby] will include 20cm, 40cm, 60cm, 80cm, and 100cm, while the further apart include 3 meters, 5 meters, 6 meters and 8 meters.
+% The independent variable is the distance between the slit and the screen and will include values that range from the [nearby and further apart]. The [nearby] will include 20cm, 40cm, 60cm, 80cm, and 100cm, while the further apart include 3 meters, 5 meters, 6 meters and 8 meters.
+
+
+
+The independent variable is the distance $D$ between the slit and the screen. There will be two experiments carried out with different setups, namely, the "macro" and "micro" experiments. This is to satisfy the trial quantity to increase validity and each experimental procedure explained in the ensuing section.
+\begin{itemize}
+    \item Micro will solely focus on distances within a meter and will include (in cm) 20, 40, 60, 80, and 100.
+    \item Macro will be done from various distances ranging from 3 to 8 meters and will include (in m) 3, 5, 6, and 8.
+        \begin{itemize}
+            % Ensure Validity
+            \item Each of these distances will have micro steps that include (in meters) +0, +50, and +100 which will extend our trial amounts
+            \item For example, for 5 meters we will have (in m) 5.00, 5.50, and 6.00.
+        \end{itemize}
+\end{itemize}
+
+The measured dependent variable is the distance $s$ between two adjacent bright fringes. Illustrated by the following diagram.
 % Include diagram from chemix to elucidate
+\par
+And hence our guiding question is %why isn't this showing?
+\begin{figure}[htbp]
+    \center
+    \textbf{What is the relationship with the distance between screen and slit (from the range of 20cm to 8 m) and the spacing between adjacent bright fringes (in mm) in a double slit system.}
+\end{figure}
+
+And we hypothesize that the relationship would be a linear relationship with the distance between screen and slit and the spacing between adjacent bright fringes. This is because our mathematically derived equation $s= D\dfrac{\lambda}{d}$ suggests a directly proportional relationship between $s$ and $D$.
+
+\subsection{Variable Control and Measurement}
+% Forthe long range,there will be three objects the pattern will be projected on,the object chosen is a graphed piece of paper on a clipboard, suspended hanging on a table. For each distance, the source will move between 3 distances, and once the data for each table is collected, it will be moved away to revealthe nexttable. For the shortrange data, the projected screen will move on a wheel on tracks. 
+The distance between slit and screen will be modified two means.
+
+The long range consists of the aforementioned 3m, 5m, 6m, and 8m will be achieved with the placement of three tables (of which the recording instrument will hang on) in those respective distances, the last 8m is the distance from the origin directly to the wall. They will be relative to an arbitrary "origin" point in the classroom marked with a masking tape. % After recording the data the table will be swiftly moved away, revealing the next placed table and avoiding any inconsistencies of the short range measuring apparatus (for instance another classmate accidentally nudges it) and any errors in setup (since all tables were setup at once with the same procedure).
+
+The short range will represent the aforementioned "micro steps" (0cm, 50cm, and 100cm) and will be achieved by placing the slit (and light source) on a momentum test cart (this is because they move back and forth very smoothly on their designated tracks).
+
+
+\subsection{Procedure Consideration and Setup Description}
+    
 
 Since the fringe spacing is within the milimeter range and it is beyond my human ability to hold the clipboard still within milimeter stillness while using the other hand to hold a pencil and mark accurately on the paper live. I decided to take a high resolution photo of the projection on a graphed piece of paper as a photo is most versatile and captures exactly as seen. The graphed piece of paper is printed with milimeter accuracy markings. As a result I will measure distance between each adjacent fringe (in milimeters) with software solutions and excuse my skill issue.
 
-Our guiding question is \textbf{What is the relationship with the distance between screen and slit (from the range of 20cm to 8 m) and the spacing between adjacent bright fringes (in mm) in a double slit system.}
 
 
     
