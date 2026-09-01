@@ -368,46 +368,7 @@ The following control variables are considered:
 
 % Diagrams regarding the setup 
 
-The setup will consists of the table components and the slit system.
-The slit system is a laser-slit system mounted on a two axis translation stage. This allows for changing the distance without moving away the table but rather by moving sideways and also allows for more microadjustments for each table. This is built with:
-\begin{itemize}
-    \item Two axis translation stage
-    \begin{itemize}
-        \item 3 Momentum test tracks (Ours in particular had centimeter markings on the side and were perfectly cut off from 0cm)
-        %Images
-        \item 3 Momentum test carts 
-    \end{itemize}
-    \item Laser-slit instrument
-    \begin{itemize}
-        \item Make sure to measure the offset distance between the slit to the edge at the bottom of the instrument that you will use as the instrument's "origin point"
-        % Use image to illustrate
-    \end{itemize}
-    \item 4 stacks of books
-\end{itemize}
-
-The table will have a graphing/grid paper on a clipboard that is then hung on a part of the table with a setup displacement (described later in detail) Required components for this build include:
-\begin{itemize}
-    \item Masking tape (or one you can write on)
-    \item Table (duh)
-    \item Clipboard
-    \item Graphing/Grid paper (of which the grid is of uniform and known length)
-\end{itemize}
-
-
-
-
 \subsubsection{Setup Procecdure}
-
-Additional equipment required for accurate setup is as listed:
-\begin{enumerate}
-    \item Set squares (or likewise)
-    \item Retort stand
-    \item Meter stick
-    \item Masking tape %Use more in procedure
-    \item Markers %Use more in procedure
-    \item Rulers
-    \item Measuring tape (\~ 8m) %pls help fix ths
-\end{enumerate}
 
 \begin{enumerate}
     \item Taping the end of the measuring tape onto the floor with masking tape
@@ -422,7 +383,6 @@ Additional equipment required for accurate setup is as listed:
     \item Place a cart on the cart track
     \item Place the double slit laser instrument on the cart
     \item Tape the double slit laser instrument onto both sides of the cart
-    \item Choose a designated "origin point" (that acts as a reference point for its distance) and discover its' horizontal offset distance from the slit
     % Table Setup
     \item Place a meter stick perpendicular to the measuring tape. 
     \begin{itemize}
@@ -447,13 +407,10 @@ Additional equipment required for accurate setup is as listed:
 
 \subsubsection {Experimental Procedure}
 
-Recall the two changing systems that comprise the control of the independent variables
-After the setup is complete begin the following experimental procedure:
+Note the two changing systems that comprise the control of the independent variables
+
 \begin{enumerate}
-    \item Ensure no pedestrians are abode the path of the laser
-    \item Summone the Laser %Laser, go! Rouse the laser from its slumber. Awakeneth thy Laser. Initiate Laser Protocol. [] power upon the laser de illuminacion.
-    \item Adjust the momentum test cart such that the [set] origin point of the laser-slit system aligns with your desired distance from the origin point of the momentum test track
-    \item 
+    \item Adjust
 \end{enumerate}
 
 
