@@ -9,6 +9,7 @@
 \usepackage{svg}
 \usepackage{tabularx}
 \usepackage{array}
+\usepackage{longtable}
 \usepackage[margin=2cm]{geometry}
 \graphicspath{{Images/}}
 \usetikzlibrary{arrows.meta}
@@ -306,6 +307,7 @@ The independent variable is the distance $D$ between the slit and the screen. Th
             \item Macro has two systems for changing the distance. One is the changing of distance of the table which includes 3m, 5m, 6m, and 8m
             \item Each of these distances will have micro steps that include (in meters) +0, +50, and +100 which will extend our trial amounts
             \item For example, for 5 meters we will have (in m) 5.00, 5.50, and 6.00.
+            \item This is achieved by what we will refer to as "2 axis translation stage" or "translation stage" in short.
         \end{itemize}
 \end{itemize}
 
@@ -563,33 +565,134 @@ Since the fringe spacing is within the milimeter range and it is beyond my human
 
 \subsection{Qualitative}
 
-\begin{table}
-    \centering
-    \renewcommand{\arraystretch}{1.2}
-    \begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}X|>{\centering\arraybackslash}X|}
+\renewcommand{\arraystretch}{1.2}
+\setlength{\LTleft}{0pt}
+\setlength{\LTright}{0pt}
+\setlength{\LTcapwidth}{\textwidth}
+\begin{longtable}{|>{\raggedright\arraybackslash}p{0.44\textwidth}|>{\centering\arraybackslash}p{0.44\textwidth}|}
+    \caption{Qualitative observations and their interpretation.}
+    \label{tab:qualitative-observations} \\
         \hline
         Qualitative observations  & Interpretation/Photos \\
         \hline
-        I don’t recall having taped the paper onto the surface of the clipboard for maximum flatness of the surface. The paper is clipped on the right side but not the left. This means when we do the perspective shifts it might have slight distortions & 
-        \includegraphics[height=4cm,keepaspectratio]{lacking tape} \\
+    \endfirsthead
+    \hline
+    Qualitative observations  & Interpretation/Photos \\
+    \hline
+    \endhead
+        I don’t recall having taped the paper onto the surface of the clipboard for maximum flatness of the surface. The paper is clipped on the right side but not the left. This means when we do the perspective shifts it might have slight distortions & \includegraphics[width=\linewidth,height=4cm,keepaspectratio]{lacking tape} \\
         \hline
-        Some are really slanted for some reason. I ended up correcting it by drawing lines with respect to the direction of the slant and then measuring with that angle &
-        \includegraphics[height=5cm,keepaspectratio]{slanted lines} \includegraphics[height=4cm,keepaspectratio]{slanted} \\
+        Some are really slanted for some reason. I ended up correcting it by drawing lines with respect to the direction of the slant and then measuring with that angle & \includegraphics[width=0.48\linewidth,height=5cm,keepaspectratio]{slanted lines} \includegraphics[width=0.48\linewidth,height=4cm,keepaspectratio]{slanted} \\
         \hline
-        Some of the fringes are too unclear to be seen I have noted them in my data when there were issues measuring &
-        \includegraphics[height=5cm,keepaspectratio]{too unclear} \\
+        Some of the fringes are too unclear to be seen I have noted them in my data when there were issues measuring & \includegraphics[width=\linewidth,height=5cm,keepaspectratio]{too unclear} \\
         \hline
-        There are shadows sometimes in the data. This is also noted. &
-        \includegraphics[height=3cm,keepaspectratio]{shadow the hedgeho} \\
+        There are shadows sometimes in the data. This is also noted. & \includegraphics[width=\linewidth,height=3cm,keepaspectratio]{shadow the hedgeho} \\
 
-    \end{tabularx}
-    \caption{Qualitative observations and their interpretation.}
-    \label{tab:qualitative-observations}
-\end{table}
+\end{longtable}
 
 \subsection{Quantitative}
 
+The raw data is too big to fit here. Instead it will be stored in an appendix. Here will be only shown exclusively relevant data, and how it is going to be calculated.
 
+Our raw data consists of different trials, each of which has:
+\begin{itemize}
+    \item Pixels per centimeter-square side length (on the graph marked with a thicker lines)
+    \begin{itemize}
+        \item It is done 6 times and the mean is used for setting the scale in the software
+        \item We chose to measure the side lengths of the squares closer to the interference pattern
+    \end{itemize}
+    \item Measurement of the milimeter-square side lengths 
+    \begin{itemize}
+        \item Also done 6 times
+        \item Could be used to determine uncertainty of our set scale since we are measuring another known size on the image and if it deviates from the expected value it suggests an uncertainty. However this was not used due to the lack of time.
+    \end{itemize}
+    \item The distance between adjacent fringes for each seperate big fringe
+    \begin{itemize}
+        \item Each big fringe has been measured from:
+            \begin{itemize}
+                \item The left edge of the bright fringe to the adjacent left edge of the bright fringe
+                \item The right edge of the bright fringe to the adjacent right edge of the bright fringe
+                \item Each edge has a 6 measurements done on them
+            \end{itemize}
+    \end{itemize}
+    \item Average slit distance whose calculation is described below in detail
+\end{itemize}
+This is shown in figure \ref{img:raw data extract}
+\begin{figure}[htbp]
+    \center
+    \includegraphics[width=\textwidth]{raw data extract}
+    \caption{An extract of the data}
+    \label{img:raw data extract}
+\end{figure}
+Since some images have limited visibility on the edge of each fringe, measurements on such is essentially guesswork and will be ommited for the average fringe spacing calculation.
+The fringe distance is calculated by
+\begin{equation}
+    \text{Average Fringe Spacing} =  \frac{\Sigma\text{all fringe spacing data points}}{\text{number of data points}}
+\end{equation}
+
+The distance is calculated by
+\begin{equation}
+    \text{Distance} = \text{initial distance} - \text{offset} + \text{2 axis translation stage modifier}
+\end{equation}
+Recall that every distance is based off of the origin point of the measuring tape, which is at 0cm. For instance the table is set to be [initial distance] away from the origin point of the measuring tape where D is one of the values for our independent variables mentioned earlier. However our 2 axis translation stage is closer to the table by a distance [offset] and must have that subtracted from the desired distance. Then we add the 2 axis translation stage modifier because recall that we have two systems responsible for controlling our independent variable, and this one is the one responsible for the "micro adjustments"
+
+And hence we get the following data (some are duplicate due to the two system method we have chosen to measure)
+
+
+\begin{longtable}{| >{\raggedright\arraybackslash}p{0.29\textwidth}| >{\centering\arraybackslash}p{0.29\textwidth}| >{\centering\arraybackslash}p{0.29\textwidth}|
+}
+    Distance from slit (in cm) & Fringe Spacing (in mm) & Predicted Values (in m)\\
+    \hline
+    247.8 & 2.96805 & 0.002929547 \\
+    \hline
+    297.8 & 3.4416 & 0.003520658 \\
+    \hline
+    347.8 & 4.119882353 & 0.004111769 \\
+    \hline
+    447.8 & 5.246733333 & 0.005293991 \\
+    \hline
+    497.8 & 5.840387097 & 0.005885102 \\
+    \hline
+    547.8 & 6.468451613 & 0.006476213 \\
+    \hline
+    547.8 & 6.451115385 & 0.006476213\\
+    \hline
+    597.8 & 6.993166667 & 0.007067324 \\
+    \hline
+    647.8 & 7.584148148 & 0.007658436 \\
+    \hline
+    847.8 & 10.52954545 & 0.01002288 \\
+    \hline
+    100 & 1.1763 & 0.001182222 \\
+    \hline
+    80 & 0.94847619 & 0.000945778 \\
+    \hline
+    60 & 0.73755 & 0.000709333 \\
+    \hline
+    40 & 0.5 & 0.000472889 \\
+    \hline
+    20 & 0.276166667 & 0.000236444
+
+
+\end{longtable}
+
+
+\subsection{Processed data}
+Calculation method:
+Average 
+
+
+\begin{figure}[htbp]
+    \centering
+    \textbf{The Effect of Distance from Screen on Distance Between Adjacent Fringes}
+    \vspace{1.5cm}
+    \includesvg[width=\textwidth]{processed graph}
+    \caption{The effect of distance from screen on distance between adjacent fringes}
+    \label{fig:fringe-distance}
+\end{figure}
+
+
+    
 
 
 

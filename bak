@@ -1,0 +1,607 @@
+% !TeX root = main.tex
+\documentclass[12pt]{article}
+
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{svg}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage[margin=2cm]{geometry}
+\graphicspath{{Images/}}
+\usetikzlibrary{arrows.meta}
+\pgfplotsset{compat=1.18}
+
+\definecolor{icegreen}{HTML}{20D68A}
+\definecolor{iceteal}{HTML}{16C7B7}
+\definecolor{icecyan}{HTML}{18C9E8}
+\definecolor{iceblue}{HTML}{239FE8}
+\definecolor{icedark}{HTML}{202B32}
+\definecolor{icegray}{HTML}{C9D0D3}
+
+\title{An investigation on the relationship between slit distance and fringe spacing}
+\author{Jimmy Zeng}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\pagebreak
+\section{Introduction and Background}
+Wave Phenomena states that wave could interfere when they overlap. When two waves are in opposite phase, it is said to interfere destructively and cancel out. However, if they are the same phase and interferes, it is said to be constructive, reaching a greater amplitude.
+\par
+\begin{figure}[htbp]
+    \centering
+
+    \begin{subfigure}[t]{0.45\textwidth}
+        \begin{tikzpicture}
+            \begin{axis} [
+                axis lines=middle,
+                axis y line=none,
+                xmin = 0,
+                xmax = 16,
+                ymin = -1.1,
+                ymax = 1.1,
+                height = 3cm,
+                width=\textwidth,
+                xticklabels={},
+                xtick={0, pi/2, pi, 3*pi/2, 2*pi, 5*pi/2, 3*pi, 7*pi/2, 4*pi, 9*pi/2, 5*pi, 11*pi/2}
+                ]
+                \addplot[samples=50, color = iceblue, domain=0:16]{sin(deg(x))};
+            \end{axis}
+        \end{tikzpicture}
+        \par
+        \vspace{0.25cm}
+        \begin{tikzpicture}
+            \begin{axis} [
+                axis lines=middle,
+                axis y line=none,
+                xmin = 0,
+                xmax = 16,
+                ymin = -1.1,
+                ymax = 1.1,
+                height = 3cm,
+                width=\textwidth,
+                xticklabels={},
+                xtick={0, pi/2, pi, 3*pi/2, 2*pi, 5*pi/2, 3*pi, 7*pi/2, 4*pi, 9*pi/2, 5*pi, 11*pi/2}
+                ]
+                \addplot[samples=50, color = icegreen, domain=0:16]{-sin(deg(x))};
+            \end{axis}
+        \end{tikzpicture}
+    \end{subfigure}%
+    \hspace{-0.075\textwidth}%
+    \begin{subfigure}[c]{0.1\textwidth}
+        \centering
+        \begin{tikzpicture}
+            \draw [very thick,->] (0,0) -- (1,0);
+        \end{tikzpicture}
+    \end{subfigure}%
+    \hspace{0.025\textwidth}
+    \begin{subfigure}[c]{0.45\textwidth}
+        \begin{tikzpicture}
+            \begin{axis} [
+                axis lines=middle,
+                axis y line=none,
+                xmin = 0,
+                xmax = 8,
+                ymin = -1.1,
+                ymax = 1.1,
+                height = 4cm,
+                width=\textwidth,
+                xticklabels={},
+                xtick={0, pi/2, pi, 3*pi/2, 2*pi, 5*pi/2, 3*pi, 7*pi/2}
+                ]
+                \addplot[samples=50, color = icecyan, domain=0:8]{0};
+                \addplot[samples=50, dashed, color = icegreen, domain=0:8]{-sin(deg(x))};
+                \addplot[samples=50, dashed, color = iceblue, domain=0:8]{sin(deg(x))};
+            \end{axis}
+        \end{tikzpicture}
+    \end{subfigure}%
+
+    \par
+
+    \begin{subfigure}[t]{0.45\textwidth}
+        \begin{tikzpicture}
+            \begin{axis} [
+                axis lines=middle,
+                axis y line=none,
+                xmin = 0,
+                xmax = 8,
+                ymin = -1.1,
+                ymax = 1.1,
+                height = 3cm,
+                width=\textwidth,
+                xticklabels={},
+                xtick={0, pi/2, pi, 3*pi/2, 2*pi, 5*pi/2, 3*pi, 7*pi/2}
+                ]
+                \addplot[samples=50, color = iceblue, domain=0:8]{sin(deg(x))};
+            \end{axis}
+        \end{tikzpicture}
+        \par
+        \vspace{0.25cm}
+        \begin{tikzpicture}
+            \begin{axis} [
+                axis lines=middle,
+                axis y line=none,
+                xmin = 0,
+                xmax = 8,
+                ymin = -1.1,
+                ymax = 1.1,
+                height = 3cm,
+                width=\textwidth,
+                xticklabels={},
+                xtick={0, pi/2, pi, 3*pi/2, 2*pi, 5*pi/2, 3*pi, 7*pi/2}
+                ]
+                \addplot[samples=50, color = icegreen, domain=0:8]{sin(deg(x))};
+            \end{axis}
+        \end{tikzpicture}
+    \end{subfigure}%
+    \hspace{-0.075\textwidth}%
+    \begin{subfigure}[c]{0.1\textwidth}
+        \centering
+        \begin{tikzpicture}
+            \draw [very thick,->] (0,0) -- (1,0);
+        \end{tikzpicture}
+    \end{subfigure}%
+    \hspace{0.025\textwidth}%
+    \begin{subfigure}[c]{0.45\textwidth}
+        \begin{tikzpicture}
+            \begin{axis} [
+                axis lines=middle,
+                axis y line=none,
+                xmin = 0,
+                xmax = 8,
+                ymin = -3.1,
+                ymax = 3.1,
+                height = 4cm,
+                width=\textwidth,
+                xticklabels={},
+                xtick={0, pi/2, pi, 3*pi/2, 2*pi, 5*pi/2, 3*pi, 7*pi/2}
+                ]
+                \addplot[samples=50, color = icecyan, domain=0:8]{3*sin(deg(x))};
+                \addplot[samples=50, dashed, color = iceblue, domain=0:8]{sin(deg(x))};
+                \addplot[samples=50, dashed, dash phase=3pt, color = icegreen, domain=0:8]{sin(deg(x))};
+            \end{axis}
+        \end{tikzpicture}
+    \end{subfigure}
+    \caption{Illustration of wave interference}
+    \label{fig:wave interference illustration}
+\end{figure}
+% Include an image maybe idk
+The debate of whether light is a particle or a wave was challenged by Thomas Young's famous Double Slit Experiment in Young's Course of Lectures on Natural Philosophy and the Mechanical Arts of 1807, where a coherent light source shinning through two tiny slits projected an interference pattern with alternation between light and dark fringes rather than two individual bright fringes in a dark background. Illustrated In Figure \ref{fig:double slit system}
+\begin{figure}[htbp]
+    \center
+    
+    \begin{tikzpicture}
+        \draw [very thick] (0, 0) -- (0, 1.95);
+        \draw [very thick] (0, 2.05) -- (0, 4);
+
+        \draw [very thick] (2, 0) -- (2, 1.7);
+        \draw [very thick] (2, 1.9) -- (2, 2.1);
+        \draw [very thick] (2, 2.3) -- (2, 4);
+
+        \draw [very thick] (10, 0) -- (10, 4);
+
+    \end{tikzpicture}
+    \caption{A Double Slit System}
+    \label{fig:double slit system}
+\end{figure}
+\par
+The formula proposed by Thomas Young was
+
+%Include Citations
+\begin{equation}
+    s=\frac{\lambda D}{d}
+\end{equation}
+In which "S" is the distance between two adjacent bright fringes, $\lambda$ is the wavelength of the light, $D$ is the distance between the screen and slits in meters and $d$ is the distance between slits. 
+The mathematical geometric derivation is thus justified: %\cite{}
+Consider a point a on the screen of a double slit system at which two light rays touch from their respective slits.
+This is illustrated in figure \ref{fig:double slit diagram}
+\begin{figure}[htbp]
+    \center
+    \begin{tikzpicture}
+        \coordinate (Fringe) at (10, 8);
+        \draw [very thick] (0,-1) -- (0,2);
+        \draw [very thick] (0,3) -- (0,4);
+        \draw [very thick] (0,8) -- (0,5);
+        
+        
+        \draw [thick,color=icegreen] (0.5870021,2.82285115) -- node[fill=white] {$n\lambda$} (Fringe);
+        \draw [thick,color=iceblue] (0,4.5) -- node[fill=white] {$n\lambda$} (Fringe);
+        \draw [thick,color=icecyan,dashed] (0.37422, 3.6684) -- (Fringe);
+
+        \draw [thick,color=icecyan] (0,4.5) -- (0.72144289,2.89679359);
+        \draw [thick,color=icecyan] (0,2.5) -- node[below] {$\Delta x$}(0.72144289,2.89679359);
+        \draw [dashed,thin] (0,3.5) -- (10, 3.5);
+
+        \draw [{Rays[n=2]}-{Rays[n=2]}] (0,-1.2) -- node[fill=white] {D} (10,-1.2);
+        \draw [{Rays[n=2]}-{Rays[n=2]}] (-0.4,2.5) -- node[fill=white] {d} (-0.4,4.5);
+        \draw [{Rays[n=2]}-{Rays[n=2]}] (10.4,3.5) -- node[fill=white] {y} (10.4,8);
+        
+        \draw [thick] (0,3) arc (270:270+atan(0.82335774588/1.75805516913):1.5) node[font=\small,midway,fill=white, inner sep=0.5pt] {$\theta$}; 
+        \draw [thick] (1.5,3.5) arc (0:atan(4.5/10):1.5) node[font=\small,midway,fill=white,inner sep=0.5pt] {$\theta$}; 
+
+        \draw [thick] (10,-1) -- (10,8);
+
+        % \draw [thick,->]  (5,2) node[left] {Central (bright) fringe} to [bend right = 30] (10,7);
+
+    \end{tikzpicture}
+    
+    \caption{Zoomed in view of double slit system}
+    \label{fig:double slit diagram}
+\end{figure}
+\par
+We observe that the $\theta$ that is related by the equation
+\begin{equation}
+    \sin(\theta) = \frac{\Delta x}{d}
+\end{equation}
+is equal to the $\theta$ represented by
+\begin{equation}
+    \tan(\theta) = \frac{y}{D}
+\end{equation}
+When the distance of both light rays' traveled paths is a multiple of the wavelength of the light, they engage in constructive interference.
+We observe the fact that the path difference ($\Delta x$) for constructive waves is
+\begin{equation}
+    n\lambda
+    \label{eq:path difference constructive}
+\end{equation}
+where $\lambda$ is the wavelength of the light and $n$ is an integer representing the interested bright fringe. Hence we derive the equation
+\begin{align}
+    \sin(\theta) &= \frac{\Delta x}{d} \\
+    \sin(\theta) &= \frac{n\lambda}{d} \\
+    \theta &= \sin^{-1}\left(\frac{n\lambda}{d}\right)
+\end{align}
+and since we know that the wavelength $\lambda$ of light is orders of magnitudes larger than slit spacing $d$, and hence the value in $\sin$ is close to zero, we can use the sin angle approximation $\lim_{\theta \to 0} \sin(\theta) = \theta$ to simplify to
+\begin{equation}
+    \theta = \frac{n\lambda}{d}
+\end{equation}
+relating $\theta$ to $d$ and $\lambda$.
+This angle approximation for small values of $\theta$ also apply to $\tan(\theta)$ in the other representation of $\theta$
+\begin{equation}
+    \tan(\theta) = \frac{y}{D}
+\end{equation}
+and since we know that this is the same $\theta$ we can simplify to
+\begin{equation}
+    \theta = \frac{y}{D}
+\end{equation}
+and putting them together
+\begin{align}
+    \frac{y}{D} &= \theta \\
+    \frac{n \lambda}{d} &= \theta \\
+    \frac{y}{D} &= \frac{n \lambda}{d} \\
+    y  &= n\frac{D\lambda}{d} \\
+\end{align}
+to find the distance between fringes we need to find the distance of a fringe to the central maxima and distance of a consecutive fringe to the central maxima and find the the difference between their distances.
+\par
+We have defined the distance from the central maximum to 
+\begin{itemize}
+    \item the nth fringe as $y  = n\frac{D\lambda}{d}$
+    \item the nth + 1 fringe as $y  = \left(n+1)\right)\frac{D\lambda}{d}$
+\end{itemize}
+finding the difference $\Delta y = s$ gives us the spacing between adjacent fringes
+\begin{align}
+    \Delta y = s&= \left(n+1\right) \frac{D \lambda}{d} - n \frac{D \lambda}{d} \\
+    s &= \left(n+1-n\right) \frac{D \lambda}{d} \\
+    s &= \frac{D \lambda}{d} 
+\end{align}
+and now we arrive at our destination.
+
+\section{Methodology}
+    
+
+\subsection{Research Hypothesis and Method variables}
+
+% The independent variable is the distance between the slit and the screen and will include values that range from the [nearby and further apart]. The [nearby] will include 20cm, 40cm, 60cm, 80cm, and 100cm, while the further apart include 3 meters, 5 meters, 6 meters and 8 meters.
+
+
+% A rough diagram of the setup and like what is D
+
+The independent variable is the distance $D$ between the slit and the screen. There will be two experiments carried out with different setups, namely, the "macro" and "micro" experiments. This is to satisfy the trial quantity to increase validity and the nature of each experimental procedure, which is explained in the ensuing sections.
+% Make sub points hollow
+\begin{itemize}
+    \item Micro will solely focus on distances within a meter and will include (in cm) 20, 40, 60, 80, and 100.
+    \item Macro will be done from various distances ranging from 3 to 8 meters and will include (in m) 3, 3.5, 4, 5, 5.5, 6, 6.5, 7, and 8.
+        \begin{itemize}
+            \item Macro has two systems for changing the distance. One is the changing of distance of the table which includes 3m, 5m, 6m, and 8m
+            \item Each of these distances will have micro steps that include (in meters) +0, +50, and +100 which will extend our trial amounts
+            \item For example, for 5 meters we will have (in m) 5.00, 5.50, and 6.00.
+        \end{itemize}
+\end{itemize}
+
+The measured dependent variable is the distance $s$ between two adjacent bright fringes. Illustrated by the following image.
+\begin{figure}[htbp]
+    \center
+    \includesvg[width=\textwidth]{s-image}
+    \caption{Label of S in the image}
+    \label{fig:S illustration}
+\end{figure}
+\par
+And hence our guiding question is %why isn't this showing?
+\begin{figure}[htbp]
+    \center
+    \textbf{What is the relationship with the distance between screen and slit (from the range of 20cm to 8 m) and the spacing between adjacent bright fringes (in mm) in a double slit system.}
+\end{figure}
+
+And we hypothesize that the relationship would be a linear relationship with the distance between screen and slit and the spacing between adjacent bright fringes. This is because our mathematically derived equation $s= D\dfrac{\lambda}{d}$ suggests a directly proportional relationship between $s$ and $D$.
+
+\subsection{Variable Control and Measurement}
+% Method of how its gonna be changed: For the long range,there will be three objects the pattern will be projected on,the object chosen is a graphed piece of paper on a clipboard, suspended hanging on a table. For each distance, the source will move between 3 distances, and once the data for each table is collected, it will be moved away to revealthe nexttable. For the shortrange data, the projected screen will move on a wheel on tracks. 
+% Justification: This range of data will provide us justification for not only the short range, but also long range to show the validity ofthe double slit equation over a range of distances. 
+The distance between slit and screen will be modified two means.
+
+The long range consists of the aforementioned 3m, 5m, 6m, and 8m. It will be achieved with the placement of three tables (of which the recording instrument will hang on), the last 8m is the distance from the origin directly to the wall. They will be relative to an arbitrary "origin" point in the classroom marked with a masking tape. 
+
+The short range will represent the aforementioned "micro steps" (0cm, 50cm, and 100cm) and will be achieved by placing the slit (and light source) on a momentum test cart (this is because they move back and forth very smoothly on their designated tracks).
+
+This range of data will provide us justification for not only the short range, but also long range to show the validity ofthe double slit equation over a range of distances. 
+
+
+% Measurement Method: I willtake a high resolution image with my phone and use perspective correction on the image and use software solutions such as imageJto find the average distance between each fringe 
+% Justification: One picture will be taken for each distance.But multiple takes on fringe spacing will be recorded and the average will be found. 
+The distance between adjacent fringes will be measured by:
+\begin{enumerate}
+    \item Having the interference pattern projected on a graphing paper with a known grid size %Graphing paper
+    \item Taking a high resolution photo of the graphing paper
+    \item Perspective correction of the image %Software image
+    \item Data measurement by software means.
+        \begin{enumerate}
+            \item Finding the amount of pixels per cm across different parts of the image
+            \item Set the average as the scale for measurements
+            \item Test accuracy by measuring the 1mm grid on the paper with set scale
+            \item Measure the distance between left and right edges of a fringe (the immediate intermediate between bright and dark fringes)
+            \item Repeat last step for each maxima %idk is this the right word?
+            \item Repeat steps 1-5 for each image of each distance between slit and screen
+        \end{enumerate}
+\end{enumerate}
+%include images
+
+The following control variables are considered:
+\begin{itemize}
+    \item Using the same laser-slit instrument
+    \item Same method for setting up each table
+    \item same method for measuring fringe distance
+\end{itemize}
+
+% The Following Extraneous variables are considered:
+% \begin{itemize}
+%     \item If we have used solely one table as setup and progressively moved it further away, there may be inconsistencies. Which is why multiple tables of varying distances were placed beforehand, as we can reference previous positionings and readjust. After recording the data the table will be swiftly moved away, revealing the next placed table and avoiding any inconsistencies of the short range measuring apparatus (for instance another classmate accidentally nudges it) and any errors in setup (since all tables were setup at once with the same procedure). 
+%     \item Accidental movement of the 
+%     \item and more to come
+% \end{itemize}
+% Just simply keep this in mind 
+
+
+
+
+\subsection{Setup Description and Experimental Procedure}
+
+%-- Add turning off the lights
+
+% Diagrams regarding the setup (if you can't find the images just draw with pencil)
+
+The setup will consists of the table components and the slit system.
+The slit system is a laser-slit system mounted on a two axis translation stage. This allows for changing the distance without moving away the table but rather by moving sideways and also allows for more microadjustments for each table. This is built with:
+\begin{itemize}
+    \item Two axis translation stage
+    \begin{itemize}
+        \item 3 Momentum test tracks (Ours in particular had centimeter markings on the side and were perfectly cut off from 0cm)
+        %Images
+        \item 3 Momentum test carts 
+    \end{itemize}
+    \item Laser-slit instrument
+    \begin{itemize}
+        \item Make sure to measure the offset distance between the slit to the edge at the bottom of the instrument that you will use as the instrument's "origin point"
+        % Use image to illustrate
+    \end{itemize}
+    \item 4 stacks of books
+\end{itemize}
+
+The table will have a graphing/grid paper on a clipboard that is then hung on a part of the table with a setup displacement (described later in detail) Required components for this build include:
+\begin{itemize}
+    \item Masking tape (or one you can write on)
+    \item Table (duh)
+    \item Clipboard
+    \item Graphing/Grid paper (of which the grid is of uniform and known length)
+\end{itemize}
+
+
+
+\subsubsection{Macro Procedure}
+    
+
+\paragraph{Setup Procecdure}
+
+Additional equipment required for accurate setup is as listed:
+\begin{enumerate}
+    \item Set squares (or likewise)
+    \item Retort stand
+    \item Meter stick
+    \item Masking tape %Use more in procedure
+    \item Markers %Use more in procedure
+    \item Rulers
+    \item Measuring tape (\~ 8m) %pls help fix ths
+\end{enumerate}
+
+\begin{enumerate}
+    \item Taping the end of the measuring tape onto the floor with masking tape
+    \item Extend to the end of the wall
+    % Setup the laser ----------------------
+    \item Stack the books on the floor like shown
+    % Diagram or image
+    \item Place the two cart tracks atop of each pair of books perpendicular to the direction of the ray
+
+    % Setup Diagram
+    \item Align the forward facing (towards the screen) cart track with a ruler (or any straight object) facing perpendicular to the ground to ensure the outermost edge is aligned with the origin.
+    %Alignment images
+    \item Place carts on each track
+    \item Place a cart track atop of both carts (parallel to the direction of the ray)
+    \item Place a cart on the new cart track
+    \item Place the double slit laser instrument on the cart
+    \item Tape the double slit laser instrument onto both sides of the cart
+    \item Choose a designated "origin point" (that acts as a reference point for its distance) and discover its' horizontal offset distance from the slit
+    % Table Setup
+    \item Place a meter stick perpendicular to the measuring tape. 
+    \begin{itemize}
+        \item Make sure the edge facing away from the laser is aligned with the desired meter mark. This makes it easier to more accurately place the tables.
+        \item ensure that the stick is as perpendicular to the measuring tape as possible. This ensures both sides of the table is accurate to the desired displacement. This can be achieved with a set square.
+    \end{itemize}
+    \item Place the table near the interested displacement
+    \item Place a retort stand upside down as illustrated on one end of the table
+    %Illustration
+    \item Using a ruler, extend the length of measurement by placing it on the side of the rod away from the laser.
+    % Show the ruler on the correct side (establishing shot)
+    \item Move that end of the table until it aligns with the desired displacement
+    % Show illustration of it being aligned
+        \begin{itemize}
+            \item Ensure the side of the ruler facing the laser touches the side of the meter stick facing away from the laser.
+            \item Ensure that the ruler has no gaps and is perfectly parallel to the iron rod.
+            \item Since the surface that is to be projected on is the surface opposite from the laser, placing the ruler on the other side ensures the side of the ruler facing the laser represents the distance of the surface being project on. and by ensuring the surface of the meter stick away from the laser (representing the desired distance to be projected on) is touching the ruler (representing the distance of the screen to be projected on), we ensure that the table is perfectly positioned on the desired distance.
+        \end{itemize}
+    \item Move the retort stand to the other side of the table and re-enact the alignment ritual
+    \item Repeat for each table and stand feeling proud of collecting all the infinity stones
+\end{enumerate}
+
+\paragraph {Experimental Procedure}
+
+Recall the two changing systems that comprise the control of the independent variables
+After the setup is complete begin the following experimental procedure:
+\begin{enumerate}
+    \item Ensure no pedestrians are abode the path of the laser
+    \item Summone the Laser %Laser, go! Rouse the laser from its slumber. Awakeneth thy Laser. Initiate Laser Protocol. [] power upon the laser de illuminacion.
+    \item Adjust the momentum test cart such that the [set] origin point of the laser-slit system aligns with your desired distance from the origin point of the momentum test track
+    \item Clip on the grid paper as parallel to the clipboard as possible
+    \item Cut tape of equal length
+    \item Place it on the clipboard 
+    \begin{itemize}
+        \item Ensure the clipboard is in landscape mode
+        \item Place on the projected surface
+        \item Ensure both tapes have the same distance in their placement on their end.
+        \item Ensure that it is level
+    \end{itemize}
+    \item Attach the tape on the table
+    \begin{itemize}
+        \item Ensure both tapes have the same distance in their placement on the table
+        \item Ensure that the whole clipboard is level
+    \end{itemize}
+    \item Wait for the clipboard to succumd to the will of gravity such that it is perfectly perpendicular to the ground
+    \item Grab your local friend and ask them to hold up fingers indicating the trial/distance
+\begin{itemize}
+    \item We used the left hand represent the momentum cart distance (1 finger = 0cm, 2= +50cm, 3 = +100cm)
+    \item We used the right hand represent the table distance (1 finger = 3m, 2 = 5m, 3=6m, 4=8m)
+    \item Ensure your friend's finger does not block essential fringes near the center
+    \item Ensure your friend is a cool guy
+\end{itemize}
+    \item Take a high resolution photo (this can be accomplished by changing the settings on a phone camera)
+    \item Remove the tape and the clipboard from the table
+    \item Tell the table his free trial is over and remove him from the premises
+    \begin{itemize}
+        \item Ensure that his foot is disarmed if it is wheeled
+        \item Make sure his legs doesn't trip on the measuring tape by lifting it over)
+    \end{itemize}
+    \item Repeat steps
+
+    %Show diagram
+\end{enumerate}
+
+And this concludes the Macro Scale Procedure
+
+\subsubsection{Micro Procedure}
+
+The micro scale procedure posesses similarities
+
+\paragraph{Setup procedure}
+\begin{enumerate}
+    \item Set the momentum test track parallel to the path of the laser
+    \item Measure the offset of the slit to the origin of the momentum test track (0cm)
+    \item Place a momentum test cart on the track
+    \item Place a momentum test track perpendicular to the path of the laser onto the track (Make sure it doesn't fall)
+    \item Tape onto the test track an object that allows perpendicular surfaces to face the laser. In this case we used a voltmeter
+    \item clip the graphing paper onto the clipboard
+    \item Tape the clipboard onto the perpendicular surface
+    \begin{figure}[htbp]
+        \center
+        \includegraphics[width=0.5\textwidth]{micro back setup}
+        \caption{analogue voltmeter}
+        \label{fig:The back of the micro setup}
+    \end{figure}
+    \item Measure thickness of clipboard and the distance from the subsequent surface to the local origin of the cart
+    \begin{figure}[htbp]
+        \center
+        \begin{subfigure}[t]{0.48\textwidth}
+            \centering
+            \includegraphics[width=\linewidth]{Cart offset thickness.jpg}
+            \caption{Cart offset thickness}
+            \label{fig:cart offset thickness}
+        \end{subfigure}
+        \hfill
+        \begin{subfigure}[t]{0.48\textwidth}
+            \centering
+            \includegraphics[width=\linewidth]{Clipboard thickness.jpg}
+            \caption{Clipboard thickness}
+            \label{fig:clipboard thickness}
+        \end{subfigure}
+        \caption{Measurement of offset}
+        \label{fig:measurement of offset} % Have these seperately and reference them within
+    \end{figure}
+    \item Adjust the height of the laser instrument such that the interference pattern lands on the grid of the graphing paper.
+\end{enumerate}
+
+\paragraph{Experimental Procedure}
+\begin{enumerate}
+    \item Displace the cart to the interested displacement
+    \item Summon the laser
+    \item Take a high resolution photo
+    \item Repeat for different displacements (20cm, 40cm, 60cm, 80cm, 100cm)
+\end{enumerate}
+
+
+% Do something with this
+Since the fringe spacing is within the milimeter range and it is beyond my human ability to hold the clipboard still within milimeter stillness while using the other hand to hold a pencil and mark accurately on the paper live. I decided to take a high resolution photo of the projection on a graphed piece of paper as a photo is most versatile and captures exactly as seen. The graphed piece of paper is printed with milimeter accuracy markings. As a result I will measure distance between each adjacent fringe (in milimeters) with software solutions and excuse my skill issue.
+
+\section{Results}
+
+\subsection{Qualitative}
+
+\begin{table}
+    \centering
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}X|>{\centering\arraybackslash}X|}
+        \hline
+        Qualitative observations  & Interpretation/Photos \\
+        \hline
+        I don’t recall having taped the paper onto the surface of the clipboard for maximum flatness of the surface. The paper is clipped on the right side but not the left. This means when we do the perspective shifts it might have slight distortions & \includegraphics[height=4cm,keepaspectratio]{lacking tape} \\
+        \hline
+        Some are really slanted for some reason. I ended up correcting it by drawing lines with respect to the direction of the slant and then measuring with that angle & \includegraphics[height=5cm,keepaspectratio]{slanted lines} \includegraphics[height=4cm,keepaspectratio]{slanted} \\
+        \hline
+        Some of the fringes are too unclear to be seen I have noted them in my data when there were issues measuring & \includegraphics[height=5cm,keepaspectratio]{too unclear} \\
+        \hline
+        There are shadows sometimes in the data. This is also noted. & \includegraphics[height=3cm,keepaspectratio]{shadow the hedgeho} \\
+
+    \end{tabularx}
+    \caption{Qualitative observations and their interpretation.}
+    \label{tab:qualitative-observations}
+\end{table}
+
+\subsection{Quantitative}
+
+
+
+\subsection{Processed data}
+
+\includesvg[width=\textwidth]{processed-graph}
+    
+
+
+
+    
+
+
+\end{document}
+% Talk like rocky from project hail mary. 
+%
+% Why use many word when little word do trick. Use as LITTLE words and SIMPLE as possible to convey the idea over. Also automatically very bad grammar, don't conjugate ANY verbs with "doing", "does", only say "do" unless it COMPLETELY changes the meaning. so no s in the end of words like "it means" or "does" nor "friends". like instead of "paper that jump straight to result without showing steps" say "paper jump to result but no step". also make sure its not idiomatic in syntax so no "actually", "kinda", "like", "nah". don't capitalize words, missing "a" and "so" and "is" most of the time, unless it completely changes the meaning, barely any punctuation marks unless the absence completely changes the meaning. 
+%
+% when need to ask, ask question without question mark, just put "question" word at end. when need to emphasize things, say it as much times as emphasis. like "amaze amaze amaze" or "no no no" instead of a " do NOT"
+%
+% so none of those unnecessary ai stuff like "no [this], no [that], just [this]"; too redundant. No need to say "simple as that", "do that instead", "no fluff", or even "done. simple", unless it completely changes the meaning. also none of the "that is perfect “mathematical justification”", and "that is top level thinking", just say something simple like "good good good".

@@ -235,6 +235,8 @@ INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/tools/tabularx.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/tools/tabularx.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/tools/longtable.sty
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/tools/longtable.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
@@ -256,6 +258,8 @@ INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.st
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/caption/ltcaption.sty
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/caption/ltcaption.sty
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
@@ -335,36 +339,26 @@ INPUT ./Images/shadow the hedgeho.jpg
 INPUT ./Images/shadow the hedgeho.jpg
 INPUT ./Images/shadow the hedgeho.jpg
 INPUT ./Images/shadow the hedgeho.jpg
-INPUT ./Images/lacking tape.jpg
-INPUT ./Images/lacking tape.jpg
-INPUT ./Images/lacking tape.jpg
-INPUT ./Images/slanted lines.jpg
-INPUT ./Images/slanted lines.jpg
-INPUT ./Images/slanted lines.jpg
-INPUT ./Images/slanted.jpg
-INPUT ./Images/slanted.jpg
-INPUT ./Images/slanted.jpg
-INPUT ./Images/too unclear.jpg
-INPUT ./Images/too unclear.jpg
-INPUT ./Images/too unclear.jpg
-INPUT ./Images/shadow the hedgeho.jpg
-INPUT ./Images/shadow the hedgeho.jpg
-INPUT ./Images/shadow the hedgeho.jpg
-INPUT ./Images/lacking tape.jpg
-INPUT ./Images/lacking tape.jpg
-INPUT ./Images/lacking tape.jpg
-INPUT ./Images/slanted lines.jpg
-INPUT ./Images/slanted lines.jpg
-INPUT ./Images/slanted lines.jpg
-INPUT ./Images/slanted.jpg
-INPUT ./Images/slanted.jpg
-INPUT ./Images/slanted.jpg
-INPUT ./Images/too unclear.jpg
-INPUT ./Images/too unclear.jpg
-INPUT ./Images/too unclear.jpg
-INPUT ./Images/shadow the hedgeho.jpg
-INPUT ./Images/shadow the hedgeho.jpg
-INPUT ./Images/shadow the hedgeho.jpg
+INPUT ./Images/raw data extract.png
+INPUT ./Images/raw data extract.png
+INPUT ./Images/raw data extract.png
+INPUT ./Images/raw data extract.png
+INPUT ./Images/processed graph.svg
+INPUT ./Images/processed graph.svg
+INPUT ./Images/processed graph.svg
+INPUT ./svg-inkscape/processed graph_svg-tex.pdf
+INPUT ./svg-inkscape/processed graph_svg-tex.pdf_tex
+INPUT ./svg-inkscape/processed graph_svg-tex.pdf_tex
+INPUT ./svg-inkscape/processed graph_svg-tex.pdf
+INPUT ./svg-inkscape/processed graph_svg-tex.pdf
+INPUT ./svg-inkscape/processed graph_svg-tex.pdf_tex
+INPUT ./svg-inkscape/processed graph_svg-tex.pdf_tex
+INPUT ./svg-inkscape/processed graph_svg-tex.pdf
+INPUT ./svg-inkscape/processed graph_svg-tex.pdf_tex
+INPUT ./svg-inkscape/processed graph_svg-tex.pdf
+INPUT ./svg-inkscape/processed graph_svg-tex.pdf
+INPUT ./svg-inkscape/processed graph_svg-tex.pdf
+INPUT ./svg-inkscape/processed graph_svg-tex.pdf
 INPUT build/main.aux
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb

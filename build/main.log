@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.10)  2 SEP 2026 21:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.10)  2 SEP 2026 22:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -424,62 +424,80 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \TX@delta=\dimen294
 \TX@cols=\count329
 \TX@ftn=\toks40
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
+\LTleft=\skip56
+\LTright=\skip57
+\LTpre=\skip58
+\LTpost=\skip59
+\LTchunksize=\count330
+\LTcapwidth=\dimen295
+\LT@head=\box70
+\LT@firsthead=\box71
+\LT@foot=\box72
+\LT@lastfoot=\box73
+\LT@gbox=\box74
+\LT@cols=\count331
+\LT@rows=\count332
+\c@LT@tables=\count333
+\c@LT@chunks=\count334
+\LT@p@ftn=\toks41
 ) (/usr/local/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2026/03/07 v6.0 Page Geometry
  (/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count330
-\Gm@cntv=\count331
-\c@Gm@tempcnt=\count332
-\Gm@bindingoffset=\dimen295
-\Gm@wd@mp=\dimen296
-\Gm@odd@mp=\dimen297
-\Gm@even@mp=\dimen298
-\Gm@layoutwidth=\dimen299
-\Gm@layoutheight=\dimen300
-\Gm@layouthoffset=\dimen301
-\Gm@layoutvoffset=\dimen302
-\Gm@dimlist=\toks41
+\Gm@cnth=\count335
+\Gm@cntv=\count336
+\c@Gm@tempcnt=\count337
+\Gm@bindingoffset=\dimen296
+\Gm@wd@mp=\dimen297
+\Gm@odd@mp=\dimen298
+\Gm@even@mp=\dimen299
+\Gm@layoutwidth=\dimen300
+\Gm@layoutheight=\dimen301
+\Gm@layouthoffset=\dimen302
+\Gm@layoutvoffset=\dimen303
+\Gm@dimlist=\toks42
 ) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowinset=\dimen303
-\pgfarrowlength=\dimen304
-\pgfarrowwidth=\dimen305
-\pgfarrowlinewidth=\dimen306
+\pgfarrowinset=\dimen304
+\pgfarrowlength=\dimen305
+\pgfarrowwidth=\dimen306
+\pgfarrowlinewidth=\dimen307
 ) (/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count333
+\l__color_backend_stack_int=\count338
 ) (build/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
  (/usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count334
-\scratchdimen=\dimen307
-\scratchbox=\box70
-\nofMPsegments=\count335
-\nofMParguments=\count336
-\everyMPshowfont=\toks42
-\MPscratchCnt=\count337
-\MPscratchDim=\dimen308
-\MPnumerator=\count338
-\makeMPintoPDFobject=\count339
-\everyMPtoPDFconversion=\toks43
+\scratchcounter=\count339
+\scratchdimen=\dimen308
+\scratchbox=\box75
+\nofMPsegments=\count340
+\nofMParguments=\count341
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count342
+\MPscratchDim=\dimen309
+\MPnumerator=\count343
+\makeMPintoPDFobject=\count344
+\everyMPtoPDFconversion=\toks44
 ) (/usr/local/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -489,7 +507,12 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: longtable package is loaded.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
 Package caption Info: End \AtBeginDocument code.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -531,7 +554,7 @@ Package caption Info: End \AtBeginDocument code.
  [1
 
 {/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Package svg Info: Last page of `./svg-inkscape/s-image_svg-tex.pdf' is 1 on input line 315.
+Package svg Info: Last page of `./svg-inkscape/s-image_svg-tex.pdf' is 1 on input line 317.
  (./svg-inkscape/s-image_svg-tex.pdf_tex
 <./svg-inkscape/s-image_svg-tex.pdf, id=30, page=1, 14968.42188pt x 10244.52344pt>
 File: ./svg-inkscape/s-image_svg-tex.pdf Graphic file (type pdf)
@@ -542,66 +565,118 @@ Package pdftex.def Info: ./svg-inkscape/s-image_svg-tex.pdf , page1 used on inpu
 <Images/micro back setup.jpg, id=51, 3292.3pt x 2473.24pt>
 File: Images/micro back setup.jpg Graphic file (type jpg)
 <use Images/micro back setup.jpg>
-Package pdftex.def Info: Images/micro back setup.jpg  used on input line 524.
+Package pdftex.def Info: Images/micro back setup.jpg  used on input line 526.
 (pdftex.def)             Requested size: 250.24199pt x 187.97574pt.
 <Images/Cart offset thickness.jpg, id=52, 3292.3pt x 2473.24pt>
 File: Images/Cart offset thickness.jpg Graphic file (type jpg)
 <use Images/Cart offset thickness.jpg>
-Package pdftex.def Info: Images/Cart offset thickness.jpg  used on input line 533.
+Package pdftex.def Info: Images/Cart offset thickness.jpg  used on input line 535.
 (pdftex.def)             Requested size: 240.23016pt x 180.46577pt.
 <Images/Clipboard thickness.jpg, id=53, 2473.24pt x 3292.3pt>
 File: Images/Clipboard thickness.jpg Graphic file (type jpg)
 <use Images/Clipboard thickness.jpg>
-Package pdftex.def Info: Images/Clipboard thickness.jpg  used on input line 540.
+Package pdftex.def Info: Images/Clipboard thickness.jpg  used on input line 542.
 (pdftex.def)             Requested size: 240.23016pt x 319.75461pt.
  [10 <./Images/micro back setup.jpg>] [11 <./Images/Cart offset thickness.jpg> <./Images/Clipboard thickness.jpg>]
+Overfull \hbox (500.484pt too wide) detected at line 573
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 572--578
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 578--582
+[] []
+ []
+
+<Images/lacking tape.jpg, id=61, 8190.6pt x 6167.04pt>
 File: Images/lacking tape.jpg Graphic file (type jpg)
 <use Images/lacking tape.jpg>
-Package pdftex.def Info: Images/lacking tape.jpg  used on input line 585.
-(pdftex.def)             Requested size: 151.0988pt x 113.81102pt.
+Package pdftex.def Info: Images/lacking tape.jpg  used on input line 583.
+(pdftex.def)             Requested size: 151.0988pt x 113.76851pt.
+<Images/slanted lines.jpg, id=62, 1056.94875pt x 612.2875pt>
 File: Images/slanted lines.jpg Graphic file (type jpg)
 <use Images/slanted lines.jpg>
 Package pdftex.def Info: Images/slanted lines.jpg  used on input line 585.
-(pdftex.def)             Requested size: 245.57677pt x 142.26378pt.
+(pdftex.def)             Requested size: 105.70107pt x 61.23233pt.
+<Images/slanted.jpg, id=63, 8190.6pt x 6167.04pt>
 File: Images/slanted.jpg Graphic file (type jpg)
 <use Images/slanted.jpg>
 Package pdftex.def Info: Images/slanted.jpg  used on input line 585.
-(pdftex.def)             Requested size: 151.0988pt x 113.81102pt.
-
-Overfull \hbox (7.93475pt too wide) in paragraph at lines 585--585
- []|[] 
- []
-
+(pdftex.def)             Requested size: 105.60669pt x 79.51563pt.
+<Images/too unclear.jpg, id=64, 578.16pt x 477.785pt>
 File: Images/too unclear.jpg Graphic file (type jpg)
 <use Images/too unclear.jpg>
-Package pdftex.def Info: Images/too unclear.jpg  used on input line 585.
-(pdftex.def)             Requested size: 172.14368pt x 142.26378pt.
+Package pdftex.def Info: Images/too unclear.jpg  used on input line 587.
+(pdftex.def)             Requested size: 172.14368pt x 142.25761pt.
+<Images/shadow the hedgeho.jpg, id=65, 4954.51pt x 3369.58875pt>
 File: Images/shadow the hedgeho.jpg Graphic file (type jpg)
 <use Images/shadow the hedgeho.jpg>
-Package pdftex.def Info: Images/shadow the hedgeho.jpg  used on input line 585.
-(pdftex.def)             Requested size: 125.49539pt x 85.35826pt.
+Package pdftex.def Info: Images/shadow the hedgeho.jpg  used on input line 589.
+(pdftex.def)             Requested size: 125.49539pt x 85.35008pt.
 
-LaTeX Warning: Float too large for page by 98.12881pt on input line 588.
+Underfull \hbox (badness 10000) in alignment at lines 582--591
+[] []
+ []
 
-[12] [13 <./Images/lacking tape.jpg> <./Images/slanted lines.jpg> <./Images/slanted.jpg> <./Images/too unclear.jpg> <./Images/shadow the hedgeho.jpg>] (build/main.aux)
+
+ignored: Infinite glue shrinkage found in box being split [12 <./Images/lacking tape.jpg> <./Images/slanted lines.jpg> <./Images/slanted.jpg>]
+<Images/raw data extract.png, id=69, 491.8375pt x 981.6675pt>
+File: Images/raw data extract.png Graphic file (type png)
+<use Images/raw data extract.png>
+Package pdftex.def Info: Images/raw data extract.png  used on input line 623.
+(pdftex.def)             Requested size: 500.484pt x 998.96587pt.
+
+
+LaTeX Warning: Float too large for page by 342.30687pt on input line 626.
+
+[13 <./Images/too unclear.jpg> <./Images/shadow the hedgeho.jpg>] [14 <./Images/raw data extract.png>]
+Underfull \hbox (badness 10000) in alignment at lines 643--677
+[] [] []
+ []
+
+
+Package svg Warning: You didn't enable `shell escape' (or `write18')
+(svg)                so it wasn't possible to launch the Inkscape export
+(svg)                for `Images/processed graph.svg' on input line 689.
+
+Package svg Info: Last page of `./svg-inkscape/processed graph_svg-tex.pdf' is 2 on input line 689.
+(./svg-inkscape/processed graph_svg-tex.pdf_tex
+<./svg-inkscape/processed graph_svg-tex.pdf, id=80, page=1, 1829.26674pt x 1230.8167pt>
+File: ./svg-inkscape/processed graph_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/processed graph_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/processed graph_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 500.484pt x 336.73842pt.
+<./svg-inkscape/processed graph_svg-tex.pdf, id=81, page=2, 1829.26674pt x 1230.8167pt>
+File: ./svg-inkscape/processed graph_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/processed graph_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/processed graph_svg-tex.pdf , page2 used on input line 91.
+(pdftex.def)             Requested size: 500.484pt x 336.73842pt.
+) [15] [16 <./svg-inkscape/processed graph_svg-tex.pdf> <./svg-inkscape/processed graph_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/processed graph_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] (build/main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 26856 strings out of 467525
- 689197 string characters out of 5418982
- 1251742 words of memory out of 5000000
- 55352 multiletter control sequences out of 15000+600000
+ 27048 strings out of 467525
+ 693122 string characters out of 5418982
+ 1254924 words of memory out of 5000000
+ 55535 multiletter control sequences out of 15000+600000
  635491 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,15n,107p,723b,2272s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,16n,107p,723b,2272s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on build/main.pdf (13 pages, 28985125 bytes).
+Output written on build/main.pdf (16 pages, 29036399 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 74 compressed objects within 1 object stream
+ 142 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 

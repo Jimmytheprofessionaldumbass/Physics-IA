@@ -1,0 +1,721 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.10)  2 SEP 2026 21:53
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**tables_check.tex
+(./tables_check.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2026/03/07 v6.0 Page Geometry
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count283
+\Gm@cntv=\count284
+\c@Gm@tempcnt=\count285
+\Gm@bindingoffset=\dimen149
+\Gm@wd@mp=\dimen150
+\Gm@odd@mp=\dimen151
+\Gm@even@mp=\dimen152
+\Gm@layoutwidth=\dimen153
+\Gm@layoutheight=\dimen154
+\Gm@layouthoffset=\dimen155
+\Gm@layoutvoffset=\dimen156
+\Gm@dimlist=\toks18
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen157
+\Gin@req@width=\dimen158
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
+\LTleft=\skip51
+\LTright=\skip52
+\LTpre=\skip53
+\LTpost=\skip54
+\LTchunksize=\count286
+\LTcapwidth=\dimen159
+\LT@head=\box53
+\LT@firsthead=\box54
+\LT@foot=\box55
+\LT@lastfoot=\box56
+\LT@gbox=\box57
+\LT@cols=\count287
+\LT@rows=\count288
+\c@LT@tables=\count289
+\c@LT@chunks=\count290
+\LT@p@ftn=\toks19
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count291
+)
+No file tables_check.aux.
+\openout1 = `tables_check.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(51.21504pt, 511.86491pt, 51.21504pt)
+* v-part:(T,H,B)=(51.21504pt, 692.5399pt, 51.21504pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=511.86491pt
+* \textheight=692.5399pt
+* \oddsidemargin=-21.05495pt
+* \evensidemargin=-21.05495pt
+* \topmargin=-58.05495pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count292
+\scratchdimen=\dimen160
+\scratchbox=\box58
+\nofMPsegments=\count293
+\nofMParguments=\count294
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count295
+\MPscratchDim=\dimen161
+\MPnumerator=\count296
+\makeMPintoPDFobject=\count297
+\everyMPtoPDFconversion=\toks21
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Underfull \hbox (badness 7907) in paragraph at lines 14--14
+[]|\OT1/cmr/m/n/10.95 Distance be-tween Slit and
+ []
+
+
+Underfull \hbox (badness 4739) in paragraph at lines 16--17
+[]|\OT1/cmr/m/n/10.95 One pic-ture will be taken
+ []
+
+<Images/JimmyDraft/image1.jpeg, id=1, 683.55376pt x 514.92375pt>
+File: Images/JimmyDraft/image1.jpeg Graphic file (type jpg)
+<use Images/JimmyDraft/image1.jpeg>
+Package pdftex.def Info: Images/JimmyDraft/image1.jpeg  used on input line 29.
+(pdftex.def)             Requested size: 235.46129pt x 177.37389pt.
+<Images/JimmyDraft/image2.jpeg, id=2, 683.55376pt x 514.92375pt>
+File: Images/JimmyDraft/image2.jpeg Graphic file (type jpg)
+<use Images/JimmyDraft/image2.jpeg>
+Package pdftex.def Info: Images/JimmyDraft/image2.jpeg  used on input line 30.
+(pdftex.def)             Requested size: 235.46129pt x 177.37389pt.
+<Images/JimmyDraft/image3.png, id=3, 223.7085pt x 139.941pt>
+File: Images/JimmyDraft/image3.png Graphic file (type png)
+<use Images/JimmyDraft/image3.png>
+Package pdftex.def Info: Images/JimmyDraft/image3.png  used on input line 30.
+(pdftex.def)             Requested size: 235.46129pt x 147.2947pt.
+<Images/JimmyDraft/image4.png, id=5, 925.4575pt x 553.06625pt>
+File: Images/JimmyDraft/image4.png Graphic file (type png)
+<use Images/JimmyDraft/image4.png>
+Package pdftex.def Info: Images/JimmyDraft/image4.png  used on input line 31.
+(pdftex.def)             Requested size: 235.46129pt x 140.71356pt.
+<Images/JimmyDraft/image5.png, id=6, 598.235pt x 341.275pt>
+File: Images/JimmyDraft/image5.png Graphic file (type png)
+<use Images/JimmyDraft/image5.png>
+Package pdftex.def Info: Images/JimmyDraft/image5.png  used on input line 32.
+(pdftex.def)             Requested size: 235.46129pt x 134.32565pt.
+
+ignored: Infinite glue shrinkage found in box being split [1
+
+{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+ignored: Infinite
+ glue shrinkage found in box being split
+[2 <./Images/JimmyDraft/image1.jpeg> <./Images/JimmyDraft/image2.jpeg> <./Image
+s/JimmyDraft/image3.png>]
+Underfull \hbox (badness 2573) in paragraph at lines 42--42
+[]|\OT1/cmr/m/n/10.95 Pixels per cm square side
+ []
+
+
+Underfull \hbox (badness 2573) in paragraph at lines 43--43
+[]|\OT1/cmr/m/n/10.95 Pixels per cm square side
+ []
+
+
+Underfull \hbox (badness 2573) in paragraph at lines 44--44
+[]|\OT1/cmr/m/n/10.95 Pixels per cm square side
+ []
+
+
+Overfull \hbox (4.04811pt too wide) in paragraph at lines 45--45
+[]|\OT1/cmr/m/n/10.95 150.4461667| 
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 68--68
+[]|\OT1/cmr/m/n/10.95 Average fringe dis-place-ment
+ []
+
+
+Overfull \hbox (4.04811pt too wide) in paragraph at lines 68--68
+[]|\OT1/cmr/m/n/10.95 4.119882353| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+[]|\OT1/cmr/m/n/10.95 Expected/Calculated Value
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 70--70
+[]|\OT1/cmr/m/n/10.95 Distance be-tween laser and
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 71--71
+[]|\OT1/cmr/m/n/10.95 uncertainty of dis-tance be-
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 71.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 71.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 71.
+
+Overfull \hbox (37.91837pt too wide) in alignment at lines 37--73
+ [] [] [] [] [] [] [] 
+ []
+
+
+ignored: Infinite glue shrinkage found in box being split [3 <./Images/JimmyDraft/image4
+.png> <./Images/JimmyDraft/image5.png>]
+ignored: Infinite glue shrinkage found in box bei
+ng split [4]
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]|\OT1/cmr/m/n/10.95 only clear
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\OT1/cmr/m/n/10.95 data is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]|\OT1/cmr/m/n/10.95 only clear
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\OT1/cmr/m/n/10.95 data is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]|\OT1/cmr/m/n/10.95 surprisingly
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+[]|\OT1/cmr/m/n/10.95 surprisingly
+ []
+
+
+Overfull \hbox (1.48628pt too wide) in paragraph at lines 107--107
+[]|\OT1/cmr/m/n/10.95 5.246733333| 
+ []
+
+
+Overfull \hbox (1.48628pt too wide) in paragraph at lines 107--107
+[]|\OT1/cmr/m/n/10.95 5.840387097| 
+ []
+
+
+Overfull \hbox (1.48628pt too wide) in paragraph at lines 107--107
+[]|\OT1/cmr/m/n/10.95 6.468451613| 
+ []
+
+
+Overfull \hbox (1.48628pt too wide) in paragraph at lines 107--107
+[]|\OT1/cmr/m/n/10.95 6.451115385| 
+ []
+
+
+Overfull \hbox (34.57869pt too wide) in alignment at lines 75--112
+ [] [] [] [] [] [] [] [] 
+ []
+
+
+ignored: Infinite glue shrinkage found in box being split [5]
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+\OT1/cmr/m/n/10.95 with 100cm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+\OT1/cmr/m/n/10.95 and closeby
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+\OT1/cmr/m/n/10.95 ad-di-tional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+\OT1/cmr/m/n/10.95 mea-sure-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+\OT1/cmr/m/n/10.95 is deemed
+ []
+
+
+Underfull \hbox (badness 2990) in paragraph at lines 159--159
+\OT1/cmr/m/n/10.95 for this dis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]|\OT1/cmr/m/n/10.95 One er-ror
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\OT1/cmr/m/n/10.95 max ex-po-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\OT1/cmr/m/n/10.95 edge don't,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\OT1/cmr/m/n/10.95 the point
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\OT1/cmr/m/n/10.95 of ex-po-sure
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\OT1/cmr/m/n/10.95 change to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\OT1/cmr/m/n/10.95 could also
+ []
+
+
+Underfull \hbox (badness 3312) in paragraph at lines 163--163
+\OT1/cmr/m/n/10.95 ef-fect as we
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]|\OT1/cmr/m/n/10.95 One er-ror
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\OT1/cmr/m/n/10.95 max ex-po-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\OT1/cmr/m/n/10.95 edge don't,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\OT1/cmr/m/n/10.95 the point
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\OT1/cmr/m/n/10.95 of ex-po-sure
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\OT1/cmr/m/n/10.95 change to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\OT1/cmr/m/n/10.95 could also
+ []
+
+
+Underfull \hbox (badness 3312) in paragraph at lines 163--163
+\OT1/cmr/m/n/10.95 ef-fect as we
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 163--163
+[]|\OT1/cmr/m/n/10.95 last one not
+ []
+
+
+ignored: Infinite glue shrinkage found in box being split [6]
+Underfull \hbox (badness 4779) in paragraph at lines 203--203
+[]|\OT1/cmr/m/n/10.95 Able to see
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\OT1/cmr/m/n/10.95 bet-ter with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\OT1/cmr/m/n/10.95 prac-tice.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\OT1/cmr/m/n/10.95 (Could've
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\OT1/cmr/m/n/10.95 re-done the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\OT1/cmr/m/n/10.95 be-gin-ning
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\OT1/cmr/m/n/10.95 ones for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\OT1/cmr/m/n/10.95 bet-ter ac-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\OT1/cmr/m/n/10.95 cu-racy, but
+ []
+
+
+Underfull \hbox (badness 4846) in paragraph at lines 203--203
+\OT1/cmr/m/n/10.95 out of time
+ []
+
+
+Underfull \hbox (badness 4779) in paragraph at lines 203--203
+[]|\OT1/cmr/m/n/10.95 Able to see
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\OT1/cmr/m/n/10.95 bet-ter with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\OT1/cmr/m/n/10.95 prac-tice.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\OT1/cmr/m/n/10.95 (Could've
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\OT1/cmr/m/n/10.95 re-done the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\OT1/cmr/m/n/10.95 be-gin-ning
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\OT1/cmr/m/n/10.95 ones for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\OT1/cmr/m/n/10.95 bet-ter ac-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\OT1/cmr/m/n/10.95 cu-racy, but
+ []
+
+
+Underfull \hbox (badness 4846) in paragraph at lines 203--203
+\OT1/cmr/m/n/10.95 out of time
+ []
+
+
+Underfull \hbox (badness 4779) in paragraph at lines 203--203
+[]|\OT1/cmr/m/n/10.95 Able to see
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\OT1/cmr/m/n/10.95 bet-ter with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\OT1/cmr/m/n/10.95 prac-tice.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\OT1/cmr/m/n/10.95 (Could've
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\OT1/cmr/m/n/10.95 re-done the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\OT1/cmr/m/n/10.95 be-gin-ning
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\OT1/cmr/m/n/10.95 ones for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\OT1/cmr/m/n/10.95 bet-ter ac-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\OT1/cmr/m/n/10.95 cu-racy, but
+ []
+
+
+Underfull \hbox (badness 4846) in paragraph at lines 203--203
+\OT1/cmr/m/n/10.95 out of time
+ []
+
+
+Underfull \hbox (badness 4779) in paragraph at lines 203--204
+[]|\OT1/cmr/m/n/10.95 Able to see
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+\OT1/cmr/m/n/10.95 bet-ter with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+\OT1/cmr/m/n/10.95 prac-tice.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+\OT1/cmr/m/n/10.95 (Could've
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+\OT1/cmr/m/n/10.95 re-done the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+\OT1/cmr/m/n/10.95 be-gin-ning
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+\OT1/cmr/m/n/10.95 ones for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+\OT1/cmr/m/n/10.95 bet-ter ac-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+\OT1/cmr/m/n/10.95 cu-racy, but
+ []
+
+
+Underfull \hbox (badness 4846) in paragraph at lines 203--204
+\OT1/cmr/m/n/10.95 out of time
+ []
+
+
+ignored: Infinite glue shrinkage found in box being split [7]
+Underfull \hbox (badness 3965) in paragraph at lines 219--219
+[]|\OT1/cmr/m/n/10.95 Specific Data (quoted from
+ []
+
+File: Images/JimmyDraft/image1.jpeg Graphic file (type jpg)
+<use Images/JimmyDraft/image1.jpeg>
+Package pdftex.def Info: Images/JimmyDraft/image1.jpeg  used on input line 221.
+
+(pdftex.def)             Requested size: 148.43738pt x 111.81429pt.
+File: Images/JimmyDraft/image3.png Graphic file (type png)
+<use Images/JimmyDraft/image3.png>
+Package pdftex.def Info: Images/JimmyDraft/image3.png  used on input line 222.
+(pdftex.def)             Requested size: 148.43738pt x 92.85672pt.
+File: Images/JimmyDraft/image2.jpeg Graphic file (type jpg)
+<use Images/JimmyDraft/image2.jpeg>
+Package pdftex.def Info: Images/JimmyDraft/image2.jpeg  used on input line 222.
+
+(pdftex.def)             Requested size: 148.43738pt x 111.81429pt.
+
+ignored: Infinite glue shrinkage found in box being split [8]
+File: Images/JimmyDraft/image4.png Graphic file (type png)
+<use Images/JimmyDraft/image4.png>
+Package pdftex.def Info: Images/JimmyDraft/image4.png  used on input line 230.
+(pdftex.def)             Requested size: 148.43738pt x 88.70338pt.
+<Images/JimmyDraft/image8.jpg, id=40, 3680.75125pt x 1994.45125pt>
+File: Images/JimmyDraft/image8.jpg Graphic file (type jpg)
+<use Images/JimmyDraft/image8.jpg>
+Package pdftex.def Info: Images/JimmyDraft/image8.jpg  used on input line 232.
+(pdftex.def)             Requested size: 148.43738pt x 80.40355pt.
+
+Underfull \hbox (badness 1635) in paragraph at lines 232--233
+[]|\OT1/cmr/m/n/10.95 This can af-fect-the per-ceived
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 232--233
+\OT1/cmr/m/n/10.95 pro-mise the data and in-tro-
+ []
+
+
+Underfull \hbox (badness 4967) in paragraph at lines 232--233
+\OT1/cmr/m/n/10.95 that pair, would be more
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 232--233
+\OT1/cmr/m/n/10.95 closerto the cen-ter than the
+ []
+
+
+ignored: Infinite glue shrinkage found in box being split [9] [10 <./Images/JimmyDraft/i
+mage8.jpg>] (./tables_check.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2021 strings out of 467525
+ 32707 string characters out of 5418982
+ 504505 words of memory out of 5000000
+ 30958 multiletter control sequences out of 15000+600000
+ 631065 words of font info for 51 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,9n,65p,737b,259s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on tables_check.pdf (10 pages, 3729663 bytes).
+PDF statistics:
+ 62 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+

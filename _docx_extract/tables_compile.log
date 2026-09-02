@@ -1,0 +1,48 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./tables_check.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/size11.clo))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+No file tables_check.aux.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+Underfull \hbox (badness 7907) in paragraph at lines 14--14
+[]|\OT1/cmr/m/n/10.95 Distance be-tween Slit and
+
+Underfull \hbox (badness 4739) in paragraph at lines 16--17
+[]|\OT1/cmr/m/n/10.95 One pic-ture will be taken
+
+LaTeX Warning: File `Images/JimmyDraft/image1.jpeg' not found on input line 29.
+
+
+
+! Package pdftex.def Error: File `Images/JimmyDraft/image1.jpeg' not found: usi
+ng draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ...\linewidth]{Images/JimmyDraft/image1.jpeg}
+                                                   \\
+!  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on tables_check.log.
