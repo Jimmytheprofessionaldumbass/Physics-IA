@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.10)  2 SEP 2026 22:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.10)  2 SEP 2026 23:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -565,60 +565,60 @@ Package pdftex.def Info: ./svg-inkscape/s-image_svg-tex.pdf , page1 used on inpu
 <Images/micro back setup.jpg, id=51, 3292.3pt x 2473.24pt>
 File: Images/micro back setup.jpg Graphic file (type jpg)
 <use Images/micro back setup.jpg>
-Package pdftex.def Info: Images/micro back setup.jpg  used on input line 526.
+Package pdftex.def Info: Images/micro back setup.jpg  used on input line 530.
 (pdftex.def)             Requested size: 250.24199pt x 187.97574pt.
 <Images/Cart offset thickness.jpg, id=52, 3292.3pt x 2473.24pt>
 File: Images/Cart offset thickness.jpg Graphic file (type jpg)
 <use Images/Cart offset thickness.jpg>
-Package pdftex.def Info: Images/Cart offset thickness.jpg  used on input line 535.
+Package pdftex.def Info: Images/Cart offset thickness.jpg  used on input line 539.
 (pdftex.def)             Requested size: 240.23016pt x 180.46577pt.
 <Images/Clipboard thickness.jpg, id=53, 2473.24pt x 3292.3pt>
 File: Images/Clipboard thickness.jpg Graphic file (type jpg)
 <use Images/Clipboard thickness.jpg>
-Package pdftex.def Info: Images/Clipboard thickness.jpg  used on input line 542.
+Package pdftex.def Info: Images/Clipboard thickness.jpg  used on input line 546.
 (pdftex.def)             Requested size: 240.23016pt x 319.75461pt.
  [10 <./Images/micro back setup.jpg>] [11 <./Images/Cart offset thickness.jpg> <./Images/Clipboard thickness.jpg>]
-Overfull \hbox (500.484pt too wide) detected at line 573
+Overfull \hbox (500.484pt too wide) detected at line 577
 []
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 572--578
+Underfull \hbox (badness 10000) in alignment at lines 576--582
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 578--582
+Underfull \hbox (badness 10000) in alignment at lines 582--586
 [] []
  []
 
 <Images/lacking tape.jpg, id=61, 8190.6pt x 6167.04pt>
 File: Images/lacking tape.jpg Graphic file (type jpg)
 <use Images/lacking tape.jpg>
-Package pdftex.def Info: Images/lacking tape.jpg  used on input line 583.
+Package pdftex.def Info: Images/lacking tape.jpg  used on input line 587.
 (pdftex.def)             Requested size: 151.0988pt x 113.76851pt.
 <Images/slanted lines.jpg, id=62, 1056.94875pt x 612.2875pt>
 File: Images/slanted lines.jpg Graphic file (type jpg)
 <use Images/slanted lines.jpg>
-Package pdftex.def Info: Images/slanted lines.jpg  used on input line 585.
+Package pdftex.def Info: Images/slanted lines.jpg  used on input line 589.
 (pdftex.def)             Requested size: 105.70107pt x 61.23233pt.
 <Images/slanted.jpg, id=63, 8190.6pt x 6167.04pt>
 File: Images/slanted.jpg Graphic file (type jpg)
 <use Images/slanted.jpg>
-Package pdftex.def Info: Images/slanted.jpg  used on input line 585.
+Package pdftex.def Info: Images/slanted.jpg  used on input line 589.
 (pdftex.def)             Requested size: 105.60669pt x 79.51563pt.
 <Images/too unclear.jpg, id=64, 578.16pt x 477.785pt>
 File: Images/too unclear.jpg Graphic file (type jpg)
 <use Images/too unclear.jpg>
-Package pdftex.def Info: Images/too unclear.jpg  used on input line 587.
+Package pdftex.def Info: Images/too unclear.jpg  used on input line 591.
 (pdftex.def)             Requested size: 172.14368pt x 142.25761pt.
 <Images/shadow the hedgeho.jpg, id=65, 4954.51pt x 3369.58875pt>
 File: Images/shadow the hedgeho.jpg Graphic file (type jpg)
 <use Images/shadow the hedgeho.jpg>
-Package pdftex.def Info: Images/shadow the hedgeho.jpg  used on input line 589.
+Package pdftex.def Info: Images/shadow the hedgeho.jpg  used on input line 593.
 (pdftex.def)             Requested size: 125.49539pt x 85.35008pt.
 
-Underfull \hbox (badness 10000) in alignment at lines 582--591
+Underfull \hbox (badness 10000) in alignment at lines 586--595
 [] []
  []
 
@@ -627,23 +627,19 @@ ignored: Infinite glue shrinkage found in box being split [12 <./Images/lacking 
 <Images/raw data extract.png, id=69, 491.8375pt x 981.6675pt>
 File: Images/raw data extract.png Graphic file (type png)
 <use Images/raw data extract.png>
-Package pdftex.def Info: Images/raw data extract.png  used on input line 623.
-(pdftex.def)             Requested size: 500.484pt x 998.96587pt.
-
-
-LaTeX Warning: Float too large for page by 342.30687pt on input line 626.
-
-[13 <./Images/too unclear.jpg> <./Images/shadow the hedgeho.jpg>] [14 <./Images/raw data extract.png>]
-Underfull \hbox (badness 10000) in alignment at lines 643--677
+Package pdftex.def Info: Images/raw data extract.png  used on input line 627.
+(pdftex.def)             Requested size: 250.24199pt x 499.46046pt.
+ [13 <./Images/too unclear.jpg> <./Images/shadow the hedgeho.jpg>] [14 <./Images/raw data extract.png>]
+Underfull \hbox (badness 10000) in alignment at lines 651--683
 [] [] []
  []
 
 
 Package svg Warning: You didn't enable `shell escape' (or `write18')
 (svg)                so it wasn't possible to launch the Inkscape export
-(svg)                for `Images/processed graph.svg' on input line 689.
+(svg)                for `Images/processed graph.svg' on input line 692.
 
-Package svg Info: Last page of `./svg-inkscape/processed graph_svg-tex.pdf' is 2 on input line 689.
+Package svg Info: Last page of `./svg-inkscape/processed graph_svg-tex.pdf' is 2 on input line 692.
 (./svg-inkscape/processed graph_svg-tex.pdf_tex
 <./svg-inkscape/processed graph_svg-tex.pdf, id=80, page=1, 1829.26674pt x 1230.8167pt>
 File: ./svg-inkscape/processed graph_svg-tex.pdf Graphic file (type pdf)
@@ -658,7 +654,7 @@ Package pdftex.def Info: ./svg-inkscape/processed graph_svg-tex.pdf , page2 used
 ) [15] [16 <./svg-inkscape/processed graph_svg-tex.pdf> <./svg-inkscape/processed graph_svg-tex.pdf
 
 pdfTeX warning: pdflatex (file ./svg-inkscape/processed graph_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] (build/main.aux)
+>] [17] (build/main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -673,10 +669,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  102i,16n,107p,723b,2272s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on build/main.pdf (16 pages, 29036399 bytes).
+Output written on build/main.pdf (17 pages, 29039622 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+ 145 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  83 words of extra memory for PDF output out of 10000 (max. 10000000)
 

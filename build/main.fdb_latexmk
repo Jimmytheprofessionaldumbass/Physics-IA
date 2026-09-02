@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1788360299.2885 "main.tex" "build/main.pdf" "main" 1788360302.38093 0
+["pdflatex"] 1788364045.46458 "main.tex" "build/main.pdf" "main" 1788364048.73863 0
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -195,9 +195,9 @@
   "Images/slanted lines.jpg" 1788353941.69234 216601 5f2253659608a5278438e2d94f24bd64 ""
   "Images/slanted.jpg" 1778162210.47062 6820013 d5b0f71a89856d324f8a48589d285238 ""
   "Images/too unclear.jpg" 1788354564.38892 91209 b0855b4cbe090248b8715256dc903462 ""
-  "build/main.aux" 1788360302.26346 4087 c99b2badbb7ddbe64c57567342e9bf0b "pdflatex"
-  "build/main.toc" 1788360302.26647 1012 5890fe6e14c8d77dfa77dddc586348c6 "pdflatex"
-  "main.tex" 1788360299.16292 35181 d4d07a7c30a0e3c98960476b5640fc5b ""
+  "build/main.aux" 1788364048.59945 4079 e1d7a78d668c7c0d572ae6e100c0937b "pdflatex"
+  "build/main.toc" 1788364048.60276 1004 e67c29109fc9541dd4ea7e1a2758233a "pdflatex"
+  "main.tex" 1788364043.53176 37704 f15db6c200244f23b9c627d6bd3ba6e1 ""
   "svg-inkscape/processed graph_svg-tex.pdf" 1788355695.77878 3794 ff2bfed7a6e3e070ef54b2a8330c65bb ""
   "svg-inkscape/processed graph_svg-tex.pdf_tex" 1788355695.77938 6908 4665a7ccd0d3e76815efdeac75231671 ""
   "svg-inkscape/s-image_svg-tex.pdf" 1788349662.59215 4117866 9c53cd4652721c730227bb5598d2b25c ""

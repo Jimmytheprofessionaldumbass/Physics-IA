@@ -360,9 +360,12 @@ The distance between adjacent fringes will be measured by:
 
 The following control variables are considered:
 \begin{itemize}
-    \item Using the same laser-slit instrument
+    \item Using the same laser-slit instrument: If I used a different laser, there may be other properties in the laser beam that could affect results such as if the laser isn’t as coherent as last time, it would increase uncertainty.
+    \item Same wavelength (532nm): This would change the fringe distances according to the proposed formula with different frequencies, so I will continue to use green light throughout the experiments
+    \item same slit (0.45mm): This would also change the fringe distances as proposed by the formulas
     \item Same method for setting up each table
     \item same method for measuring fringe distance
+
 \end{itemize}
 
 % The Following Extraneous variables are considered:
@@ -379,6 +382,7 @@ The following control variables are considered:
 \subsection{Setup Description and Experimental Procedure}
 
 %-- Add turning off the lights
+There is obvious danger when it comes to operating aparatus such as a laser, so that’s why the experiment is done on a day where there is no education in the classroom. And I made the room dark so it raises fear to whomever enters my domain (and also such that the projected interference patterns are more prominent)
 
 % Diagrams regarding the setup (if you can't find the images just draw with pencil)
 
@@ -620,7 +624,7 @@ Our raw data consists of different trials, each of which has:
 This is shown in figure \ref{img:raw data extract}
 \begin{figure}[htbp]
     \center
-    \includegraphics[width=\textwidth]{raw data extract}
+    \includegraphics[width=0.5\textwidth]{raw data extract}
     \caption{An extract of the data}
     \label{img:raw data extract}
 \end{figure}
@@ -634,8 +638,12 @@ The distance is calculated by
 \begin{equation}
     \text{Distance} = \text{initial distance} - \text{offset} + \text{2 axis translation stage modifier}
 \end{equation}
-Recall that every distance is based off of the origin point of the measuring tape, which is at 0cm. For instance the table is set to be [initial distance] away from the origin point of the measuring tape where D is one of the values for our independent variables mentioned earlier. However our 2 axis translation stage is closer to the table by a distance [offset] and must have that subtracted from the desired distance. Then we add the 2 axis translation stage modifier because recall that we have two systems responsible for controlling our independent variable, and this one is the one responsible for the "micro adjustments"
-
+Recall that every distance is based off of the origin point of the measuring tape, which is at 0cm. For instance the table is set to be [initial distance] away from the origin point of the measuring tape where D is one of the values for our independent variables mentioned earlier. However our 2 axis translation stage is closer to the table by a distance [offset] and must have that subtracted from the desired distance. Then we add the 2 axis translation stage modifier because recall that we have two systems responsible for controlling our independent variable, and this one is the one responsible for the "micro adjustments".
+The predicted values are calculated by plugging the values into the equation we derived in the beginning. Namely:
+\begin{equation}
+    s = \frac{\lambda d}{D}
+\end{equation}
+Where lambda is the wavelength of light of our laser (532nm)
 And hence we get the following data (some are duplicate due to the two system method we have chosen to measure)
 
 
@@ -672,15 +680,10 @@ And hence we get the following data (some are duplicate due to the two system me
     40 & 0.5 & 0.000472889 \\
     \hline
     20 & 0.276166667 & 0.000236444
-
-
 \end{longtable}
+%check uncertainty
 
-
-\subsection{Processed data}
-Calculation method:
-Average 
-
+The line of best fit was calculated by desmos. By plotting the average datapoints of fringe spacing with respect to displacement on desmos and using the linear regression feature. Desmos calculated an extremely strong correlation coefficient of 0.9991
 
 \begin{figure}[htbp]
     \centering
@@ -693,7 +696,19 @@ Average
 
 
     
+\section{Conclusion}
+The goal of this research is to investigate a double slit system. Particularly, how change in displaccement between the slit and the screen corresponds to a change in fringe spacing and determine the curve relationship
 
+We discovered that the relationship between these two variables is linear; an increase in the displacement respects a proportional increase in fringe spacing, which validates Thomas Young's mathematically derived equation we explored earlier since the values calculated with that equation are extremely close to the measured values, up to micrometer accuracy. For instance, for the following data listed below, we also included the difference. % add the data points
+
+
+\subsection{Method Evaluation}
+    
+What was unexpected is the magnitude of accuracy of the data to the predicted values by recording data using this method. Since this method had the perpendicularities of the meter stick for aligning the table all human approximated by eye as we had a lack of set-squares during setup. This may suggest that the angle deviation of the projected surface from being perpendicular to the path of the laser is of negligible importance. Or it may suggest that experimentally longer lines are easier to be approximated by eye rather than needing a set square
+
+
+The fringes closer to the middle are usually brighter, so it would more easily reach the maximum exposure of the camera. This can affectthe perceived “edge” is as thatis my [baseline]for measuring fringe seperation. I measure it by left/right edge to the edge ofthe adjacent fringe. This can compromise the data and introduce uncertainty. For example, when measuring distance between adjacent fringes ofthe leftmost edge,the left edge of that pair, would be more closerto the center than the rightfringe ofthe pair, since this one is more brighter,the edge would be furtherfrom the center ofthe fringe. 
+%add images from docx
 
 
     
