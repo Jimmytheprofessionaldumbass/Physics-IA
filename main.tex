@@ -5,6 +5,12 @@
 \usepackage{pgfplots}
 \usepackage{subcaption}
 \usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{svg}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage[margin=2cm]{geometry}
+\graphicspath{{Images/}}
 \usetikzlibrary{arrows.meta}
 \pgfplotsset{compat=1.18}
 
@@ -249,7 +255,6 @@ where $\lambda$ is the wavelength of the light and $n$ is an integer representin
 and since we know that the wavelength $\lambda$ of light is orders of magnitudes larger than slit spacing $d$, and hence the value in $\sin$ is close to zero, we can use the sin angle approximation $\lim_{\theta \to 0} \sin(\theta) = \theta$ to simplify to
 \begin{equation}
     \theta = \frac{n\lambda}{d}
-subsubsection
 \end{equation}
 relating $\theta$ to $d$ and $\lambda$.
 This angle approximation for small values of $\theta$ also apply to $\tan(\theta)$ in the other representation of $\theta$
@@ -290,21 +295,27 @@ and now we arrive at our destination.
 % The independent variable is the distance between the slit and the screen and will include values that range from the [nearby and further apart]. The [nearby] will include 20cm, 40cm, 60cm, 80cm, and 100cm, while the further apart include 3 meters, 5 meters, 6 meters and 8 meters.
 
 
+% A rough diagram of the setup and like what is D
 
 The independent variable is the distance $D$ between the slit and the screen. There will be two experiments carried out with different setups, namely, the "macro" and "micro" experiments. This is to satisfy the trial quantity to increase validity and the nature of each experimental procedure, which is explained in the ensuing sections.
+% Make sub points hollow
 \begin{itemize}
     \item Micro will solely focus on distances within a meter and will include (in cm) 20, 40, 60, 80, and 100.
-    \item Macro will be done from various distances ranging from 3 to 8 meters and will include (in m) 3, 5, 6, and 8.
+    \item Macro will be done from various distances ranging from 3 to 8 meters and will include (in m) 3, 3.5, 4, 5, 5.5, 6, 6.5, 7, and 8.
         \begin{itemize}
-            % Ensure Validity
+            \item Macro has two systems for changing the distance. One is the changing of distance of the table which includes 3m, 5m, 6m, and 8m
             \item Each of these distances will have micro steps that include (in meters) +0, +50, and +100 which will extend our trial amounts
             \item For example, for 5 meters we will have (in m) 5.00, 5.50, and 6.00.
-            % just literally list all the possible values. explain procedure later
         \end{itemize}
 \end{itemize}
 
-The measured dependent variable is the distance $s$ between two adjacent bright fringes. Illustrated by the following diagram.
-% Include diagram from chemix to elucidate
+The measured dependent variable is the distance $s$ between two adjacent bright fringes. Illustrated by the following image.
+\begin{figure}[htbp]
+    \center
+    \includesvg[width=\textwidth]{s-image}
+    \caption{Label of S in the image}
+    \label{fig:S illustration}
+\end{figure}
 \par
 And hence our guiding question is %why isn't this showing?
 \begin{figure}[htbp]
@@ -330,9 +341,9 @@ This range of data will provide us justification for not only the short range, b
 % Justification: One picture will be taken for each distance.But multiple takes on fringe spacing will be recorded and the average will be found. 
 The distance between adjacent fringes will be measured by:
 \begin{enumerate}
-    \item Having the interference pattern projected on a graphing paper with a known grid size
+    \item Having the interference pattern projected on a graphing paper with a known grid size %Graphing paper
     \item Taking a high resolution photo of the graphing paper
-    \item Perspective correction of the image
+    \item Perspective correction of the image %Software image
     \item Data measurement by software means.
         \begin{enumerate}
             \item Finding the amount of pixels per cm across different parts of the image
@@ -365,8 +376,9 @@ The following control variables are considered:
 
 \subsection{Setup Description and Experimental Procedure}
 
+%-- Add turning off the lights
 
-% Diagrams regarding the setup 
+% Diagrams regarding the setup (if you can't find the images just draw with pencil)
 
 The setup will consists of the table components and the slit system.
 The slit system is a laser-slit system mounted on a two axis translation stage. This allows for changing the distance without moving away the table but rather by moving sideways and also allows for more microadjustments for each table. This is built with:
@@ -395,8 +407,10 @@ The table will have a graphing/grid paper on a clipboard that is then hung on a 
 
 
 
+\subsubsection{Macro Procedure}
+    
 
-\subsubsection{Setup Procecdure}
+\paragraph{Setup Procecdure}
 
 Additional equipment required for accurate setup is as listed:
 \begin{enumerate}
@@ -416,10 +430,13 @@ Additional equipment required for accurate setup is as listed:
     \item Stack the books on the floor like shown
     % Diagram or image
     \item Place the two cart tracks atop of each pair of books perpendicular to the direction of the ray
+
+    % Setup Diagram
     \item Align the forward facing (towards the screen) cart track with a ruler (or any straight object) facing perpendicular to the ground to ensure the outermost edge is aligned with the origin.
+    %Alignment images
     \item Place carts on each track
     \item Place a cart track atop of both carts (parallel to the direction of the ray)
-    \item Place a cart on the cart track
+    \item Place a cart on the new cart track
     \item Place the double slit laser instrument on the cart
     \item Tape the double slit laser instrument onto both sides of the cart
     \item Choose a designated "origin point" (that acts as a reference point for its distance) and discover its' horizontal offset distance from the slit
@@ -445,7 +462,7 @@ Additional equipment required for accurate setup is as listed:
     \item Repeat for each table and stand feeling proud of collecting all the infinity stones
 \end{enumerate}
 
-\subsubsection {Experimental Procedure}
+\paragraph {Experimental Procedure}
 
 Recall the two changing systems that comprise the control of the independent variables
 After the setup is complete begin the following experimental procedure:
@@ -453,11 +470,126 @@ After the setup is complete begin the following experimental procedure:
     \item Ensure no pedestrians are abode the path of the laser
     \item Summone the Laser %Laser, go! Rouse the laser from its slumber. Awakeneth thy Laser. Initiate Laser Protocol. [] power upon the laser de illuminacion.
     \item Adjust the momentum test cart such that the [set] origin point of the laser-slit system aligns with your desired distance from the origin point of the momentum test track
-    \item 
+    \item Clip on the grid paper as parallel to the clipboard as possible
+    \item Cut tape of equal length
+    \item Place it on the clipboard 
+    \begin{itemize}
+        \item Ensure the clipboard is in landscape mode
+        \item Place on the projected surface
+        \item Ensure both tapes have the same distance in their placement on their end.
+        \item Ensure that it is level
+    \end{itemize}
+    \item Attach the tape on the table
+    \begin{itemize}
+        \item Ensure both tapes have the same distance in their placement on the table
+        \item Ensure that the whole clipboard is level
+    \end{itemize}
+    \item Wait for the clipboard to succumd to the will of gravity such that it is perfectly perpendicular to the ground
+    \item Grab your local friend and ask them to hold up fingers indicating the trial/distance
+\begin{itemize}
+    \item We used the left hand represent the momentum cart distance (1 finger = 0cm, 2= +50cm, 3 = +100cm)
+    \item We used the right hand represent the table distance (1 finger = 3m, 2 = 5m, 3=6m, 4=8m)
+    \item Ensure your friend's finger does not block essential fringes near the center
+    \item Ensure your friend is a cool guy
+\end{itemize}
+    \item Take a high resolution photo (this can be accomplished by changing the settings on a phone camera)
+    \item Remove the tape and the clipboard from the table
+    \item Tell the table his free trial is over and remove him from the premises
+    \begin{itemize}
+        \item Ensure that his foot is disarmed if it is wheeled
+        \item Make sure his legs doesn't trip on the measuring tape by lifting it over)
+    \end{itemize}
+    \item Repeat steps
+
+    %Show diagram
+\end{enumerate}
+
+And this concludes the Macro Scale Procedure
+
+\subsubsection{Micro Procedure}
+
+The micro scale procedure posesses similarities
+
+\paragraph{Setup procedure}
+\begin{enumerate}
+    \item Set the momentum test track parallel to the path of the laser
+    \item Measure the offset of the slit to the origin of the momentum test track (0cm)
+    \item Place a momentum test cart on the track
+    \item Place a momentum test track perpendicular to the path of the laser onto the track (Make sure it doesn't fall)
+    \item Tape onto the test track an object that allows perpendicular surfaces to face the laser. In this case we used a voltmeter
+    \item clip the graphing paper onto the clipboard
+    \item Tape the clipboard onto the perpendicular surface
+    \begin{figure}[htbp]
+        \center
+        \includegraphics[width=0.5\textwidth]{micro back setup}
+        \caption{analogue voltmeter}
+        \label{fig:The back of the micro setup}
+    \end{figure}
+    \item Measure thickness of clipboard and the distance from the subsequent surface to the local origin of the cart
+    \begin{figure}[htbp]
+        \center
+        \begin{subfigure}[t]{0.48\textwidth}
+            \centering
+            \includegraphics[width=\linewidth]{Cart offset thickness.jpg}
+            \caption{Cart offset thickness}
+            \label{fig:cart offset thickness}
+        \end{subfigure}
+        \hfill
+        \begin{subfigure}[t]{0.48\textwidth}
+            \centering
+            \includegraphics[width=\linewidth]{Clipboard thickness.jpg}
+            \caption{Clipboard thickness}
+            \label{fig:clipboard thickness}
+        \end{subfigure}
+        \caption{Measurement of offset}
+        \label{fig:measurement of offset} % Have these seperately and reference them within
+    \end{figure}
+    \item Adjust the height of the laser instrument such that the interference pattern lands on the grid of the graphing paper.
+\end{enumerate}
+
+\paragraph{Experimental Procedure}
+\begin{enumerate}
+    \item Displace the cart to the interested displacement
+    \item Summon the laser
+    \item Take a high resolution photo
+    \item Repeat for different displacements (20cm, 40cm, 60cm, 80cm, 100cm)
 \end{enumerate}
 
 
+% Do something with this
 Since the fringe spacing is within the milimeter range and it is beyond my human ability to hold the clipboard still within milimeter stillness while using the other hand to hold a pencil and mark accurately on the paper live. I decided to take a high resolution photo of the projection on a graphed piece of paper as a photo is most versatile and captures exactly as seen. The graphed piece of paper is printed with milimeter accuracy markings. As a result I will measure distance between each adjacent fringe (in milimeters) with software solutions and excuse my skill issue.
+
+\section{Results}
+
+\subsection{Qualitative}
+
+\begin{table}
+    \centering
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}X|>{\centering\arraybackslash}X|}
+        \hline
+        Qualitative observations  & Interpretation/Photos \\
+        \hline
+        I don’t recall having taped the paper onto the surface of the clipboard for maximum flatness of the surface. The paper is clipped on the right side but not the left. This means when we do the perspective shifts it might have slight distortions & 
+        \includegraphics[height=4cm,keepaspectratio]{lacking tape} \\
+        \hline
+        Some are really slanted for some reason. I ended up correcting it by drawing lines with respect to the direction of the slant and then measuring with that angle &
+        \includegraphics[height=5cm,keepaspectratio]{slanted lines} \includegraphics[height=4cm,keepaspectratio]{slanted} \\
+        \hline
+        Some of the fringes are too unclear to be seen I have noted them in my data when there were issues measuring &
+        \includegraphics[height=5cm,keepaspectratio]{too unclear} \\
+        \hline
+        There are shadows sometimes in the data. This is also noted. &
+        \includegraphics[height=3cm,keepaspectratio]{shadow the hedgeho} \\
+
+    \end{tabularx}
+    \caption{Qualitative observations and their interpretation.}
+    \label{tab:qualitative-observations}
+\end{table}
+
+\subsection{Quantitative}
+
+
 
 
 

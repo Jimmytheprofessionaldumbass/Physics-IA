@@ -1,7 +1,14 @@
 \contentsline {section}{\numberline {1}Introduction and Background}{2}{}%
-\contentsline {section}{\numberline {2}Methodology}{5}{}%
-\contentsline {subsection}{\numberline {2.1}Research Hypothesis and Method variables}{5}{}%
+\contentsline {section}{\numberline {2}Methodology}{4}{}%
+\contentsline {subsection}{\numberline {2.1}Research Hypothesis and Method variables}{4}{}%
 \contentsline {subsection}{\numberline {2.2}Variable Control and Measurement}{6}{}%
-\contentsline {subsection}{\numberline {2.3}Setup Description and Experimental Procedure}{7}{}%
-\contentsline {subsubsection}{\numberline {2.3.1}Setup Procecdure}{8}{}%
-\contentsline {subsubsection}{\numberline {2.3.2}Experimental Procedure}{10}{}%
+\contentsline {subsection}{\numberline {2.3}Setup Description and Experimental Procedure}{6}{}%
+\contentsline {subsubsection}{\numberline {2.3.1}Macro Procedure}{7}{}%
+\contentsline {paragraph}{Setup Procecdure}{7}{}%
+\contentsline {paragraph}{Experimental Procedure}{8}{}%
+\contentsline {subsubsection}{\numberline {2.3.2}Micro Procedure}{9}{}%
+\contentsline {paragraph}{Setup procedure}{10}{}%
+\contentsline {paragraph}{Experimental Procedure}{10}{}%
+\contentsline {section}{\numberline {3}Results}{12}{}%
+\contentsline {subsection}{\numberline {3.1}Qualitative}{12}{}%
+\contentsline {subsection}{\numberline {3.2}Quantitative}{12}{}%
