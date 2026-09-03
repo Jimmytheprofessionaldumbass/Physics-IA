@@ -1,0 +1,23 @@
+\contentsline {section}{\numberline {1}Introduction and Background}{2}{}%
+\contentsline {section}{\numberline {2}Methodology}{5}{}%
+\contentsline {subsection}{\numberline {2.1}Research Hypothesis and Method variables}{5}{}%
+\contentsline {paragraph}{Independent Variable}{5}{}%
+\contentsline {paragraph}{Dependent Variable}{6}{}%
+\contentsline {subsection}{\numberline {2.2}Variable Control and Measurement}{6}{}%
+\contentsline {subsection}{\numberline {2.3}Setup Description and Setup/Experimental Procedure}{8}{}%
+\contentsline {subsubsection}{\numberline {2.3.1}Macro Procedure}{9}{}%
+\contentsline {paragraph}{Setup Procecdure}{9}{}%
+\contentsline {paragraph}{Experimental Procedure}{10}{}%
+\contentsline {subsubsection}{\numberline {2.3.2}Micro Procedure}{11}{}%
+\contentsline {paragraph}{Setup procedure}{11}{}%
+\contentsline {paragraph}{Experimental Procedure}{12}{}%
+\contentsline {section}{\numberline {3}Results}{12}{}%
+\contentsline {subsection}{\numberline {3.1}Qualitative}{12}{}%
+\contentsline {subsection}{\numberline {3.2}Quantitative}{15}{}%
+\contentsline {section}{\numberline {4}Conclusion}{18}{}%
+\contentsline {subsection}{\numberline {4.1}Method Evaluation}{19}{}%
+\contentsline {section}{\numberline {5}Works Cited}{21}{}%
+\contentsline {section}{\numberline {6}Appendix}{21}{}%
+\contentsline {subsection}{\numberline {6.1}Raw Numerical Data}{21}{}%
+\contentsline {subsection}{\numberline {6.2}Raw Images}{21}{}%
+\contentsline {subsection}{\numberline {6.3}Perspective Corrected Images}{21}{}%

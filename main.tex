@@ -292,80 +292,89 @@ and now we arrive at our destination.
 \section{Methodology}
 \subsection{Research Hypothesis and Method variables}
 
-% The independent variable is the distance between the slit and the screen and will include values that range from the [nearby and further apart]. The [nearby] will include 20cm, 40cm, 60cm, 80cm, and 100cm, while the further apart include 3 meters, 5 meters, 6 meters and 8 meters.
-
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=0.7\textwidth]{Macro setup sketch}
-    \caption{"macro" experimental setup sketch}
-    \label{fig:macro setup sketch}
-\end{figure}
-We have a measuring tape origin (depicted in the diagram) and the true origin. The true origin (will be hereon designated simply “origin”) is offset from the measuring tape origin and it is the origin of the track of the moving laser. The displacement of the laser from the true origin is the “short-side displacement” referencing its limited mobility on the track. Tables are precisely measured to be particular displacements away from the measuring tape origin, this displacement is described as the “far-side displacement”. For our case, we had multiple tables for multiple distances, once we have completed measuring with one table, we could simply move them aside, revealing the table behind for other distances without requiring to risk disturbances from moving the measuring tape.
-\paragraph{Independent Variable}
-\par
-The independent variable is the distance $D$ between the slit and the screen (See figure \ref{fig:double slit diagram}). There will be two experiments carried out with different setups, namely, the "macro" and "micro" experiments. This is to satisfy the trial quantity to increase validity
+\paragraph{Independent Variable}\leavevmode\\
+The independent variable is the distance $D$ between the slit and the screen (See figure \ref{fig:double slit diagram}). There will be two experiments carried out with different setups, namely, the "macro" and "micro" experiments. This is to satisfy the trial quantity and to increase validity
 \begin{itemize}
     \item Micro will solely focus on distances within a meter and will include (in cm) 20, 40, 60, 80, and 100.
     \item Macro will be done from various distances ranging from 3 to 8 meters and will include (in m) 3, 3.5, 4, 5, 5.5, 6, 6.5, 7, and 8.
         \begin{itemize}
-            \item Macro has two systems for changing the distance. One is the changing of distance of the table which includes 3m, 5m, 6m, and 8m
-            \item Each of these distances will have micro steps that include (in meters) +0, +50, and +100 which will extend our trial amounts. 
+            \item Macro has two systems for changing the distance. One is the "far side", changing of distance of the table which includes 3m, 5m, 6m, and 8m
+            \item This distance is relative to the measuring tape origin
+            \item Each of these distances will have micro steps that include (in meters) +0, +50, and +100 which will extend our trial amounts.
+            \item This distance is relative to a seperate origin described below
             \item This is achieved by what we will refer to as "2 axis translation stage" or "translation stage" in short. %Ensure this is referred to throughout. and see figure x for reference
-            \item For example, for 5 meters we will have (in m) 5.00, 5.50, and 6.00.
+            \item For example, for 5 meters we will have (in m) 5.00, 5.50, and 6.00
         \end{itemize}
-\end{itemize} % Add the origins explanation from template, also just explain what origin for a system means
+\end{itemize}
+
+Figure \ref{fig:macro setup sketch} illustrates the arrangement of the two elements. Notice how the zero-position of the translation stage is not coincident with the zero position of the measuring tape and is rather closer. This means the true distance $D$ between the slit and the screen is less than the values described above by a certain offset.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Macro setup sketch}
+    \caption{"macro" experimental setup sketch}
+    \label{fig:macro setup sketch}
+\end{figure}
 
 
 
-\paragraph{Dependent Variable} % Ask codex to do the par better
-\par
-The measured dependent variable is the distance $s$ between two adjacent bright fringes. Illustrated by the following image.
+\paragraph{Dependent Variable}\leavevmode\\
+The measured dependent variable is the distance $s$ between two adjacent bright fringes. Illustrated by the figure \ref{fig:S illustration}.
 \begin{figure}[htbp]
     \center
-    \includesvg[width=\textwidth]{s-image}
+    \includesvg[width=0.5\textwidth]{s-image}
     \caption{Label of S in the image}
     \label{fig:S illustration}
 \end{figure}
 \par
-And hence our guiding question is %why isn't this showing?
-\begin{figure}[htbp]
-    \center
+And hence our guiding question is
+\par
+\begin{centering}
     \textbf{What is the relationship with the distance between screen and slit (from the range of 20cm to 8 m) and the spacing between adjacent bright fringes (in mm) in a double slit system.}
-\end{figure}
-
+\end{centering}
+\par
 And we hypothesize that the relationship would be a linear relationship with the distance between screen and slit and the spacing between adjacent bright fringes. This is because our mathematically derived equation $s= D\dfrac{\lambda}{d}$ suggests a directly proportional relationship between $s$ and $D$.
 
 \subsection{Variable Control and Measurement}
-% Method of how its gonna be changed: For the long range,there will be three objects the pattern will be projected on,the object chosen is a graphed piece of paper on a clipboard, suspended hanging on a table. For each distance, the source will move between 3 distances, and once the data for each table is collected, it will be moved away to revealthe nexttable. For the shortrange data, the projected screen will move on a wheel on tracks. 
-% Justification: This range of data will provide us justification for not only the short range, but also long range to show the validity ofthe double slit equation over a range of distances. 
+Before we continue, "origin" refers to 0cm on the measuring tape
 The distance between slit and screen will be modified two means.
+The long range consists of the aforementioned 3m, 5m, 6m, and 8m. It will be achieved with the placement of three tables (of which the projected screen will hang on), the last 8m is the distance from the origin directly to the wall and thus does not require a seperate table.
 
-The long range consists of the aforementioned 3m, 5m, 6m, and 8m. It will be achieved with the placement of three tables (of which the recording instrument will hang on), the last 8m is the distance from the origin directly to the wall. They will be relative to an arbitrary "origin" point in the classroom marked with a masking tape. % Good place to talk about the origin thing
+The short range will represent the aforementioned "micro steps" (0cm, 50cm, and 100cm) and will be achieved by placing the slit (and light source) on a 2 axis translation stage built with momentum test cart shown in figure \ref{fig:2 axis translation stage}.
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{2 axis translation stage}
+    \caption{2 axis translation stage}
+    \label{fig:2 axis translation stage}
+\end{figure}
 
-The short range will represent the aforementioned "micro steps" (0cm, 50cm, and 100cm) and will be achieved by placing the slit (and light source) on a 2 axis translation stage build with momentum test cart shown in figure x. %yes add figure
-
-This range of data will provide us justification for not only the short range, but also long range to show the validity of the double slit equation is justified over a range of distances. % Spacing for organization
+This range of data will provide us justification for not only the short range, but also long range to show the validity of the double slit equation is justified over a range of distances.
 
 
-% Measurement Method: I willtake a high resolution image with my phone and use perspective correction on the image and use software solutions such as imageJto find the average distance between each fringe 
-% Justification: One picture will be taken for each distance.But multiple takes on fringe spacing will be recorded and the average will be found. 
 The distance between adjacent fringes will be measured by:
 \begin{enumerate}
-    \item Having the interference pattern projected on a graphing paper with a known grid size %Graphing paper image
+    \item Having the interference pattern projected on a graphing paper with a known grid size (see figure \ref{fig:graphing paper image})
+        \begin{figure}[h]
+            \center
+            \includegraphics[width=0.5\textwidth]{graphing paper image}
+            \caption{graphing paper image}
+            \label{fig:graphing paper image}
+        \end{figure}
     \item Taking a high resolution photo of the graphing paper using a phone % Ask chatgpt if need period at the end of each step
-    \item Perspective correction of the image. See figure \ref{fig:perspective correction screenshot}%Software image
+    \item Perspective correction of the image. See figure \ref{fig:perspective correction screenshot}
     \begin{figure}[htbp]
         \centering
-        \caption{An example screenshot of using the perspective correction tool in Photopea} %Capitalization Error
+        \includegraphics[width=.5\textwidth]{perspective correction screenshot}
+        \caption{an example screenshot of using the perspective correction tool in Photopea} %Capitalization Error
         \label{fig:perspective correction screenshot}
     \end{figure}
-    \item Data measurement by software means (Fiji \cite{fiji} will be used) %Cite all instances of software
+    \item Data measurement by software means (\cite{fiji}) will be used
         \begin{enumerate}
-            \item Finding the amount of pixels per cm across different parts of the image%first of all this is lear the fringes, and just make it sound better
-            \item Set the average of 6 measured known distances of the grid paper as the scale for measurements
+            \item Finding the pixels between cm gridlines near the fringes 6 times
+            \item The average is set as the scale for measurements
             \item Test accuracy by measuring the 1mm grid on the paper with the set scale % If still have time use it for uncertainty and add justification, or still add to evaluation if you didn't have time, so add to evaluation first, and add a comment saying if you still have time, then try this instead
             \item Measure the distance between left and right edges of a fringe (the immediate intermediate between bright and dark fringes) % Add image to illustrate
-            \item Repeat last step for each maxima %idk is this the right word? interference envelope? check
+            \item Repeat last step for each interference envelope
             \item Repeat steps 1-5 for each image of different distances between slit and screen
         \end{enumerate} %make diagram of hierchy (helpful but not strictly necessary)
 \end{enumerate}
