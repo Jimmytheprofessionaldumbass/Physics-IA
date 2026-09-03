@@ -11,6 +11,8 @@
 \usepackage{array}
 \usepackage{longtable}
 \usepackage[margin=2cm]{geometry}
+\usepackage[backend=biber,style=apa]{biblatex}
+\addbibresource{works cited.bib}
 \graphicspath{{Images/}}
 \usetikzlibrary{arrows.meta}
 \pgfplotsset{compat=1.18}
@@ -196,7 +198,7 @@ The formula proposed by Thomas Young was
     s=\frac{\lambda D}{d}
 \end{equation}
 In which "S" is the distance between two adjacent bright fringes, $\lambda$ is the wavelength of the light, $D$ is the distance between the screen and slits in meters and $d$ is the distance between slits. 
-The mathematical geometric derivation is thus justified: %\cite{}
+The mathematical geometric derivation is thus justified \cite{weideman_double_slit}:
 Consider a point a on the screen of a double slit system at which two light rays touch from their respective slits.
 This is illustrated in figure \ref{fig:double slit diagram}
 \begin{figure}[htbp]
@@ -440,7 +442,7 @@ Additional equipment required for accurate setup is as listed:
     % Setup Diagram
     \item Align the forward facing (towards the screen) cart track with a ruler (or any straight object) facing perpendicular to the ground to ensure the outermost edge is aligned with the origin.
     %Alignment images
-    \item Place carts on each track
+    \item Place carntits on each track
     \item Place a cart track atop of both carts (parallel to the direction of the ray)
     \item Place a cart on the new cart track
     \item Place the double slit laser instrument on the cart
@@ -591,6 +593,7 @@ Since the fringe spacing is within the milimeter range and it is beyond my human
         Some of the fringes are too unclear to be seen I have noted them in my data when there were issues measuring & \includegraphics[width=\linewidth,height=5cm,keepaspectratio]{too unclear} \\
         \hline
         There are shadows sometimes in the data. This is also noted. & \includegraphics[width=\linewidth,height=3cm,keepaspectratio]{shadow the hedgeho} \\
+        \hline
 
 \end{longtable}
 
@@ -610,9 +613,9 @@ Our raw data consists of different trials, each of which has:
         \item Also done 6 times
         \item Could be used to determine uncertainty of our set scale since we are measuring another known size on the image and if it deviates from the expected value it suggests an uncertainty. However this was not used due to the lack of time.
     \end{itemize}
-    \item The distance between adjacent fringes for each seperate big fringe
+    \item The distance between adjacent fringes for each seperate diffraction envelope
     \begin{itemize}
-        \item Each big fringe has been measured from:
+        \item Each diffraction envelope has been measured from:
             \begin{itemize}
                 \item The left edge of the bright fringe to the adjacent left edge of the bright fringe
                 \item The right edge of the bright fringe to the adjacent right edge of the bright fringe
@@ -636,50 +639,60 @@ The fringe distance is calculated by
 
 The distance is calculated by
 \begin{equation}
-    \text{Distance} = \text{initial distance} - \text{offset} + \text{2 axis translation stage modifier}
+    \text{Distance} = \text{initial distance} - \text{offset} + (\text{2 axis translation stage modifier})
 \end{equation}
 Recall that every distance is based off of the origin point of the measuring tape, which is at 0cm. For instance the table is set to be [initial distance] away from the origin point of the measuring tape where D is one of the values for our independent variables mentioned earlier. However our 2 axis translation stage is closer to the table by a distance [offset] and must have that subtracted from the desired distance. Then we add the 2 axis translation stage modifier because recall that we have two systems responsible for controlling our independent variable, and this one is the one responsible for the "micro adjustments".
 The predicted values are calculated by plugging the values into the equation we derived in the beginning. Namely:
 \begin{equation}
     s = \frac{\lambda d}{D}
 \end{equation}
-Where lambda is the wavelength of light of our laser (532nm)
+Where lambda is the wavelength of light of our laser (532nm) and d is the distance between slits 0.45mm
 And hence we get the following data (some are duplicate due to the two system method we have chosen to measure)
 
+The difference is calculated with
+\begin{equation}
+    \text{Difference} = \text{Measured Value} - \text{Predicted Value}
+\end{equation}
 
-\begin{longtable}{| >{\raggedright\arraybackslash}p{0.29\textwidth}| >{\centering\arraybackslash}p{0.29\textwidth}| >{\centering\arraybackslash}p{0.29\textwidth}|
-}
-    Distance from slit (in cm) & Fringe Spacing (in mm) & Predicted Values (in m)\\
+
+\begin{longtable}{|
+>{\raggedright\arraybackslash}p{0.22\textwidth}|
+>{\centering\arraybackslash}p{0.22\textwidth}|
+>{\centering\arraybackslash}p{0.22\textwidth}|
+>{\centering\arraybackslash}p{0.22\textwidth}|}
     \hline
-    247.8 & 2.96805 & 0.002929547 \\
+    Distance from slit (m) & Average Fringe Spacing (m) & Predicted Values (m) & Difference (m)\\
     \hline
-    297.8 & 3.4416 & 0.003520658 \\
+    2.478 & 0.00296805 & 0.002929547 & 0.000038503 \\
     \hline
-    347.8 & 4.119882353 & 0.004111769 \\
+    2.978 & 0.0034416 & 0.003520658 & 0.000079058 \\
     \hline
-    447.8 & 5.246733333 & 0.005293991 \\
+    3.478 & 0.004119882353 & 0.004111769 & 0.000008113353 \\
     \hline
-    497.8 & 5.840387097 & 0.005885102 \\
+    4.478 & 0.005246733333 & 0.005293991 & 0.000047257667 \\
     \hline
-    547.8 & 6.468451613 & 0.006476213 \\
+    4.978 & 0.005840387097 & 0.005885102 & 0.000044714903 \\
     \hline
-    547.8 & 6.451115385 & 0.006476213\\
+    5.478 & 0.006468451613 & 0.006476213 & 0.000007761387 \\
     \hline
-    597.8 & 6.993166667 & 0.007067324 \\
+    5.478 & 0.006451115385 & 0.006476213 & 0.000025097615 \\
     \hline
-    647.8 & 7.584148148 & 0.007658436 \\
+    5.978 & 0.006993166667 & 0.007067324 & 0.000074157333 \\
     \hline
-    847.8 & 10.52954545 & 0.01002288 \\
+    6.478 & 0.007584148148 & 0.007658436 & 0.000074287852 \\
     \hline
-    100 & 1.1763 & 0.001182222 \\
+    8.478 & 0.01052954545 & 0.01002288 & 0.000506665450 \\
     \hline
-    80 & 0.94847619 & 0.000945778 \\
+    1.000 & 0.0011763 & 0.001182222 & 0.000005922 \\
     \hline
-    60 & 0.73755 & 0.000709333 \\
+    0.800 & 0.00094847619 & 0.000945778 & 0.000002698190 \\
     \hline
-    40 & 0.5 & 0.000472889 \\
+    0.600 & 0.00073755 & 0.000709333 & 0.000028217 \\
     \hline
-    20 & 0.276166667 & 0.000236444
+    0.400 & 0.0005 & 0.000472889 & 0.000027111 \\
+    \hline
+    0.200 & 0.000276166667 & 0.000236444 & 0.000039722667 \\
+    \hline
 \end{longtable}
 %check uncertainty
 
@@ -687,6 +700,7 @@ The line of best fit was calculated by desmos. By plotting the average datapoint
 
 \begin{figure}[htbp]
     \centering
+    \vspace{1.5cm}
     \textbf{The Effect of Distance from Screen on Distance Between Adjacent Fringes}
     \vspace{1.5cm}
     \includesvg[width=\textwidth]{processed graph}
@@ -707,10 +721,41 @@ We discovered that the relationship between these two variables is linear; an in
 What was unexpected is the magnitude of accuracy of the data to the predicted values by recording data using this method. Since this method had the perpendicularities of the meter stick for aligning the table all human approximated by eye as we had a lack of set-squares during setup. This may suggest that the angle deviation of the projected surface from being perpendicular to the path of the laser is of negligible importance. Or it may suggest that experimentally longer lines are easier to be approximated by eye rather than needing a set square
 
 
-The fringes closer to the middle are usually brighter, so it would more easily reach the maximum exposure of the camera. This can affectthe perceived “edge” is as thatis my [baseline]for measuring fringe seperation. I measure it by left/right edge to the edge ofthe adjacent fringe. This can compromise the data and introduce uncertainty. For example, when measuring distance between adjacent fringes ofthe leftmost edge,the left edge of that pair, would be more closerto the center than the rightfringe ofthe pair, since this one is more brighter,the edge would be furtherfrom the center ofthe fringe. 
+\begin{figure}[htbp]
+    \center
+    \includegraphics[width=0.5\textwidth]{No tape}
+    \caption{A Datapoint that shows the lack of tape}
+    \label{img:lack of tape}
+\end{figure}
+
+For the macro experiments I failed to tape the graphing paper onto the clipboard which could lead to distortions even after the perspective correction process. See fig \ref{img:lack of tape}.
+
+A methological consideration for a more accurate setup could be based off of a laser rangefinder or have used laser rangefinders to check accuracy
+
+The wheel of the tables were not of premium quality, meaning the process of locking it could result in changes in distance.
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\linewidth,height=5cm,keepaspectratio]{slanted}
+    \caption{Experimental image that is slanted}
+    \label{fig:slanted image}
+\end{figure}
+
+As mentioned in the observations, some images were slanted. In reality, all images are slanted, however for images that don't appear as drastically slanted were software measured with perfect horizontal distances in the software. which could introduce bias. See figure \ref{fig:slanted image}.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\linewidth,height=5cm,keepaspectratio]{too unclear}
+    \caption{Experimental image that is too unclear to be analyzed}
+    \label{fig:too unclear}
+\end{figure}
+
+As aforementioned, some of the fringes are too unclear to be seen, this is potentially dependent on the quality of the fringes. as imperfect cuts of the slit could result in minor inperfections that compound with distance. See figure \ref{fig:too unclear}
+
+The fringes closer to the middle are usually brighter, so it would more easily reach the maximum exposure of the camera. This can affectthe perceived “edge” is as thatis my [baseline]for measuring fringe seperation. I measure it by left/right edge to the edge ofthe adjacent fringe. This can compromise the data and introduce uncertainty. For example, when measuring distance between adjacent fringes ofthe leftmost edge,the left edge of that pair, would be more closerto the center than the rightfringe ofthe pair, since this one is more brighter,the edge would be furtherfrom the center ofthe fringe.
 %add images from docx
 
 
+\printbibliography
     
 
 

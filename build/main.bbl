@@ -1,0 +1,113 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{weideman_double_slit}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=358b938aee33e0cd63566887f324e3b4}{%
+           family={Weideman},
+           familyi={W\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {University of California, Davis}%
+      }
+      \list{publisher}{1}{%
+        {Physics LibreTexts}%
+      }
+      \strng{namehash}{358b938aee33e0cd63566887f324e3b4}
+      \strng{fullhash}{358b938aee33e0cd63566887f324e3b4}
+      \strng{fullhashraw}{358b938aee33e0cd63566887f324e3b4}
+      \strng{bibnamehash}{358b938aee33e0cd63566887f324e3b4}
+      \strng{authorbibnamehash}{358b938aee33e0cd63566887f324e3b4}
+      \strng{authornamehash}{358b938aee33e0cd63566887f324e3b4}
+      \strng{authorfullhash}{358b938aee33e0cd63566887f324e3b4}
+      \strng{authorfullhashraw}{358b938aee33e0cd63566887f324e3b4}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{3.2: Double-Slit Interference}
+      \field{urlday}{3}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://phys.libretexts.org/Courses/University_of_California_Davis/Physics_9B_Fall_2020_Taufour/03:_Physical_Optics/3.02:_Double-Slit_Interference
+      \endverb
+      \verb{url}
+      \verb https://phys.libretexts.org/Courses/University_of_California_Davis/Physics_9B_Fall_2020_Taufour/03:_Physical_Optics/3.02:_Double-Slit_Interference
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{weideman_double_slit}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=358b938aee33e0cd63566887f324e3b4}{%
+           family={Weideman},
+           familyi={W\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {University of California, Davis}%
+      }
+      \list{publisher}{1}{%
+        {Physics LibreTexts}%
+      }
+      \strng{namehash}{358b938aee33e0cd63566887f324e3b4}
+      \strng{fullhash}{358b938aee33e0cd63566887f324e3b4}
+      \strng{fullhashraw}{358b938aee33e0cd63566887f324e3b4}
+      \strng{bibnamehash}{358b938aee33e0cd63566887f324e3b4}
+      \strng{authorbibnamehash}{358b938aee33e0cd63566887f324e3b4}
+      \strng{authornamehash}{358b938aee33e0cd63566887f324e3b4}
+      \strng{authorfullhash}{358b938aee33e0cd63566887f324e3b4}
+      \strng{authorfullhashraw}{358b938aee33e0cd63566887f324e3b4}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{3.2: Double-Slit Interference}
+      \field{urlday}{3}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://phys.libretexts.org/Courses/University_of_California_Davis/Physics_9B_Fall_2020_Taufour/03:_Physical_Optics/3.02:_Double-Slit_Interference
+      \endverb
+      \verb{url}
+      \verb https://phys.libretexts.org/Courses/University_of_California_Davis/Physics_9B_Fall_2020_Taufour/03:_Physical_Optics/3.02:_Double-Slit_Interference
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

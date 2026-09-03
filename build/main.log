@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.10)  2 SEP 2026 23:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.10)  3 SEP 2026 07:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -459,44 +459,308 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen302
 \Gm@layoutvoffset=\dimen303
 \Gm@dimlist=\toks42
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count338
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (/usr/local/texlive/2026/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count339
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (/usr/local/texlive/2026/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count340
+\c@listtotal=\count341
+\c@listcount=\count342
+\c@liststart=\count343
+\c@liststop=\count344
+\c@citecount=\count345
+\c@citetotal=\count346
+\c@multicitecount=\count347
+\c@multicitetotal=\count348
+\c@instcount=\count349
+\c@maxnames=\count350
+\c@minnames=\count351
+\c@maxitems=\count352
+\c@minitems=\count353
+\c@citecounter=\count354
+\c@maxcitecounter=\count355
+\c@savedcitecounter=\count356
+\c@uniquelist=\count357
+\c@uniquename=\count358
+\c@refsection=\count359
+\c@refsegment=\count360
+\c@maxextratitle=\count361
+\c@maxextratitleyear=\count362
+\c@maxextraname=\count363
+\c@maxextradate=\count364
+\c@maxextraalpha=\count365
+\c@abbrvpenalty=\count366
+\c@highnamepenalty=\count367
+\c@lownamepenalty=\count368
+\c@maxparens=\count369
+\c@parenlevel=\count370
+\blx@tempcnta=\count371
+\blx@tempcntb=\count372
+\blx@tempcntc=\count373
+\c@blx@maxsection=\count374
+\blx@maxsegment@0=\count375
+\blx@notetype=\count376
+\blx@parenlevel@text=\count377
+\blx@parenlevel@foot=\count378
+\blx@sectionciteorder@0=\count379
+\blx@sectionciteorderinternal@0=\count380
+\blx@entrysetcounter=\count381
+\blx@biblioinstance=\count382
+\labelnumberwidth=\skip60
+\labelalphawidth=\skip61
+\biblabelsep=\skip62
+\bibitemsep=\skip63
+\bibnamesep=\skip64
+\bibinitsep=\skip65
+\bibparsep=\skip66
+\bibhang=\skip67
+\blx@bcfin=\read3
+\blx@bcfout=\write4
+\blx@langwohyphens=\language91
+\c@mincomprange=\count383
+\c@maxcomprange=\count384
+\c@mincompwidth=\count385
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'apa.dbx' found.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex-apa/apa.dbx
+File: apa.dbx 2025/08/27 v9.20 APA biblatex style data model
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count386
+\c@savedafterword=\count387
+\c@annotator=\count388
+\c@savedannotator=\count389
+\c@author=\count390
+\c@savedauthor=\count391
+\c@bookauthor=\count392
+\c@savedbookauthor=\count393
+\c@commentator=\count394
+\c@savedcommentator=\count395
+\c@editor=\count396
+\c@savededitor=\count397
+\c@editora=\count398
+\c@savededitora=\count399
+\c@editorb=\count400
+\c@savededitorb=\count401
+\c@editorc=\count402
+\c@savededitorc=\count403
+\c@foreword=\count404
+\c@savedforeword=\count405
+\c@holder=\count406
+\c@savedholder=\count407
+\c@introduction=\count408
+\c@savedintroduction=\count409
+\c@namea=\count410
+\c@savednamea=\count411
+\c@nameb=\count412
+\c@savednameb=\count413
+\c@namec=\count414
+\c@savednamec=\count415
+\c@translator=\count416
+\c@savedtranslator=\count417
+\c@shortauthor=\count418
+\c@savedshortauthor=\count419
+\c@shorteditor=\count420
+\c@savedshorteditor=\count421
+\c@narrator=\count422
+\c@savednarrator=\count423
+\c@execproducer=\count424
+\c@savedexecproducer=\count425
+\c@execdirector=\count426
+\c@savedexecdirector=\count427
+\c@with=\count428
+\c@savedwith=\count429
+\c@labelname=\count430
+\c@savedlabelname=\count431
+\c@institution=\count432
+\c@savedinstitution=\count433
+\c@lista=\count434
+\c@savedlista=\count435
+\c@listb=\count436
+\c@savedlistb=\count437
+\c@listc=\count438
+\c@savedlistc=\count439
+\c@listd=\count440
+\c@savedlistd=\count441
+\c@liste=\count442
+\c@savedliste=\count443
+\c@listf=\count444
+\c@savedlistf=\count445
+\c@location=\count446
+\c@savedlocation=\count447
+\c@organization=\count448
+\c@savedorganization=\count449
+\c@origlocation=\count450
+\c@savedoriglocation=\count451
+\c@origpublisher=\count452
+\c@savedorigpublisher=\count453
+\c@publisher=\count454
+\c@savedpublisher=\count455
+\c@language=\count456
+\c@savedlanguage=\count457
+\c@origlanguage=\count458
+\c@savedoriglanguage=\count459
+\c@citation=\count460
+\c@savedcitation=\count461
+\c@pageref=\count462
+\c@savedpageref=\count463
+\shorthandwidth=\skip68
+\shortjournalwidth=\skip69
+\shortserieswidth=\skip70
+\shorttitlewidth=\skip71
+\shortauthorwidth=\skip72
+\shorteditorwidth=\skip73
+\locallabelnumberwidth=\skip74
+\locallabelalphawidth=\skip75
+\localshorthandwidth=\skip76
+\localshortjournalwidth=\skip77
+\localshortserieswidth=\skip78
+\localshorttitlewidth=\skip79
+\localshortauthorwidth=\skip80
+\localshorteditorwidth=\skip81
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+\c@textcitecount=\count464
+\c@textcitetotal=\count465
+\c@textcitemaxnames=\count466
+\c@biburlbigbreakpenalty=\count467
+\c@biburlbreakpenalty=\count468
+\c@biburlnumpenalty=\count469
+\c@biburlucpenalty=\count470
+\c@biburllcpenalty=\count471
+\biburlbigskip=\muskip19
+\biburlnumskip=\muskip20
+\biburlucskip=\muskip21
+\biburllcskip=\muskip22
+\c@smartand=\count472
+)
+Package biblatex Info: Trying to load bibliography style 'apa'...
+Package biblatex Info: ... file 'apa.bbx' found.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex-apa/apa.bbx
+File: apa.bbx 2025/08/27 v9.20 APA biblatex references style
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count473
+\c@bbx:relatedtotal=\count474
+)
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defined, overwriting.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already defined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'bib' already defined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'biblist' already defined, overwriting.
+)
+Package biblatex Info: Trying to load citation style 'apa'...
+Package biblatex Info: ... file 'apa.cbx' found.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex-apa/apa.cbx
+File: apa.cbx 2025/08/27 v9.20 APA biblatex citation style
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, overwriting.
+Package biblatex Info: Delimiter 'andothersdelim' in context '' already defined, overwriting.
+Package biblatex Info: Redefining '\fullcite'.
+Package biblatex Info: Redefining '\citeauthor'.
+Package biblatex Info: Redefining '\citeyear'.
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcites'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\footcitetexts'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\smartcites'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2026-01-19 L3 programming layer (loader) 
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count475
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2026-01-19 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2025-10-09 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfarrowinset=\dimen304
 \pgfarrowlength=\dimen305
 \pgfarrowwidth=\dimen306
 \pgfarrowlinewidth=\dimen307
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count338
-) (build/main.aux)
+)
+\@quotelevel=\count476
+\@quotereset=\count477
+ (build/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
  (/usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count339
+\scratchcounter=\count478
 \scratchdimen=\dimen308
 \scratchbox=\box75
-\nofMPsegments=\count340
-\nofMParguments=\count341
+\nofMPsegments=\count479
+\nofMParguments=\count480
 \everyMPshowfont=\toks43
-\MPscratchCnt=\count342
+\MPscratchCnt=\count481
 \MPscratchDim=\dimen309
-\MPnumerator=\count343
-\makeMPintoPDFobject=\count344
+\MPnumerator=\count482
+\makeMPintoPDFobject=\count483
 \everyMPtoPDFconversion=\toks44
 ) (/usr/local/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -547,14 +811,46 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(build/main.toc)
-\tf@toc=\write4
-\openout4 = `main.toc'.
+Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
+Package biblatex Info: ... file 'english-apa.lbx' found.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
+File: english-apa.lbx 2025/08/27 v9.20 APA biblatex localisation
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'american' -> 'american-apa'...
+Package biblatex Info: ... file 'american-apa.lbx' found.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex-apa/american-apa.lbx
+File: american-apa.lbx 2025/08/27 v9.20 APA biblatex localisation
+Package biblatex Info: Trying to load language 'american'...
+Package biblatex Info: ... file 'american.lbx' found.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/lbx/american.lbx
+File: american.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+))))
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout4 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (build/main.bbl)
+Package biblatex Info: Reference section=0 on input line 30.
+Package biblatex Info: Reference segment=0 on input line 30.
+ (build/main.toc)
+\tf@toc=\write5
+\openout5 = `main.toc'.
 
  [1
 
 {/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Package svg Info: Last page of `./svg-inkscape/s-image_svg-tex.pdf' is 1 on input line 317.
+Package svg Info: Last page of `./svg-inkscape/s-image_svg-tex.pdf' is 1 on input line 319.
  (./svg-inkscape/s-image_svg-tex.pdf_tex
 <./svg-inkscape/s-image_svg-tex.pdf, id=30, page=1, 14968.42188pt x 10244.52344pt>
 File: ./svg-inkscape/s-image_svg-tex.pdf Graphic file (type pdf)
@@ -565,60 +861,60 @@ Package pdftex.def Info: ./svg-inkscape/s-image_svg-tex.pdf , page1 used on inpu
 <Images/micro back setup.jpg, id=51, 3292.3pt x 2473.24pt>
 File: Images/micro back setup.jpg Graphic file (type jpg)
 <use Images/micro back setup.jpg>
-Package pdftex.def Info: Images/micro back setup.jpg  used on input line 530.
+Package pdftex.def Info: Images/micro back setup.jpg  used on input line 532.
 (pdftex.def)             Requested size: 250.24199pt x 187.97574pt.
 <Images/Cart offset thickness.jpg, id=52, 3292.3pt x 2473.24pt>
 File: Images/Cart offset thickness.jpg Graphic file (type jpg)
 <use Images/Cart offset thickness.jpg>
-Package pdftex.def Info: Images/Cart offset thickness.jpg  used on input line 539.
+Package pdftex.def Info: Images/Cart offset thickness.jpg  used on input line 541.
 (pdftex.def)             Requested size: 240.23016pt x 180.46577pt.
 <Images/Clipboard thickness.jpg, id=53, 2473.24pt x 3292.3pt>
 File: Images/Clipboard thickness.jpg Graphic file (type jpg)
 <use Images/Clipboard thickness.jpg>
-Package pdftex.def Info: Images/Clipboard thickness.jpg  used on input line 546.
+Package pdftex.def Info: Images/Clipboard thickness.jpg  used on input line 548.
 (pdftex.def)             Requested size: 240.23016pt x 319.75461pt.
  [10 <./Images/micro back setup.jpg>] [11 <./Images/Cart offset thickness.jpg> <./Images/Clipboard thickness.jpg>]
-Overfull \hbox (500.484pt too wide) detected at line 577
+Overfull \hbox (500.484pt too wide) detected at line 579
 []
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 576--582
+Underfull \hbox (badness 10000) in alignment at lines 578--584
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 582--586
+Underfull \hbox (badness 10000) in alignment at lines 584--588
 [] []
  []
 
 <Images/lacking tape.jpg, id=61, 8190.6pt x 6167.04pt>
 File: Images/lacking tape.jpg Graphic file (type jpg)
 <use Images/lacking tape.jpg>
-Package pdftex.def Info: Images/lacking tape.jpg  used on input line 587.
+Package pdftex.def Info: Images/lacking tape.jpg  used on input line 589.
 (pdftex.def)             Requested size: 151.0988pt x 113.76851pt.
 <Images/slanted lines.jpg, id=62, 1056.94875pt x 612.2875pt>
 File: Images/slanted lines.jpg Graphic file (type jpg)
 <use Images/slanted lines.jpg>
-Package pdftex.def Info: Images/slanted lines.jpg  used on input line 589.
+Package pdftex.def Info: Images/slanted lines.jpg  used on input line 591.
 (pdftex.def)             Requested size: 105.70107pt x 61.23233pt.
 <Images/slanted.jpg, id=63, 8190.6pt x 6167.04pt>
 File: Images/slanted.jpg Graphic file (type jpg)
 <use Images/slanted.jpg>
-Package pdftex.def Info: Images/slanted.jpg  used on input line 589.
+Package pdftex.def Info: Images/slanted.jpg  used on input line 591.
 (pdftex.def)             Requested size: 105.60669pt x 79.51563pt.
 <Images/too unclear.jpg, id=64, 578.16pt x 477.785pt>
 File: Images/too unclear.jpg Graphic file (type jpg)
 <use Images/too unclear.jpg>
-Package pdftex.def Info: Images/too unclear.jpg  used on input line 591.
+Package pdftex.def Info: Images/too unclear.jpg  used on input line 593.
 (pdftex.def)             Requested size: 172.14368pt x 142.25761pt.
 <Images/shadow the hedgeho.jpg, id=65, 4954.51pt x 3369.58875pt>
 File: Images/shadow the hedgeho.jpg Graphic file (type jpg)
 <use Images/shadow the hedgeho.jpg>
-Package pdftex.def Info: Images/shadow the hedgeho.jpg  used on input line 593.
+Package pdftex.def Info: Images/shadow the hedgeho.jpg  used on input line 595.
 (pdftex.def)             Requested size: 125.49539pt x 85.35008pt.
 
-Underfull \hbox (badness 10000) in alignment at lines 586--595
+Underfull \hbox (badness 10000) in alignment at lines 588--597
 [] []
  []
 
@@ -627,52 +923,71 @@ ignored: Infinite glue shrinkage found in box being split [12 <./Images/lacking 
 <Images/raw data extract.png, id=69, 491.8375pt x 981.6675pt>
 File: Images/raw data extract.png Graphic file (type png)
 <use Images/raw data extract.png>
-Package pdftex.def Info: Images/raw data extract.png  used on input line 627.
+Package pdftex.def Info: Images/raw data extract.png  used on input line 629.
 (pdftex.def)             Requested size: 250.24199pt x 499.46046pt.
  [13 <./Images/too unclear.jpg> <./Images/shadow the hedgeho.jpg>] [14 <./Images/raw data extract.png>]
-Underfull \hbox (badness 10000) in alignment at lines 651--683
-[] [] []
+Underfull \hbox (badness 10000) in alignment at lines 661--695
+[] [] [] []
  []
 
 
+ignored: Infinite glue shrinkage found in box being split [15]
+
 Package svg Warning: You didn't enable `shell escape' (or `write18')
 (svg)                so it wasn't possible to launch the Inkscape export
-(svg)                for `Images/processed graph.svg' on input line 692.
+(svg)                for `Images/processed graph.svg' on input line 705.
 
-Package svg Info: Last page of `./svg-inkscape/processed graph_svg-tex.pdf' is 2 on input line 692.
+Package svg Info: Last page of `./svg-inkscape/processed graph_svg-tex.pdf' is 2 on input line 705.
 (./svg-inkscape/processed graph_svg-tex.pdf_tex
-<./svg-inkscape/processed graph_svg-tex.pdf, id=80, page=1, 1829.26674pt x 1230.8167pt>
+<./svg-inkscape/processed graph_svg-tex.pdf, id=83, page=1, 1829.26674pt x 1230.8167pt>
 File: ./svg-inkscape/processed graph_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/processed graph_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/processed graph_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 500.484pt x 336.73842pt.
-<./svg-inkscape/processed graph_svg-tex.pdf, id=81, page=2, 1829.26674pt x 1230.8167pt>
+<./svg-inkscape/processed graph_svg-tex.pdf, id=84, page=2, 1829.26674pt x 1230.8167pt>
 File: ./svg-inkscape/processed graph_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/processed graph_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/processed graph_svg-tex.pdf , page2 used on input line 91.
 (pdftex.def)             Requested size: 500.484pt x 336.73842pt.
-) [15] [16 <./svg-inkscape/processed graph_svg-tex.pdf> <./svg-inkscape/processed graph_svg-tex.pdf
+) [16 <./svg-inkscape/processed graph_svg-tex.pdf> <./svg-inkscape/processed graph_svg-tex.pdf
 
 pdfTeX warning: pdflatex (file ./svg-inkscape/processed graph_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [17] (build/main.aux)
+>]
+<Images/No tape.jpg, id=90, 8190.6pt x 6167.04pt>
+File: Images/No tape.jpg Graphic file (type jpg)
+<use Images/No tape.jpg>
+Package pdftex.def Info: Images/No tape.jpg  used on input line 725.
+(pdftex.def)             Requested size: 250.24199pt x 188.39087pt.
+File: Images/slanted.jpg Graphic file (type jpg)
+<use Images/slanted.jpg>
+Package pdftex.def Info: Images/slanted.jpg  used on input line 737.
+(pdftex.def)             Requested size: 188.84225pt x 142.1871pt.
+File: Images/too unclear.jpg Graphic file (type jpg)
+<use Images/too unclear.jpg>
+Package pdftex.def Info: Images/too unclear.jpg  used on input line 746.
+(pdftex.def)             Requested size: 172.14368pt x 142.25761pt.
+ [17 <./Images/No tape.jpg>] [18] [19] (build/main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 27048 strings out of 467525
- 693122 string characters out of 5418982
- 1254924 words of memory out of 5000000
- 55535 multiletter control sequences out of 15000+600000
- 635491 words of font info for 67 fonts, out of 8000000 for 9000
+ 35774 strings out of 467525
+ 867029 string characters out of 5418982
+ 1910429 words of memory out of 5000000
+ 64175 multiletter control sequences out of 15000+600000
+ 635838 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,16n,107p,723b,2272s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on build/main.pdf (17 pages, 29039622 bytes).
+ 102i,16n,107p,1181b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on build/main.pdf (19 pages, 38653310 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
+ 158 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
