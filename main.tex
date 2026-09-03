@@ -172,7 +172,7 @@ Wave Phenomena states that waves could interfere when they overlap. When two wav
     \label{fig:wave interference illustration}
 \end{figure}
 % Cite the experiment!
-The debate of whether light is a particle or a wave was challenged by Thomas Young's famous Double Slit Experiment in Young's Course of Lectures on Natural Philosophy and the Mechanical Arts of 1807, where a coherent light source shinning through two tiny slits projected an interference pattern with alternation between light and dark fringes rather than two individual bright fringes in a dark background. Illustrated In Figure \ref{fig:double slit system}. % Ask chatgpt how to draw the interference pattern
+The debate of whether light is a particle or a wave was challenged by Thomas Young's famous Double Slit Experiment in Young's Course of Lectures on Natural Philosophy and the Mechanical Arts of 1807 (\cite{young1807}), where a coherent light source shinning through two tiny slits projected an interference pattern with alternation between light and dark fringes rather than two individual bright fringes in a dark background. Illustrated In Figure \ref{fig:double slit system}. % Ask chatgpt how to draw the interference pattern
 \begin{figure}[htbp]
     \center
     
@@ -247,7 +247,7 @@ We observe the fact that the path difference ($\Delta x$) for constructive waves
     n\lambda
     \label{eq:path difference constructive}
 \end{equation}
-where $\lambda$ is the wavelength of the light and $n$ is an integer representing the interested bright fringe. Hence we derive the equation %How is it represented?
+where $\lambda$ is the wavelength of the light and $n$ is an integer representing the nth bright fringe. where $n=0$ is the central maxima and negative values representing the nth bright fringe of the opposite direction. Hence we derive the equation.
 \begin{align}
     \sin(\theta) &= \frac{\Delta x}{d} \\
     \sin(\theta) &= \frac{n\lambda}{d} \\
@@ -262,7 +262,7 @@ This angle approximation for small values of $\theta$ also apply to $\tan(\theta
 \begin{equation}
     \tan(\theta) = \frac{y}{D}
 \end{equation}
-and since we know that this is the same $\theta$ we can simplify to %Adjust flow, how is "same theta" connected to "being approximable"
+and since we know that this is the same $\theta$ as the one used in $\sin(\theta)$ which is close to zero, we can simplify to %Adjust flow, how is "same theta" connected to "being approximable"
 \begin{equation}
     \theta = \frac{y}{D}
 \end{equation}
@@ -273,7 +273,7 @@ and putting them together
     \frac{y}{D} &= \frac{n \lambda}{d} \\
     y  &= n\frac{D\lambda}{d} \\
 \end{align}
-To find the distance between fringes we need to find the distance of a fringe to the central maxima and distance of a consecutive fringe to the central maxima and find the the difference between their distances. % Diagram to show -----____----------------------------------------------------------------------------------
+To find the distance between fringes we need to find the distance of a fringe to the central maxima and distance of a consecutive fringe to the central maxima and find the the difference between their distances. % Diagram to show 
 \par
 We have defined the distance from the central maximum as 
 \begin{itemize}
@@ -288,19 +288,22 @@ finding the difference $\Delta y$ gives us the $s$ spacing between adjacent frin
 \end{align}
 and now we arrive at our destination.
 
+\pagebreak
 \section{Methodology}
-    
-
 \subsection{Research Hypothesis and Method variables}
 
 % The independent variable is the distance between the slit and the screen and will include values that range from the [nearby and further apart]. The [nearby] will include 20cm, 40cm, 60cm, 80cm, and 100cm, while the further apart include 3 meters, 5 meters, 6 meters and 8 meters.
 
-
-% A rough diagram of the setup and like what is D
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{Macro setup sketch}
+    \caption{"macro" experimental setup sketch}
+    \label{fig:macro setup sketch}
+\end{figure}
+We have a measuring tape origin (depicted in the diagram) and the true origin. The true origin (will be hereon designated simply “origin”) is offset from the measuring tape origin and it is the origin of the track of the moving laser. The displacement of the laser from the true origin is the “short-side displacement” referencing its limited mobility on the track. Tables are precisely measured to be particular displacements away from the measuring tape origin, this displacement is described as the “far-side displacement”. For our case, we had multiple tables for multiple distances, once we have completed measuring with one table, we could simply move them aside, revealing the table behind for other distances without requiring to risk disturbances from moving the measuring tape.
 \paragraph{Independent Variable}
 \par
-The independent variable is the distance $D$ between the slit and the screen. There will be two experiments carried out with different setups, namely, the "macro" and "micro" experiments. This is to satisfy the trial quantity to increase validity and the nature of each experimental procedure, which is explained in the ensuing sections. %Reword it, the explanation of why you're doing this
-% Make sub points hollow
+The independent variable is the distance $D$ between the slit and the screen (See figure \ref{fig:double slit diagram}). There will be two experiments carried out with different setups, namely, the "macro" and "micro" experiments. This is to satisfy the trial quantity to increase validity
 \begin{itemize}
     \item Micro will solely focus on distances within a meter and will include (in cm) 20, 40, 60, 80, and 100.
     \item Macro will be done from various distances ranging from 3 to 8 meters and will include (in m) 3, 3.5, 4, 5, 5.5, 6, 6.5, 7, and 8.
@@ -356,7 +359,7 @@ The distance between adjacent fringes will be measured by:
         \caption{An example screenshot of using the perspective correction tool in Photopea} %Capitalization Error
         \label{fig:perspective correction screenshot}
     \end{figure}
-    \item Data measurement by software means (Fiji \cite{software:fiji} will be used) %Cite all instances of software
+    \item Data measurement by software means (Fiji \cite{fiji} will be used) %Cite all instances of software
         \begin{enumerate}
             \item Finding the amount of pixels per cm across different parts of the image%first of all this is lear the fringes, and just make it sound better
             \item Set the average of 6 measured known distances of the grid paper as the scale for measurements
@@ -715,7 +718,7 @@ The line of best fit was calculated by desmos. By plotting the average datapoint
 
 
 
-\section{Conclusion} % Ask giulian's conclusion how he yapped so much. Do I genuinely got nothing to say or just don't know the direction for my conclusion? ---------------------------------------------------------------------------------------------------------
+\section{Conclusion} % Ask giulian's conclusion how he yapped so much. Do I genuinely got nothing to say or just don't know the direction for my conclusion? 
 The goal of this research is to investigate a double slit system. Particularly, how change in displacement between the slit and the screen corresponds to a change in fringe spacing and determine the curve relationship
 
 We discovered that the relationship between these two variables is linear; an increase in the displacement respects a proportional increase in fringe spacing, which validates Thomas Young's mathematically derived equation we explored earlier since the values calculated with that equation are extremely close to the measured values, up to micrometer accuracy. For instance, for the following data listed below, we also included the difference. % add the data points
@@ -733,11 +736,10 @@ What was unexpected is the magnitude of accuracy of the data to the predicted va
     \label{img:lack of tape}
 \end{figure}
 
-For the macro experiments I failed to tape the graphing paper onto the clipboard which could lead to distortions even after the perspective correction process. See fig \ref{img:lack of tape}.
+For the macro experiments I failed to tape the graphing paper onto the clipboard which could lead to distortions even after the perspective correction process. See fig \ref{img:lack of tape}. %Add the things from observations
 
-A methological consideration for a more accurate setup could be based off of a laser rangefinder or have used laser rangefinders to check accuracy
 
-The wheel of the tables were not of premium quality, meaning the process of locking it could result in changes in distance.
+The wheel of the tables were not of premium quality, meaning the process of locking it could result in variations in distance. A methological consideration for a more accurate setup could be based off of a laser rangefinder or have used laser rangefinders to check accuracy
 
 
 
@@ -749,6 +751,9 @@ The wheel of the tables were not of premium quality, meaning the process of lock
 \end{figure}
 
 As mentioned in the observations, some images were slanted. In reality, all images are slanted, however for images that don't appear as drastically slanted were software measured with perfect horizontal distances in the software. which could introduce bias. See figure \ref{fig:slanted image}.
+
+
+Also aforementioned is that some of the fringes are too unclear to be seen(see figure \ref{fig:too unclear}), this is potentially dependent on the quality of the fringes. Less precision produced slits could result in imperfections that propagate into the projected interference pattern as noise (See figure \ref{fig:interference noise}). It is possible to inspect different fringes and choose the most precise one. Figure \ref{fig:microscope} presents imaging of the slits used for the experiment and exposes inconsistencies on the surface.
 
 \begin{figure}[htbp]
     \centering
@@ -770,15 +775,12 @@ As mentioned in the observations, some images were slanted. In reality, all imag
     \label{fig:microscope}
 \end{figure}
 
-As aforementioned, some of the fringes are too unclear to be seen(see figure \ref{fig:too unclear}), this is potentially dependent on the quality of the fringes. Low precision production slits could result in imperfections that propagate into the projected interference pattern as noise (See figure \ref{fig:interference noise}). It is possible to inspect different fringes and choose the most precise one. Figure \ref{fig:microscope} presents imaging of the slits used for the experiment and exposes inconsistencies on the surface.
-
-
-The fringes closer to the middle are usually brighter, so it would more easily reach the maximum exposure of the camera. This can affect the perceived “edge” is as thatis my [baseline]for measuring fringe seperation. I measure it by left/right edge to the edge ofthe adjacent fringe. This can compromise the data and introduce uncertainty. For example, when measuring distance between adjacent fringes ofthe leftmost edge,the left edge of that pair, would be more closerto the center than the rightfringe ofthe pair, since this one is more brighter,the edge would be furtherfrom the center ofthe fringe.
+For the trials, as the screen gets closer the fringes closer to the middle are usually brighter, so it would more easily reach the maximum exposure of the camera. This can affect the perceived “edge” and add bias to the results since that is our criteria for measuring fringe seperation. For instance, when measuring distance between two adjacent fringes on the left side, the right fringe of that pair, would be more closer to the center than the left fringe of that pair, and since this one is more brighter,the edge would be furtherfrom the center ofthe fringe. %Label and decribe better
 %add images from docx
 
 \section{Works Cited}
     
-\printbibliography
+\printbibliography %add bibliography for software
     
 \section{Appendix}
 \subsection{Raw Numerical Data}
@@ -786,7 +788,7 @@ The raw numerical data imports exactly the excel book I worked on while writing 
 \subsection{Raw Images}
 Raw image entails the original image directly taken from step 10 for Macro experimental procedure and step 3 in the Micro experimental procedure.
 \subsection{Perspective Corrected Images}
-Perspective corrected data is the data that is perspective corrected using Photopea \cite{software:photopeo} that is then put into Fiji \cite{software:fiji} used to measure fringe distance.
+Perspective corrected data is the data that is perspective corrected using Photopea \cite{photopea} that is then put into Fiji \cite{fiji} used to measure fringe distance.
     
     
 

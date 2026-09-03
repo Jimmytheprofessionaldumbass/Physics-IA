@@ -19,6 +19,36 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{fiji}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=edab7671f3fd1f934c3f990bc60c7e1c}{%
+           family={{Fiji contributors}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{edab7671f3fd1f934c3f990bc60c7e1c}
+      \strng{fullhash}{edab7671f3fd1f934c3f990bc60c7e1c}
+      \strng{fullhashraw}{edab7671f3fd1f934c3f990bc60c7e1c}
+      \strng{bibnamehash}{edab7671f3fd1f934c3f990bc60c7e1c}
+      \strng{authorbibnamehash}{edab7671f3fd1f934c3f990bc60c7e1c}
+      \strng{authornamehash}{edab7671f3fd1f934c3f990bc60c7e1c}
+      \strng{authorfullhash}{edab7671f3fd1f934c3f990bc60c7e1c}
+      \strng{authorfullhashraw}{edab7671f3fd1f934c3f990bc60c7e1c}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fiji}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://fiji.sc/
+      \endverb
+      \verb{url}
+      \verb https://fiji.sc/
+      \endverb
+    \endentry
     \entry{weideman_double_slit}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=358b938aee33e0cd63566887f324e3b4}{%
@@ -61,9 +91,73 @@
       \verb{url}
       \verb https://phys.libretexts.org/Courses/University_of_California_Davis/Physics_9B_Fall_2020_Taufour/03:_Physical_Optics/3.02:_Double-Slit_Interference
       \endverb
+    \endentry
+    \entry{young1807}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=303e5b1e86249ca165ef0f41a60f2671}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {J. Johnson}%
+      }
+      \strng{namehash}{303e5b1e86249ca165ef0f41a60f2671}
+      \strng{fullhash}{303e5b1e86249ca165ef0f41a60f2671}
+      \strng{fullhashraw}{303e5b1e86249ca165ef0f41a60f2671}
+      \strng{bibnamehash}{303e5b1e86249ca165ef0f41a60f2671}
+      \strng{authorbibnamehash}{303e5b1e86249ca165ef0f41a60f2671}
+      \strng{authornamehash}{303e5b1e86249ca165ef0f41a60f2671}
+      \strng{authorfullhash}{303e5b1e86249ca165ef0f41a60f2671}
+      \strng{authorfullhashraw}{303e5b1e86249ca165ef0f41a60f2671}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Course of Lectures on Natural Philosophy and the Mechanical Arts}
+      \field{volume}{1}
+      \field{year}{1807}
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
+    \entry{fiji}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=edab7671f3fd1f934c3f990bc60c7e1c}{%
+           family={{Fiji contributors}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{edab7671f3fd1f934c3f990bc60c7e1c}
+      \strng{fullhash}{edab7671f3fd1f934c3f990bc60c7e1c}
+      \strng{fullhashraw}{edab7671f3fd1f934c3f990bc60c7e1c}
+      \strng{bibnamehash}{edab7671f3fd1f934c3f990bc60c7e1c}
+      \strng{authorbibnamehash}{edab7671f3fd1f934c3f990bc60c7e1c}
+      \strng{authornamehash}{edab7671f3fd1f934c3f990bc60c7e1c}
+      \strng{authorfullhash}{edab7671f3fd1f934c3f990bc60c7e1c}
+      \strng{authorfullhashraw}{edab7671f3fd1f934c3f990bc60c7e1c}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fiji}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://fiji.sc/
+      \endverb
+      \verb{url}
+      \verb https://fiji.sc/
+      \endverb
+    \endentry
     \entry{weideman_double_slit}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=358b938aee33e0cd63566887f324e3b4}{%
@@ -107,7 +201,42 @@
       \verb https://phys.libretexts.org/Courses/University_of_California_Davis/Physics_9B_Fall_2020_Taufour/03:_Physical_Optics/3.02:_Double-Slit_Interference
       \endverb
     \endentry
+    \entry{young1807}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=303e5b1e86249ca165ef0f41a60f2671}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {J. Johnson}%
+      }
+      \strng{namehash}{303e5b1e86249ca165ef0f41a60f2671}
+      \strng{fullhash}{303e5b1e86249ca165ef0f41a60f2671}
+      \strng{fullhashraw}{303e5b1e86249ca165ef0f41a60f2671}
+      \strng{bibnamehash}{303e5b1e86249ca165ef0f41a60f2671}
+      \strng{authorbibnamehash}{303e5b1e86249ca165ef0f41a60f2671}
+      \strng{authornamehash}{303e5b1e86249ca165ef0f41a60f2671}
+      \strng{authorfullhash}{303e5b1e86249ca165ef0f41a60f2671}
+      \strng{authorfullhashraw}{303e5b1e86249ca165ef0f41a60f2671}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Course of Lectures on Natural Philosophy and the Mechanical Arts}
+      \field{volume}{1}
+      \field{year}{1807}
+    \endentry
   \enddatalist
+  \missing{photopea}
 \endrefsection
 \endinput
 
