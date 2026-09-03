@@ -32,7 +32,7 @@
 \tableofcontents
 \pagebreak
 \section{Introduction and Background}
-Wave Phenomena states that wave could interfere when they overlap. When two waves are in opposite phase, it is said to interfere destructively and cancel out. However, if they are the same phase and interferes, it is said to be constructive, reaching a greater amplitude.
+Wave Phenomena states that waves could interfere when they overlap. When two waves are in opposite phase, it is said to interfere destructively and cancel out. However, if they are the same phase and interferes, it is said to be constructive, reaching a greater amplitude.
 \par
 \begin{figure}[htbp]
     \centering
@@ -171,8 +171,8 @@ Wave Phenomena states that wave could interfere when they overlap. When two wave
     \caption{Illustration of wave interference}
     \label{fig:wave interference illustration}
 \end{figure}
-% Include an image maybe idk
-The debate of whether light is a particle or a wave was challenged by Thomas Young's famous Double Slit Experiment in Young's Course of Lectures on Natural Philosophy and the Mechanical Arts of 1807, where a coherent light source shinning through two tiny slits projected an interference pattern with alternation between light and dark fringes rather than two individual bright fringes in a dark background. Illustrated In Figure \ref{fig:double slit system}
+% Cite the experiment!
+The debate of whether light is a particle or a wave was challenged by Thomas Young's famous Double Slit Experiment in Young's Course of Lectures on Natural Philosophy and the Mechanical Arts of 1807, where a coherent light source shinning through two tiny slits projected an interference pattern with alternation between light and dark fringes rather than two individual bright fringes in a dark background. Illustrated In Figure \ref{fig:double slit system}. % Ask chatgpt how to draw the interference pattern
 \begin{figure}[htbp]
     \center
     
@@ -197,8 +197,9 @@ The formula proposed by Thomas Young was
 \begin{equation}
     s=\frac{\lambda D}{d}
 \end{equation}
+\par
 In which "S" is the distance between two adjacent bright fringes, $\lambda$ is the wavelength of the light, $D$ is the distance between the screen and slits in meters and $d$ is the distance between slits. 
-The mathematical geometric derivation is thus justified \cite{weideman_double_slit}:
+The mathematical geometric derivation is thus justified (\cite{weideman_double_slit}): % Fix citations, they're in text!
 Consider a point a on the screen of a double slit system at which two light rays touch from their respective slits.
 This is illustrated in figure \ref{fig:double slit diagram}
 \begin{figure}[htbp]
@@ -226,14 +227,11 @@ This is illustrated in figure \ref{fig:double slit diagram}
         \draw [thick] (1.5,3.5) arc (0:atan(4.5/10):1.5) node[font=\small,midway,fill=white,inner sep=0.5pt] {$\theta$}; 
 
         \draw [thick] (10,-1) -- (10,8);
-
-        % \draw [thick,->]  (5,2) node[left] {Central (bright) fringe} to [bend right = 30] (10,7);
-
     \end{tikzpicture}
     
-    \caption{Zoomed in view of double slit system}
+    \caption{annotated view of double slit system} % Change all of these into no capitalization!
     \label{fig:double slit diagram}
-\end{figure}
+\end{figure} %Fix how this looks and the flow
 \par
 We observe that the $\theta$ that is related by the equation
 \begin{equation}
@@ -249,7 +247,7 @@ We observe the fact that the path difference ($\Delta x$) for constructive waves
     n\lambda
     \label{eq:path difference constructive}
 \end{equation}
-where $\lambda$ is the wavelength of the light and $n$ is an integer representing the interested bright fringe. Hence we derive the equation
+where $\lambda$ is the wavelength of the light and $n$ is an integer representing the interested bright fringe. Hence we derive the equation %How is it represented?
 \begin{align}
     \sin(\theta) &= \frac{\Delta x}{d} \\
     \sin(\theta) &= \frac{n\lambda}{d} \\
@@ -264,7 +262,7 @@ This angle approximation for small values of $\theta$ also apply to $\tan(\theta
 \begin{equation}
     \tan(\theta) = \frac{y}{D}
 \end{equation}
-and since we know that this is the same $\theta$ we can simplify to
+and since we know that this is the same $\theta$ we can simplify to %Adjust flow, how is "same theta" connected to "being approximable"
 \begin{equation}
     \theta = \frac{y}{D}
 \end{equation}
@@ -275,14 +273,14 @@ and putting them together
     \frac{y}{D} &= \frac{n \lambda}{d} \\
     y  &= n\frac{D\lambda}{d} \\
 \end{align}
-to find the distance between fringes we need to find the distance of a fringe to the central maxima and distance of a consecutive fringe to the central maxima and find the the difference between their distances.
+To find the distance between fringes we need to find the distance of a fringe to the central maxima and distance of a consecutive fringe to the central maxima and find the the difference between their distances. % Diagram to show -----____----------------------------------------------------------------------------------
 \par
-We have defined the distance from the central maximum to 
+We have defined the distance from the central maximum as 
 \begin{itemize}
     \item the nth fringe as $y  = n\frac{D\lambda}{d}$
-    \item the nth + 1 fringe as $y  = \left(n+1)\right)\frac{D\lambda}{d}$
+    \item the nth + 1 (adjacent) fringe as $y  = \left(n+1)\right)\frac{D\lambda}{d}$
 \end{itemize}
-finding the difference $\Delta y = s$ gives us the spacing between adjacent fringes
+finding the difference $\Delta y$ gives us the $s$ spacing between adjacent fringes
 \begin{align}
     \Delta y = s&= \left(n+1\right) \frac{D \lambda}{d} - n \frac{D \lambda}{d} \\
     s &= \left(n+1-n\right) \frac{D \lambda}{d} \\
@@ -299,20 +297,25 @@ and now we arrive at our destination.
 
 
 % A rough diagram of the setup and like what is D
-
-The independent variable is the distance $D$ between the slit and the screen. There will be two experiments carried out with different setups, namely, the "macro" and "micro" experiments. This is to satisfy the trial quantity to increase validity and the nature of each experimental procedure, which is explained in the ensuing sections.
+\paragraph{Independent Variable}
+\par
+The independent variable is the distance $D$ between the slit and the screen. There will be two experiments carried out with different setups, namely, the "macro" and "micro" experiments. This is to satisfy the trial quantity to increase validity and the nature of each experimental procedure, which is explained in the ensuing sections. %Reword it, the explanation of why you're doing this
 % Make sub points hollow
 \begin{itemize}
     \item Micro will solely focus on distances within a meter and will include (in cm) 20, 40, 60, 80, and 100.
     \item Macro will be done from various distances ranging from 3 to 8 meters and will include (in m) 3, 3.5, 4, 5, 5.5, 6, 6.5, 7, and 8.
         \begin{itemize}
             \item Macro has two systems for changing the distance. One is the changing of distance of the table which includes 3m, 5m, 6m, and 8m
-            \item Each of these distances will have micro steps that include (in meters) +0, +50, and +100 which will extend our trial amounts
+            \item Each of these distances will have micro steps that include (in meters) +0, +50, and +100 which will extend our trial amounts. 
+            \item This is achieved by what we will refer to as "2 axis translation stage" or "translation stage" in short. %Ensure this is referred to throughout. and see figure x for reference
             \item For example, for 5 meters we will have (in m) 5.00, 5.50, and 6.00.
-            \item This is achieved by what we will refer to as "2 axis translation stage" or "translation stage" in short.
         \end{itemize}
-\end{itemize}
+\end{itemize} % Add the origins explanation from template, also just explain what origin for a system means
 
+
+
+\paragraph{Dependent Variable} % Ask codex to do the par better
+\par
 The measured dependent variable is the distance $s$ between two adjacent bright fringes. Illustrated by the following image.
 \begin{figure}[htbp]
     \center
@@ -334,40 +337,45 @@ And we hypothesize that the relationship would be a linear relationship with the
 % Justification: This range of data will provide us justification for not only the short range, but also long range to show the validity ofthe double slit equation over a range of distances. 
 The distance between slit and screen will be modified two means.
 
-The long range consists of the aforementioned 3m, 5m, 6m, and 8m. It will be achieved with the placement of three tables (of which the recording instrument will hang on), the last 8m is the distance from the origin directly to the wall. They will be relative to an arbitrary "origin" point in the classroom marked with a masking tape. 
+The long range consists of the aforementioned 3m, 5m, 6m, and 8m. It will be achieved with the placement of three tables (of which the recording instrument will hang on), the last 8m is the distance from the origin directly to the wall. They will be relative to an arbitrary "origin" point in the classroom marked with a masking tape. % Good place to talk about the origin thing
 
-The short range will represent the aforementioned "micro steps" (0cm, 50cm, and 100cm) and will be achieved by placing the slit (and light source) on a momentum test cart (this is because they move back and forth very smoothly on their designated tracks).
+The short range will represent the aforementioned "micro steps" (0cm, 50cm, and 100cm) and will be achieved by placing the slit (and light source) on a 2 axis translation stage build with momentum test cart shown in figure x. %yes add figure
 
-This range of data will provide us justification for not only the short range, but also long range to show the validity ofthe double slit equation over a range of distances. 
+This range of data will provide us justification for not only the short range, but also long range to show the validity of the double slit equation is justified over a range of distances. % Spacing for organization
 
 
 % Measurement Method: I willtake a high resolution image with my phone and use perspective correction on the image and use software solutions such as imageJto find the average distance between each fringe 
 % Justification: One picture will be taken for each distance.But multiple takes on fringe spacing will be recorded and the average will be found. 
 The distance between adjacent fringes will be measured by:
 \begin{enumerate}
-    \item Having the interference pattern projected on a graphing paper with a known grid size %Graphing paper
-    \item Taking a high resolution photo of the graphing paper
-    \item Perspective correction of the image %Software image
-    \item Data measurement by software means.
+    \item Having the interference pattern projected on a graphing paper with a known grid size %Graphing paper image
+    \item Taking a high resolution photo of the graphing paper using a phone % Ask chatgpt if need period at the end of each step
+    \item Perspective correction of the image. See figure \ref{fig:perspective correction screenshot}%Software image
+    \begin{figure}[htbp]
+        \centering
+        \caption{An example screenshot of using the perspective correction tool in Photopea} %Capitalization Error
+        \label{fig:perspective correction screenshot}
+    \end{figure}
+    \item Data measurement by software means (Fiji \cite{software:fiji} will be used) %Cite all instances of software
         \begin{enumerate}
-            \item Finding the amount of pixels per cm across different parts of the image
-            \item Set the average as the scale for measurements
-            \item Test accuracy by measuring the 1mm grid on the paper with set scale
-            \item Measure the distance between left and right edges of a fringe (the immediate intermediate between bright and dark fringes)
-            \item Repeat last step for each maxima %idk is this the right word?
-            \item Repeat steps 1-5 for each image of each distance between slit and screen
-        \end{enumerate}
+            \item Finding the amount of pixels per cm across different parts of the image%first of all this is lear the fringes, and just make it sound better
+            \item Set the average of 6 measured known distances of the grid paper as the scale for measurements
+            \item Test accuracy by measuring the 1mm grid on the paper with the set scale % If still have time use it for uncertainty and add justification, or still add to evaluation if you didn't have time, so add to evaluation first, and add a comment saying if you still have time, then try this instead
+            \item Measure the distance between left and right edges of a fringe (the immediate intermediate between bright and dark fringes) % Add image to illustrate
+            \item Repeat last step for each maxima %idk is this the right word? interference envelope? check
+            \item Repeat steps 1-5 for each image of different distances between slit and screen
+        \end{enumerate} %make diagram of hierchy (helpful but not strictly necessary)
 \end{enumerate}
 %include images
 
-The following control variables are considered:
+The following control variables are considered and kept constant (by the best of our abilities):
 \begin{itemize}
-    \item Using the same laser-slit instrument: If I used a different laser, there may be other properties in the laser beam that could affect results such as if the laser isn’t as coherent as last time, it would increase uncertainty.
-    \item Same wavelength (532nm): This would change the fringe distances according to the proposed formula with different frequencies, so I will continue to use green light throughout the experiments
-    \item same slit (0.45mm): This would also change the fringe distances as proposed by the formulas
+    \item Using the same laser-slit instrument; if a different laser were used, there may be other properties in the laser beam that could affect results such as difference between coherence, it would increase introduce uncertainty. %better word for uncertainty (ask chat)
+    \item Same wavelength (532nm): This would change the fringe distances according to the proposed formula with different frequencies, hence we will continue to use green light throughout the experiments
+    \item same slit (0.45mm): This would also change the fringe distances as proposed by the formulas.
     \item Same method for setting up each table
+    \item Same method for setting up the translation stage
     \item same method for measuring fringe distance
-
 \end{itemize}
 
 % The Following Extraneous variables are considered:
@@ -377,35 +385,35 @@ The following control variables are considered:
 %     \item and more to come
 % \end{itemize}
 % Just simply keep this in mind 
+% Yeah add this
 
 
 
 
-\subsection{Setup Description and Experimental Procedure}
+\subsection{Setup Description and Setup/Experimental Procedure} %Finger out what this section really is before writing, just skim through it first
 
 %-- Add turning off the lights
-There is obvious danger when it comes to operating aparatus such as a laser, so that’s why the experiment is done on a day where there is no education in the classroom. And I made the room dark so it raises fear to whomever enters my domain (and also such that the projected interference patterns are more prominent)
+There is obvious danger when it comes to operating aparatus such as a laser, which is why the experiment was done on a day where there is no education in the classroom. And I made the room dark so it raises fear to whomever enters my domain (and also such that the projected interference patterns are more prominent) % make education in the classroom funnier
 
-% Diagrams regarding the setup (if you can't find the images just draw with pencil)
+% Diagrams regarding the setup (if you can't find the images just draw with pencil) or literally take photo
 
-The setup will consists of the table components and the slit system.
-The slit system is a laser-slit system mounted on a two axis translation stage. This allows for changing the distance without moving away the table but rather by moving sideways and also allows for more microadjustments for each table. This is built with:
+The setup will consists of the table system and the slit system. %So here we refer to the template and translation stage
+The slit system is a laser-slit system mounted on a two axis translation stage. This allows for changing the distance without moving away the table but rather by moving sideways and also allows for more microadjustments for each table. Required components for this build include: % Better wording, "microadjustments??", also the angle change reason
 \begin{itemize}
     \item Two axis translation stage
     \begin{itemize}
-        \item 3 Momentum test tracks (Ours in particular had centimeter markings on the side and were perfectly cut off from 0cm)
-        %Images
-        \item 3 Momentum test carts 
+        \item 3 Momentum test tracks (Ours in particular had centimeter markings on the side and were perfectly cut off from 0cm) %show proof (see figure x)
+        \item 3 Momentum test carts % show image
     \end{itemize}
-    \item Laser-slit instrument
+    \item Laser-slit instrument %image as well
     \begin{itemize}
-        \item Make sure to measure the offset distance between the slit to the edge at the bottom of the instrument that you will use as the instrument's "origin point"
+        \item Make sure to measure the offset distance between the slit to the edge at the bottom of the instrument that you will use as the instrument's "origin point" %Elucidate "origin point"
         % Use image to illustrate
     \end{itemize}
     \item 4 stacks of books
 \end{itemize}
 
-The table will have a graphing/grid paper on a clipboard that is then hung on a part of the table with a setup displacement (described later in detail) Required components for this build include:
+The table will have a graphing/grid paper on a clipboard that is then hung on a part of the table with a setup displacement (described later in detail) Required components for this build include: %Ensure no further components are required, also do "additional components"
 \begin{itemize}
     \item Masking tape (or one you can write on)
     \item Table (duh)
@@ -418,84 +426,80 @@ The table will have a graphing/grid paper on a clipboard that is then hung on a 
 \subsubsection{Macro Procedure}
     
 
-\paragraph{Setup Procecdure}
+\paragraph{Setup Procecdure} %Better format & maybe seperate this in another section
 
-Additional equipment required for accurate setup is as listed:
+Additional equipment required for accurate setup is as listed: %is it "additional" though? just remove if it feels wrong. also ensure no other tools are used
 \begin{enumerate}
     \item Set squares (or likewise)
     \item Retort stand
     \item Meter stick
-    \item Masking tape %Use more in procedure
+    \item Masking tape (or likewise) %Use more in procedure. Did I actually choose this type for a reason? writing on is it actually helpful?
     \item Markers %Use more in procedure
-    \item Rulers
+    \item Rulers %or any long object that is light, should I explain why here? ask chatgpt
     \item Measuring tape (\~ 8m) %pls help fix ths
-\end{enumerate}
+\end{enumerate} % Really? Enumerate? ask chatgpt
 
-\begin{enumerate}
-    \item Taping the end of the measuring tape onto the floor with masking tape
-    \item Extend to the end of the wall
-    % Setup the laser ----------------------
-    \item Stack the books on the floor like shown
-    % Diagram or image
-    \item Place the two cart tracks atop of each pair of books perpendicular to the direction of the ray
+The procedure for setup begins below %Or say sth else idk? if reading this out doesn't stick like sore thumb then ok. Ask friends maybe
 
-    % Setup Diagram
-    \item Align the forward facing (towards the screen) cart track with a ruler (or any straight object) facing perpendicular to the ground to ensure the outermost edge is aligned with the origin.
-    %Alignment images
-    \item Place carntits on each track
+\begin{enumerate} % A table might actually be better, or at least tabular but numbered? Learn if have time
+    \item Taping the end of the measuring tape onto the floor with masking tape %I think I have image
+    \item Extend to the end of the wall %what does it mean? workshop with gpt, shouldn't take more than a minute
+    % Setup the laser ---------------------- % should each section be seperated? ask friends and gpt
+    \item Stack the books on the floor like shown % Diagram or image
+    \item Place the two cart tracks atop of each pair of books perpendicular to the path of the laser %Image exists now
+
+    \item Align the forward facing (towards the screen) cart track with a ruler (or any straight object) facing perpendicular to the ground to ensure the outermost edge is aligned with the origin. %Alignment images homemade need to still make
+    \item Place carts on each track
     \item Place a cart track atop of both carts (parallel to the direction of the ray)
     \item Place a cart on the new cart track
     \item Place the double slit laser instrument on the cart
-    \item Tape the double slit laser instrument onto both sides of the cart
-    \item Choose a designated "origin point" (that acts as a reference point for its distance) and discover its' horizontal offset distance from the slit
+    \item Tape the double slit laser instrument onto both sides of the cart % Might have images
+    \item Choose a designated "origin point" (that acts as a reference point for its distance) and discover its' horizontal offset distance from the slit %Explain this with the image illustration
+    % Setup Diagram final finished result
     % Table Setup
-    \item Place a meter stick perpendicular to the measuring tape. 
+    \item Place a meter stick perpendicular to the measuring tape. %I do have images actually
     \begin{itemize}
-        \item Make sure the edge facing away from the laser is aligned with the desired meter mark. This makes it easier to more accurately place the tables.
-        \item ensure that the stick is as perpendicular to the measuring tape as possible. This ensures both sides of the table is accurate to the desired displacement. This can be achieved with a set square.
+        \item Make sure the edge facing away from the laser is aligned with the desired meter mark. This makes it easier to more accurately place the tables. %Images!
+        \item ensure that the stick is as perpendicular to the measuring tape as possible. This ensures both sides of the table is accurate to the desired displacement. This can be achieved with a set square. %I might have images
     \end{itemize}
     \item Place the table near the interested displacement
-    \item Place a retort stand upside down as illustrated on one end of the table
-    %Illustration
-    \item Using a ruler, extend the length of measurement by placing it on the side of the rod away from the laser.
-    % Show the ruler on the correct side (establishing shot)
-    \item Move that end of the table until it aligns with the desired displacement
-    % Show illustration of it being aligned
-        \begin{itemize}
-            \item Ensure the side of the ruler facing the laser touches the side of the meter stick facing away from the laser.
-            \item Ensure that the ruler has no gaps and is perfectly parallel to the iron rod.
-            \item Since the surface that is to be projected on is the surface opposite from the laser, placing the ruler on the other side ensures the side of the ruler facing the laser represents the distance of the surface being project on. and by ensuring the surface of the meter stick away from the laser (representing the desired distance to be projected on) is touching the ruler (representing the distance of the screen to be projected on), we ensure that the table is perfectly positioned on the desired distance.
+    \item Place a retort stand upside down as illustrated on one end of the table %Have Images
+    \item Using a ruler, extend the length of measurement by placing it on the side of the rod away from the laser. % Show the ruler on the correct side (establishing shot)
+    \item Move that end of the table until it aligns with the desired displacement % Show illustration of it being aligned
+        \begin{itemize} %ask chatgpt if possible to connect columns
+            \item Ensure the side of the ruler facing the laser touches the side of the meter stick facing away from the laser. %Images!
+            \item Ensure that the ruler has no gaps and is perfectly parallel to the iron rod. % Before and after Images I even have
+            \item Since the surface that is to be projected on is the surface opposite from the laser, placing the ruler on the other side ensures the side of the ruler facing the laser represents the distance of the surface being project on. and by ensuring the surface of the meter stick away from the laser (representing the desired distance to be projected on) is touching the ruler (representing the distance of the screen to be projected on), we ensure that the table is perfectly positioned on the desired distance. %Show images with straight line through it
         \end{itemize}
-    \item Move the retort stand to the other side of the table and re-enact the alignment ritual
+    \item Move the retort stand to the other side of the table and re-enact the alignment ritual %Images!
     \item Repeat for each table and stand feeling proud of collecting all the infinity stones
 \end{enumerate}
 
 \paragraph {Experimental Procedure}
 
-Recall the two changing systems that comprise the control of the independent variables
+Recall the two changing systems that comprise the control of the independent variables % mention them if have enough words ------------------------------------------------------------------------------
 After the setup is complete begin the following experimental procedure:
 \begin{enumerate}
     \item Ensure no pedestrians are abode the path of the laser
-    \item Summone the Laser %Laser, go! Rouse the laser from its slumber. Awakeneth thy Laser. Initiate Laser Protocol. [] power upon the laser de illuminacion.
-    \item Adjust the momentum test cart such that the [set] origin point of the laser-slit system aligns with your desired distance from the origin point of the momentum test track
+    \item Rouse the laser from its slumber % Laser, go!  Awakeneth thy Laser. Initiate Laser Protocol. [] power upon the laser de illuminacion.
+    \item Adjust the momentum test cart such that the [set] origin point of the laser-slit system aligns with your desired distance from the origin point of the momentum test track % Translation stage, also the origin you should've figured out
     \item Clip on the grid paper as parallel to the clipboard as possible
-    \item Cut tape of equal length
+    \item Cut tape of equal length % Just include image also the other simple one, just add images still
     \item Place it on the clipboard 
-    \begin{itemize}
+    \begin{itemize} % have each step refer to different labels on the images
         \item Ensure the clipboard is in landscape mode
         \item Place on the projected surface
         \item Ensure both tapes have the same distance in their placement on their end.
-        \item Ensure that it is level
     \end{itemize}
     \item Attach the tape on the table
-    \begin{itemize}
+    \begin{itemize} %again there should be an image for this
         \item Ensure both tapes have the same distance in their placement on the table
         \item Ensure that the whole clipboard is level
     \end{itemize}
-    \item Wait for the clipboard to succumd to the will of gravity such that it is perfectly perpendicular to the ground
+    \item Wait for the clipboard to succumb to the will of gravity such that it is perfectly perpendicular to the ground %maybe image or label on image?
     \item Grab your local friend and ask them to hold up fingers indicating the trial/distance
 \begin{itemize}
-    \item We used the left hand represent the momentum cart distance (1 finger = 0cm, 2= +50cm, 3 = +100cm)
+    \item We used the left hand represent the translation stage (1 finger = 0cm, 2= +50cm, 3 = +100cm) %左右要分
     \item We used the right hand represent the table distance (1 finger = 3m, 2 = 5m, 3=6m, 4=8m)
     \item Ensure your friend's finger does not block essential fringes near the center
     \item Ensure your friend is a cool guy
@@ -505,32 +509,29 @@ After the setup is complete begin the following experimental procedure:
     \item Tell the table his free trial is over and remove him from the premises
     \begin{itemize}
         \item Ensure that his foot is disarmed if it is wheeled
-        \item Make sure his legs doesn't trip on the measuring tape by lifting it over)
+        \item Make sure his legs doesn't trip on the measuring tape by lifting it over
     \end{itemize}
     \item Repeat steps
 
-    %Show diagram
 \end{enumerate}
 
-And this concludes the Macro Scale Procedure
+And this concludes the Macro Scale Procedure <for ranges 3-8m>
 
 \subsubsection{Micro Procedure}
 
-The micro scale procedure posesses similarities
-
 \paragraph{Setup procedure}
 \begin{enumerate}
-    \item Set the momentum test track parallel to the path of the laser
-    \item Measure the offset of the slit to the origin of the momentum test track (0cm)
+    \item Place the momentum test track parallel to the path of the laser and ensure they're touching %Refer to a label on the image
+    \item Measure the offset of the slit to the origin of the momentum test track (0cm) %Check if have images
     \item Place a momentum test cart on the track
-    \item Place a momentum test track perpendicular to the path of the laser onto the track (Make sure it doesn't fall)
-    \item Tape onto the test track an object that allows perpendicular surfaces to face the laser. In this case we used a voltmeter
-    \item clip the graphing paper onto the clipboard
+    \item Place a momentum test track perpendicular to the path of the laser onto the track (Make sure it doesn't fall) %Refer to image label
+    \item Tape onto the test track an object that allows perpendicular surfaces to face the laser. In this case we used a voltmeter %label yada yada
+    \item clip the graphing paper onto the clipboard %another image
     \item Tape the clipboard onto the perpendicular surface
-    \begin{figure}[htbp]
+    \begin{figure}[htbp] %Maybe wrap text around image?
         \center
         \includegraphics[width=0.5\textwidth]{micro back setup}
-        \caption{analogue voltmeter}
+        \caption{the back of the micro setup}
         \label{fig:The back of the micro setup}
     \end{figure}
     \item Measure thickness of clipboard and the distance from the subsequent surface to the local origin of the cart
@@ -551,13 +552,14 @@ The micro scale procedure posesses similarities
         \end{subfigure}
         \caption{Measurement of offset}
         \label{fig:measurement of offset} % Have these seperately and reference them within
-    \end{figure}
-    \item Adjust the height of the laser instrument such that the interference pattern lands on the grid of the graphing paper.
+    \end{figure} %Yeah do wrapping
+    \item Adjust the height of the laser instrument such that the interference pattern lands on the grid of the graphing paper. %if can't find image just idk label or draw
 \end{enumerate}
 
 \paragraph{Experimental Procedure}
 \begin{enumerate}
     \item Displace the cart to the interested displacement
+    \item Stablize the cart by placing something under the wheels
     \item Summon the laser
     \item Take a high resolution photo
     \item Repeat for different displacements (20cm, 40cm, 60cm, 80cm, 100cm)
@@ -571,7 +573,7 @@ Since the fringe spacing is within the milimeter range and it is beyond my human
 
 \subsection{Qualitative}
 
-\renewcommand{\arraystretch}{1.2}
+\renewcommand{\arraystretch}{1.2} % Fix spacing in text
 \setlength{\LTleft}{0pt}
 \setlength{\LTright}{0pt}
 \setlength{\LTcapwidth}{\textwidth}
@@ -579,79 +581,82 @@ Since the fringe spacing is within the milimeter range and it is beyond my human
     \caption{Qualitative observations and their interpretation.}
     \label{tab:qualitative-observations} \\
         \hline
-        Qualitative observations  & Interpretation/Photos \\
+        Qualitative observations  & Interpretation/Photos \\ % Remove parts that aren't qualitative observations.
         \hline
     \endfirsthead
     \hline
     Qualitative observations  & Interpretation/Photos \\
     \hline
     \endhead
-        I don’t recall having taped the paper onto the surface of the clipboard for maximum flatness of the surface. The paper is clipped on the right side but not the left. This means when we do the perspective shifts it might have slight distortions & \includegraphics[width=\linewidth,height=4cm,keepaspectratio]{lacking tape} \\
+        Paper was not taped onto the surface of the clipboard, compromising maximum flatness of the surface. The paper is clipped on the right side but not the left. This cannot be solved by perspective correction as the paper is no longer a flat plane. & \includegraphics[width=\linewidth,height=4cm,keepaspectratio]{lacking tape} \\
         \hline
-        Some are really slanted for some reason. I ended up correcting it by drawing lines with respect to the direction of the slant and then measuring with that angle & \includegraphics[width=0.48\linewidth,height=5cm,keepaspectratio]{slanted lines} \includegraphics[width=0.48\linewidth,height=4cm,keepaspectratio]{slanted} \\
+        Some images (after perspective correction) had the fringe level slanted. This is due to the lack of attention in setting up the grid screen. I ended up correcting it by drawing reference lines with respect to the angle of the tilt and then attempting to align the measurement lines to be parallel to the reference lines. This could be prevented by having a different procedure for cutting the tape, potentially using a paper cutter with a printed measurement grid and rulers/set squares for placing the tape and subsequently onto the table. & \includegraphics[width=0.48\linewidth,height=5cm,keepaspectratio]{slanted lines} \includegraphics[width=0.48\linewidth,height=4cm,keepaspectratio]{slanted} \\ % Add images to show measurement lines being parallel. Maybe also talk about how software horizontal lines were used in the absence of conspicuous tilts. Oh shit this is just qualitative observations
         \hline
-        Some of the fringes are too unclear to be seen I have noted them in my data when there were issues measuring & \includegraphics[width=\linewidth,height=5cm,keepaspectratio]{too unclear} \\
+        Some of the fringes are too unclear to be seen I have noted them in my data when there were issues measuring estimating edge position & \includegraphics[width=\linewidth,height=5cm,keepaspectratio]{too unclear} \\
         \hline
-        There are shadows sometimes in the data. This is also noted. & \includegraphics[width=\linewidth,height=3cm,keepaspectratio]{shadow the hedgeho} \\
+        There are shadows in some photos. & \includegraphics[width=\linewidth,height=3cm,keepaspectratio]{shadow the hedgeho} \\ %check if they're just some photos or just one
         \hline
 
 \end{longtable}
 
 \subsection{Quantitative}
 
-The raw data is too big to fit here. Instead it will be stored in an appendix. Here will be only shown exclusively relevant data, and how it is going to be calculated.
+The raw data is too big to be coherently presented here (635 data points). Here will be only shown exclusively relevant data. We will introduce the available data from our raw data measurements (available in the appendix). How data is processed throughout the factory lane. %figure out of latex has appendix features. better word for factory lane
 
-Our raw data consists of different trials, each of which has:
+
+Our raw data consists of different trials (i.e. for each displacement), each of which has:
 \begin{itemize}
-    \item Pixels per centimeter-square side length (on the graph marked with a thicker lines)
+    \item The amount of pixels between the centimeter gridlines (the thicker lines)
     \begin{itemize}
-        \item It is done 6 times and the mean is used for setting the scale in the software
-        \item We chose to measure the side lengths of the squares closer to the interference pattern
+        \item Measured 6 times and the mean is used for setting the scale in the software
+        \item We chose to measure gridlines closer to the interference pattern
     \end{itemize}
-    \item Measurement of the milimeter-square side lengths 
+    \item Distance between between the milimeter gridlines according to the scale set by the previous measurements %chatgpt if something was mentioned about this earlier please refer to it I forgot I might need to remove to reduce repetition
     \begin{itemize}
         \item Also done 6 times
-        \item Could be used to determine uncertainty of our set scale since we are measuring another known size on the image and if it deviates from the expected value it suggests an uncertainty. However this was not used due to the lack of time.
+        \item Could be used to determine uncertainty of our set scale since we are measuring a known size on the image and if it deviates from the expected value it suggests an uncertainty similar to measured fringe spacing as they are part of the same process. However this was not used due to the lack of time. %ask chatgpt how to make this more clearer
     \end{itemize}
-    \item The distance between adjacent fringes for each seperate diffraction envelope
+    \item The distance between adjacent bright fringes for each seperate diffraction envelope (Dependent variable)
     \begin{itemize}
-        \item Each diffraction envelope has been measured from:
+        \item Multiple measurements made
+        \item Each diffraction envelope has 6 measurements done on each edge %Ask chatgpt if clear enough
             \begin{itemize}
+                % Have Image of explanation
                 \item The left edge of the bright fringe to the adjacent left edge of the bright fringe
                 \item The right edge of the bright fringe to the adjacent right edge of the bright fringe
-                \item Each edge has a 6 measurements done on them
             \end{itemize}
     \end{itemize}
     \item Average slit distance whose calculation is described below in detail
 \end{itemize}
-This is shown in figure \ref{img:raw data extract}
+An extract of our raw data is shown in figure \ref{img:raw data extract} % Do Better formatting
 \begin{figure}[htbp]
     \center
     \includegraphics[width=0.5\textwidth]{raw data extract}
     \caption{An extract of the data}
     \label{img:raw data extract}
 \end{figure}
+\par
 Since some images have limited visibility on the edge of each fringe, measurements on such is essentially guesswork and will be ommited for the average fringe spacing calculation.
 The fringe distance is calculated by
 \begin{equation}
-    \text{Average Fringe Spacing} =  \frac{\Sigma\text{all fringe spacing data points}}{\text{number of data points}}
+    \text{Average Fringe Spacing} =  \frac{\Sigma\text{all fringe spacing data points}}{\text{number of data points}}% Capitalization?? how to do on equations?
 \end{equation}
 
 The distance is calculated by
 \begin{equation}
     \text{Distance} = \text{initial distance} - \text{offset} + (\text{2 axis translation stage modifier})
-\end{equation}
-Recall that every distance is based off of the origin point of the measuring tape, which is at 0cm. For instance the table is set to be [initial distance] away from the origin point of the measuring tape where D is one of the values for our independent variables mentioned earlier. However our 2 axis translation stage is closer to the table by a distance [offset] and must have that subtracted from the desired distance. Then we add the 2 axis translation stage modifier because recall that we have two systems responsible for controlling our independent variable, and this one is the one responsible for the "micro adjustments".
+\end{equation} %Capitalization?? how to do on equations?
+Recall that every distance is based off of the origin point of the measuring tape, which is at 0cm. For instance the table is set to be [initial distance] away from the origin point of the measuring tape where D is one of the values for our independent variables mentioned earlier. However our 2 axis translation stage is closer to the table by a distance [offset] and must have that subtracted from the desired distance. Then we add the 2 axis translation stage modifier because recall that we have two systems responsible for controlling our independent variable, and this one is the one responsible for the "micro adjustments". % Read and make true to our definition of "origin"
 The predicted values are calculated by plugging the values into the equation we derived in the beginning. Namely:
 \begin{equation}
     s = \frac{\lambda d}{D}
 \end{equation}
 Where lambda is the wavelength of light of our laser (532nm) and d is the distance between slits 0.45mm
-And hence we get the following data (some are duplicate due to the two system method we have chosen to measure)
+And hence we get the following data (some are duplicate due to the two system method we have chosen to measure) %explain how the system results in duplicates ----------------------------------------------------------------------------------------------------------------------
 
 The difference is calculated with
 \begin{equation}
-    \text{Difference} = \text{Measured Value} - \text{Predicted Value}
+    \text{Difference} = \left|\text{Measured Value} - \text{Predicted Value}\right|
 \end{equation}
 
 
@@ -694,11 +699,11 @@ The difference is calculated with
     0.200 & 0.000276166667 & 0.000236444 & 0.000039722667 \\
     \hline
 \end{longtable}
-%check uncertainty
+%How should I do uncertainty? the validation of milimeter gridlines or just min max?
 
-The line of best fit was calculated by desmos. By plotting the average datapoints of fringe spacing with respect to displacement on desmos and using the linear regression feature. Desmos calculated an extremely strong correlation coefficient of 0.9991
+The line of best fit was calculated by desmos. By plotting the average datapoints of fringe spacing with respect to displacement on desmos and using the linear regression feature. Desmos calculated an extremely strong correlation coefficient of 0.9991 %Include more data from desmos via screenshot maybe even cite desmos 
 
-\begin{figure}[htbp]
+\begin{figure}[htbp] %move this to the right place and make the title prettier
     \centering
     \vspace{1.5cm}
     \textbf{The Effect of Distance from Screen on Distance Between Adjacent Fringes}
@@ -709,16 +714,16 @@ The line of best fit was calculated by desmos. By plotting the average datapoint
 \end{figure}
 
 
-    
-\section{Conclusion}
-The goal of this research is to investigate a double slit system. Particularly, how change in displaccement between the slit and the screen corresponds to a change in fringe spacing and determine the curve relationship
+
+\section{Conclusion} % Ask giulian's conclusion how he yapped so much. Do I genuinely got nothing to say or just don't know the direction for my conclusion? ---------------------------------------------------------------------------------------------------------
+The goal of this research is to investigate a double slit system. Particularly, how change in displacement between the slit and the screen corresponds to a change in fringe spacing and determine the curve relationship
 
 We discovered that the relationship between these two variables is linear; an increase in the displacement respects a proportional increase in fringe spacing, which validates Thomas Young's mathematically derived equation we explored earlier since the values calculated with that equation are extremely close to the measured values, up to micrometer accuracy. For instance, for the following data listed below, we also included the difference. % add the data points
 
 
 \subsection{Method Evaluation}
     
-What was unexpected is the magnitude of accuracy of the data to the predicted values by recording data using this method. Since this method had the perpendicularities of the meter stick for aligning the table all human approximated by eye as we had a lack of set-squares during setup. This may suggest that the angle deviation of the projected surface from being perpendicular to the path of the laser is of negligible importance. Or it may suggest that experimentally longer lines are easier to be approximated by eye rather than needing a set square
+What was unexpected is the magnitude of accuracy of the data to the predicted values by recording data using this method. Since this method had the perpendicularities of the meter stick for aligning the table all human approximated by eye as we had a lack of set-squares during setup. This may suggest that the angle deviation of the projected surface from being perpendicular to the path of the laser is of negligible importance. Or it may suggest that experimentally longer lines are easier to be approximated by eye rather than needing a set square %Is this even worth mentioning? its just me being surprised at the results sure, but its also like self-glazing
 
 
 \begin{figure}[htbp]
@@ -733,6 +738,9 @@ For the macro experiments I failed to tape the graphing paper onto the clipboard
 A methological consideration for a more accurate setup could be based off of a laser rangefinder or have used laser rangefinders to check accuracy
 
 The wheel of the tables were not of premium quality, meaning the process of locking it could result in changes in distance.
+
+
+
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=\linewidth,height=5cm,keepaspectratio]{slanted}
@@ -744,18 +752,42 @@ As mentioned in the observations, some images were slanted. In reality, all imag
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=\linewidth,height=5cm,keepaspectratio]{too unclear}
+    \includegraphics[width=0.4\textwidth,keepaspectratio]{too unclear}
     \caption{Experimental image that is too unclear to be analyzed}
     \label{fig:too unclear}
 \end{figure}
+\begin{figure}[htbp]
+    \center
+    \includesvg[width=0.4\textwidth]{interference noise}
+    \caption{Interference Noise}
+    \label{fig:interference noise}
+\end{figure}
+\begin{figure}[htbp]
+    \center
+    \includegraphics[width=0.22\textwidth]{microscope 1}
+    \includegraphics[width=0.22\textwidth]{microscope 2}
+    \caption{Imaging of The Used Slit}
+    \label{fig:microscope}
+\end{figure}
 
-As aforementioned, some of the fringes are too unclear to be seen, this is potentially dependent on the quality of the fringes. as imperfect cuts of the slit could result in minor inperfections that compound with distance. See figure \ref{fig:too unclear}
+As aforementioned, some of the fringes are too unclear to be seen(see figure \ref{fig:too unclear}), this is potentially dependent on the quality of the fringes. Low precision production slits could result in imperfections that propagate into the projected interference pattern as noise (See figure \ref{fig:interference noise}). It is possible to inspect different fringes and choose the most precise one. Figure \ref{fig:microscope} presents imaging of the slits used for the experiment and exposes inconsistencies on the surface.
 
-The fringes closer to the middle are usually brighter, so it would more easily reach the maximum exposure of the camera. This can affectthe perceived “edge” is as thatis my [baseline]for measuring fringe seperation. I measure it by left/right edge to the edge ofthe adjacent fringe. This can compromise the data and introduce uncertainty. For example, when measuring distance between adjacent fringes ofthe leftmost edge,the left edge of that pair, would be more closerto the center than the rightfringe ofthe pair, since this one is more brighter,the edge would be furtherfrom the center ofthe fringe.
+
+The fringes closer to the middle are usually brighter, so it would more easily reach the maximum exposure of the camera. This can affect the perceived “edge” is as thatis my [baseline]for measuring fringe seperation. I measure it by left/right edge to the edge ofthe adjacent fringe. This can compromise the data and introduce uncertainty. For example, when measuring distance between adjacent fringes ofthe leftmost edge,the left edge of that pair, would be more closerto the center than the rightfringe ofthe pair, since this one is more brighter,the edge would be furtherfrom the center ofthe fringe.
 %add images from docx
 
-
+\section{Works Cited}
+    
 \printbibliography
+    
+\section{Appendix}
+\subsection{Raw Numerical Data}
+The raw numerical data imports exactly the excel book I worked on while writing down measured values. Meaning it could also include additional observations or notes made along the process of measurement.
+\subsection{Raw Images}
+Raw image entails the original image directly taken from step 10 for Macro experimental procedure and step 3 in the Micro experimental procedure.
+\subsection{Perspective Corrected Images}
+Perspective corrected data is the data that is perspective corrected using Photopea \cite{software:photopeo} that is then put into Fiji \cite{software:fiji} used to measure fringe distance.
+    
     
 
 

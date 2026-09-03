@@ -437,6 +437,17 @@ INPUT ./Images/slanted.jpg
 INPUT ./Images/too unclear.jpg
 INPUT ./Images/too unclear.jpg
 INPUT ./Images/too unclear.jpg
+INPUT ./Images/interference noise.svg
+INPUT ./Images/interference noise.svg
+INPUT ./Images/interference noise.svg
+INPUT ./Images/microscope 1.jpg
+INPUT ./Images/microscope 1.jpg
+INPUT ./Images/microscope 1.jpg
+INPUT ./Images/microscope 1.jpg
+INPUT ./Images/microscope 2.jpg
+INPUT ./Images/microscope 2.jpg
+INPUT ./Images/microscope 2.jpg
+INPUT ./Images/microscope 2.jpg
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT build/main.aux
 INPUT build/main.run.xml

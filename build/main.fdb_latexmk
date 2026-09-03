@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber build/main"] 1788392408.65424 "build/main.bcf" "build/main.bbl" "build/main" 1788392421.03447 0
-  "build/main.bcf" 1788392420.89215 134019 135a58256c2bb4f2961a9318c2bee215 "pdflatex"
+["biber build/main"] 1788392408.65424 "build/main.bcf" "build/main.bbl" "build/main" 1788435458.07517 0
+  "build/main.bcf" 1788435457.95485 134227 63e61c35aef34aee08f0c6a201a21f3b "pdflatex"
   "works cited.bib" 1788391956.94803 400 87f4fcee36198c0ab6ec161ade1c0021 ""
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1788392416.92453 "main.tex" "build/main.pdf" "main" 1788392421.03495 0
+["pdflatex"] 1788435454.89307 "main.tex" "build/main.pdf" "main" 1788435458.07551 2
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -219,8 +219,11 @@
   "Images/Cart offset thickness.jpg" 1788351582.87993 1880287 5202196428c2cbe6c9aadeabd7d33cae ""
   "Images/Clipboard thickness.jpg" 1788351572.30337 1868225 12ddc428871348e79e45424b045653c9 ""
   "Images/No tape.jpg" 1778164471.22401 9599084 827738781fbaa732919fabc00fcfa111 ""
+  "Images/interference noise.svg" 1788417361.52849 18468711 76f96cc96cb3ebef3529110728bb255a ""
   "Images/lacking tape.jpg" 1778164471.22401 9599084 827738781fbaa732919fabc00fcfa111 ""
   "Images/micro back setup.jpg" 1788351220.14586 2107980 6fcbec812ea637e85150a613737ba076 ""
+  "Images/microscope 1.jpg" 1788417777.50448 3929434 099835aa6915cbf1d48a94b6d455f7b1 ""
+  "Images/microscope 2.jpg" 1788417768.90599 6761194 3f4a19ecc2916dd3d46c64d8da4d0547 ""
   "Images/processed graph.svg" 1788356367.32724 41407 6e420d0dc295fa5cf6aafa678b1e3ebe ""
   "Images/raw data extract.png" 1788358723.85037 72123 a718b1cf31ff5b150e7989395c8b1fc4 ""
   "Images/s-image.svg" 1788347425.52036 5489576 108db46234fda2ca437281903801b4aa ""
@@ -228,11 +231,11 @@
   "Images/slanted lines.jpg" 1788353941.69234 216601 5f2253659608a5278438e2d94f24bd64 ""
   "Images/slanted.jpg" 1778162210.47062 6820013 d5b0f71a89856d324f8a48589d285238 ""
   "Images/too unclear.jpg" 1788354564.38892 91209 b0855b4cbe090248b8715256dc903462 ""
-  "build/main.aux" 1788392420.8887 5201 321b99fa5fe3846eb85c8d02003f3d3a "pdflatex"
+  "build/main.aux" 1788435457.95205 6961 4a1889f8f586207ec6ce9842fa0bd705 "pdflatex"
   "build/main.bbl" 1788392412.44863 4228 17c2ba40d5425cb40d3d627f1aa2fb19 "biber build/main"
-  "build/main.run.xml" 1788392420.89319 2428 1affb69649d10842e45cb4c47e530ff5 "pdflatex"
-  "build/main.toc" 1788392420.8933 1074 5913ccccab435da57e8bf0b9e37db2b2 "pdflatex"
-  "main.tex" 1788392399.3251 40720 05266730aa1a947192fe8cd3626c6d2e ""
+  "build/main.run.xml" 1788435457.956 2428 c41ce16e28b76c6e458c0d1a69fa235c "pdflatex"
+  "build/main.toc" 1788435457.95606 1516 3be8558ce65837a21b024144c62602e1 "pdflatex"
+  "main.tex" 1788435454.21892 47940 4f934361732e91797706068c5f7a81ca ""
   "svg-inkscape/processed graph_svg-tex.pdf" 1788355695.77878 3794 ff2bfed7a6e3e070ef54b2a8330c65bb ""
   "svg-inkscape/processed graph_svg-tex.pdf_tex" 1788355695.77938 6908 4665a7ccd0d3e76815efdeac75231671 ""
   "svg-inkscape/s-image_svg-tex.pdf" 1788349662.59215 4117866 9c53cd4652721c730227bb5598d2b25c ""
