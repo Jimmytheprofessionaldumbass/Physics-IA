@@ -364,7 +364,7 @@ The distance between adjacent fringes will be measured by:
     \item Perspective correction of the image. See figure \ref{fig:perspective correction screenshot}
     \begin{figure}[htbp]
         \centering
-        \includegraphics[width=.5\textwidth]{perspective correction screenshot}
+        \includegraphics[width=.4\textwidth]{perspective correction screenshot}
         \caption{an example screenshot of using the perspective correction tool in Photopea} %Capitalization Error
         \label{fig:perspective correction screenshot}
     \end{figure}
@@ -373,7 +373,13 @@ The distance between adjacent fringes will be measured by:
             \item Finding the pixels between cm gridlines near the fringes 6 times
             \item The average is set as the scale for measurements
             \item Test accuracy by measuring the 1mm grid on the paper with the set scale % If still have time use it for uncertainty and add justification, or still add to evaluation if you didn't have time, so add to evaluation first, and add a comment saying if you still have time, then try this instead
-            \item Measure the distance between left and right edges of a fringe (the immediate intermediate between bright and dark fringes) % Add image to illustrate
+            \item Measure the distance between left and right edges of a fringe (the immediate intermediate between bright and dark fringes) see figure \ref{fig:left right edges}
+            \begin{figure}[h]
+                \center
+                \includegraphics[width=0.4\textwidth]{left and right edges}
+                \caption{measurement criteria for left and right edges}
+                \label{fig:left right edges}
+            \end{figure}
             \item Repeat last step for each interference envelope
             \item Repeat steps 1-5 for each image of different distances between slit and screen
         \end{enumerate} %make diagram of hierchy (helpful but not strictly necessary)
@@ -772,7 +778,7 @@ Also aforementioned is that some of the fringes are too unclear to be seen(see f
 \end{figure}
 \begin{figure}[htbp]
     \center
-    \includesvg[width=0.4\textwidth]{interference noise}
+    \includegraphics[width=0.4\textwidth]{Interference Noise}
     \caption{Interference Noise}
     \label{fig:interference noise}
 \end{figure}
