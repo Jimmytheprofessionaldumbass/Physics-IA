@@ -19,6 +19,40 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{desmos}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8381b43e9de8c0d498ce9bbd4131efdc}{%
+           family={{Desmos}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{8381b43e9de8c0d498ce9bbd4131efdc}
+      \strng{fullhash}{8381b43e9de8c0d498ce9bbd4131efdc}
+      \strng{fullhashraw}{8381b43e9de8c0d498ce9bbd4131efdc}
+      \strng{bibnamehash}{8381b43e9de8c0d498ce9bbd4131efdc}
+      \strng{authorbibnamehash}{8381b43e9de8c0d498ce9bbd4131efdc}
+      \strng{authornamehash}{8381b43e9de8c0d498ce9bbd4131efdc}
+      \strng{authorfullhash}{8381b43e9de8c0d498ce9bbd4131efdc}
+      \strng{authorfullhashraw}{8381b43e9de8c0d498ce9bbd4131efdc}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Desmos Graphing Calculator}
+      \field{urlday}{4}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.desmos.com/calculator
+      \endverb
+      \verb{url}
+      \verb https://www.desmos.com/calculator
+      \endverb
+    \endentry
     \entry{fiji}{software}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=edab7671f3fd1f934c3f990bc60c7e1c}{%
@@ -47,6 +81,40 @@
       \endverb
       \verb{url}
       \verb https://fiji.sc/
+      \endverb
+    \endentry
+    \entry{photopea}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4d1da631c3d7156c14f91c2c6f130077}{%
+           family={{Photopea}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{4d1da631c3d7156c14f91c2c6f130077}
+      \strng{fullhash}{4d1da631c3d7156c14f91c2c6f130077}
+      \strng{fullhashraw}{4d1da631c3d7156c14f91c2c6f130077}
+      \strng{bibnamehash}{4d1da631c3d7156c14f91c2c6f130077}
+      \strng{authorbibnamehash}{4d1da631c3d7156c14f91c2c6f130077}
+      \strng{authornamehash}{4d1da631c3d7156c14f91c2c6f130077}
+      \strng{authorfullhash}{4d1da631c3d7156c14f91c2c6f130077}
+      \strng{authorfullhashraw}{4d1da631c3d7156c14f91c2c6f130077}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Photopea}
+      \field{urlday}{3}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.photopea.com/
+      \endverb
+      \verb{url}
+      \verb https://www.photopea.com/
       \endverb
     \endentry
     \entry{weideman_double_slit}{online}{}{}
@@ -128,6 +196,40 @@
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
+    \entry{desmos}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8381b43e9de8c0d498ce9bbd4131efdc}{%
+           family={{Desmos}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{8381b43e9de8c0d498ce9bbd4131efdc}
+      \strng{fullhash}{8381b43e9de8c0d498ce9bbd4131efdc}
+      \strng{fullhashraw}{8381b43e9de8c0d498ce9bbd4131efdc}
+      \strng{bibnamehash}{8381b43e9de8c0d498ce9bbd4131efdc}
+      \strng{authorbibnamehash}{8381b43e9de8c0d498ce9bbd4131efdc}
+      \strng{authornamehash}{8381b43e9de8c0d498ce9bbd4131efdc}
+      \strng{authorfullhash}{8381b43e9de8c0d498ce9bbd4131efdc}
+      \strng{authorfullhashraw}{8381b43e9de8c0d498ce9bbd4131efdc}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Desmos Graphing Calculator}
+      \field{urlday}{4}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.desmos.com/calculator
+      \endverb
+      \verb{url}
+      \verb https://www.desmos.com/calculator
+      \endverb
+    \endentry
     \entry{fiji}{software}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=edab7671f3fd1f934c3f990bc60c7e1c}{%
@@ -156,6 +258,40 @@
       \endverb
       \verb{url}
       \verb https://fiji.sc/
+      \endverb
+    \endentry
+    \entry{photopea}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4d1da631c3d7156c14f91c2c6f130077}{%
+           family={{Photopea}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{4d1da631c3d7156c14f91c2c6f130077}
+      \strng{fullhash}{4d1da631c3d7156c14f91c2c6f130077}
+      \strng{fullhashraw}{4d1da631c3d7156c14f91c2c6f130077}
+      \strng{bibnamehash}{4d1da631c3d7156c14f91c2c6f130077}
+      \strng{authorbibnamehash}{4d1da631c3d7156c14f91c2c6f130077}
+      \strng{authornamehash}{4d1da631c3d7156c14f91c2c6f130077}
+      \strng{authorfullhash}{4d1da631c3d7156c14f91c2c6f130077}
+      \strng{authorfullhashraw}{4d1da631c3d7156c14f91c2c6f130077}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Photopea}
+      \field{urlday}{3}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.photopea.com/
+      \endverb
+      \verb{url}
+      \verb https://www.photopea.com/
       \endverb
     \endentry
     \entry{weideman_double_slit}{online}{}{}
@@ -236,7 +372,7 @@
       \field{year}{1807}
     \endentry
   \enddatalist
-  \missing{photopea}
+  \missing{double slit system}
 \endrefsection
 \endinput
 

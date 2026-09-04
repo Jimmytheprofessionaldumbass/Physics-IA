@@ -1,4 +1,4 @@
-PWD /Users/deep/PhysicsIA
+PWD /home/jimmy/Physics-IA
 INPUT /usr/local/texlive/2026/texmf.cnf
 INPUT /usr/local/texlive/2026/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt
@@ -330,10 +330,6 @@ INPUT build/main.bbl
 INPUT build/main.bbl
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT build/main.toc
@@ -354,6 +350,10 @@ INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7
 OUTPUT build/main.toc
 OUTPUT build/main.pdf
 INPUT /usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./Images/double slit system.png
+INPUT ./Images/double slit system.png
+INPUT ./Images/double slit system.png
+INPUT ./Images/double slit system.png
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
@@ -361,10 +361,6 @@ INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT ./Images/Macro setup sketch.png
-INPUT ./Images/Macro setup sketch.png
-INPUT ./Images/Macro setup sketch.png
-INPUT ./Images/Macro setup sketch.png
 INPUT ./Images/s-image.svg
 INPUT ./Images/s-image.svg
 INPUT ./Images/s-image.svg
@@ -379,3 +375,11 @@ INPUT ./svg-inkscape/s-image_svg-tex.pdf
 INPUT ./svg-inkscape/s-image_svg-tex.pdf_tex
 INPUT ./svg-inkscape/s-image_svg-tex.pdf
 INPUT ./svg-inkscape/s-image_svg-tex.pdf
+INPUT ./Images/macro setup sketch.png
+INPUT ./Images/macro setup sketch.png
+INPUT ./Images/macro setup sketch.png
+INPUT ./Images/macro setup sketch.png
+INPUT ./Images/2 axis translation stage.jpg
+INPUT ./Images/2 axis translation stage.jpg
+INPUT ./Images/2 axis translation stage.jpg
+INPUT ./Images/2 axis translation stage.jpg
