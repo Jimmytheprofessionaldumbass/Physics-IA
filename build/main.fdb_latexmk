@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber build/main"] 1788468193.45901 "build/main.bcf" "build/main.bbl" "build/main" 1788468216.3881 0
-  "build/main.bcf" 1788468216.2314 134524 68929d36d0b04eadcd3d91bd6ea2da0c "pdflatex"
-  "works cited.bib" 1788467501.55305 1347 bacb9656e406f9955e3497a9e84ec5fd ""
+["biber build/main"] 1788522649.97641 "build/main.bcf" "build/main.bbl" "build/main" 1788662240.3457 0
+  "build/main.bcf" 1788662240.25355 134528 b761d3a66ea7245f8e13427082ef6632 "pdflatex"
+  "works cited.bib" 1788521725.47545 1347 bacb9656e406f9955e3497a9e84ec5fd ""
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1788468194.25684 "main.tex" "build/main.pdf" "main" 1788468216.38836 2
+["pdflatex"] 1788662217.87373 "main.tex" "build/main.pdf" "main" 1788662240.34596 0
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -35,6 +35,7 @@
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
+  "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1248133631 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1248133631 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
@@ -243,11 +244,10 @@
   "Images/microscope 1.jpg" 1788442670.24566 3929434 099835aa6915cbf1d48a94b6d455f7b1 ""
   "Images/microscope 2.jpg" 1788442670.24866 6761194 3f4a19ecc2916dd3d46c64d8da4d0547 ""
   "Images/momentum test carts.jpg" 1788457106.83717 5835315 a2813233028c96f03c8a8dc985a65755 ""
-  "Images/perpendicular meter stick.png" 1788459945.66023 200860719 84c0d765c663d8d8dd58bcceeb13015d ""
+  "Images/perpendicular meter stick.png" 1788475230.235 38607262 8c2775dcbb2e92de856742f35a4e2cb7 ""
   "Images/perspective correction screenshot.png" 1788442670.25366 1719407 e246f24f1a2d4e4300d4506409af8bc5 ""
   "Images/placement of ruler 1.jpg" 1788460353.24952 15540652 f8bbae432a87da979e37b6f870d37b73 ""
   "Images/placement of ruler 2.jpg" 1788460297.81335 8365766 c1e5140d092351e9e40babc6f70c7bc9 ""
-  "Images/processed graph.png" 1788465809.65132 294145 6f2bccebdb5ef43f43ccdb0b03c58f58 ""
   "Images/processed graph.svg" 1788442670.25366 41407 6e420d0dc295fa5cf6aafa678b1e3ebe ""
   "Images/raw data extract.png" 1788442670.25366 72123 a718b1cf31ff5b150e7989395c8b1fc4 ""
   "Images/retort one side.jpg" 1788460120.17878 9619335 5da1f40cc0f5ab4ff3e38d5210dc430d ""
@@ -261,11 +261,11 @@
   "Images/tape projected surface.jpg" 1788461430.4635 11784346 a83c4c3043d3e782f47a57d2dc5949fe ""
   "Images/taped laser slit.png" 1788459353.55939 657358 8d280d5e88edc3257e9d81764d164c0a ""
   "Images/weird effect.png" 1788468166.20475 86330 6ac1d06530378a630d83a33c110c2695 ""
-  "build/main.aux" 1788468216.22981 13062 7ba768f60d8767a59fcd5190bfd9c014 "pdflatex"
-  "build/main.bbl" 1788468194.23679 14449 2755f6093814a309aaa1264fc7d7fa0e "biber build/main"
-  "build/main.run.xml" 1788468216.23264 2428 79df9cb4bbdc71cfb4a8b94ebc1ef268 "pdflatex"
-  "build/main.toc" 1788468216.23264 1580 c4e30a1170df6f23c5ce51c42f63d76c "pdflatex"
-  "main.tex" 1788468173.95176 52609 a40ba0578b88d409d60237378dce5785 ""
+  "build/main.aux" 1788662240.25255 15333 d2acc56b2f8fb1820299e95ce0982016 "pdflatex"
+  "build/main.bbl" 1788522650.74579 17254 abda7839f71fabf7b870553c8d7c6146 "biber build/main"
+  "build/main.run.xml" 1788662240.25457 2428 1affb69649d10842e45cb4c47e530ff5 "pdflatex"
+  "build/main.toc" 1788662240.25457 1656 0d7082363b4f96f50b457b327a6b8cf6 "pdflatex"
+  "main.tex" 1788662195.06154 64909 195a0f6a877a8de280f295f365610bad ""
   "svg-inkscape/processed graph_svg-tex.pdf" 1788442670.36266 3794 ff2bfed7a6e3e070ef54b2a8330c65bb ""
   "svg-inkscape/processed graph_svg-tex.pdf_tex" 1788442670.36392 6908 4665a7ccd0d3e76815efdeac75231671 ""
   "svg-inkscape/s-image_svg-tex.pdf" 1788442670.37066 4117866 9c53cd4652721c730227bb5598d2b25c ""

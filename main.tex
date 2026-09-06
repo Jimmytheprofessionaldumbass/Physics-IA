@@ -171,7 +171,7 @@ Wave Phenomena states that waves could interfere when they overlap. When two wav
     \caption{illustration of wave interference}
     \label{fig:wave interference illustration}
 \end{figure}
-The debate of whether light is a particle or a wave was challenged by Thomas Young's famous Double Slit Experiment in Young's Course of Lectures on Natural Philosophy and the Mechanical Arts of 1807 (\cite{young1807}), where a coherent light source shinning through two tiny slits projected an interference pattern with alternation between light and dark fringes rather than two individual bright fringes in a dark background. Illustrated In Figure \ref{fig:double slit system} (\cite{double slit system}).
+The debate of whether light is a particle or a wave was challenged by Thomas Young's famous Double Slit Experiment in Young's Course of Lectures on Natural Philosophy and the Mechanical Arts of 1807 (\cite{young1807}), where a coherent light source shinning through two tiny slits projected an interference pattern with alternation between light and dark fringes rather than two individual bright fringes in a dark background. Illustrated In Figure \ref{fig:double slit system} (\cite{hyperphysics_multislit}).
 \begin{figure}[htbp]
     \center
     \includegraphics[width=0.6\textwidth]{double slit system}
@@ -227,7 +227,7 @@ is equal to the $\theta$ represented by
 \begin{equation}
     \tan(\theta) = \frac{y}{D}
 \end{equation}
-When the distance of both light rays' traveled paths is a multiple of the wavelength of the light, they engage in constructive interference.
+When the path difference between two rays is an integer multiple of the wavelength of the light, they engage in constructive interference.
 We observe the fact that the path difference ($\Delta x$) for constructive waves is
 \begin{equation}
     n\lambda
@@ -237,9 +237,9 @@ where $\lambda$ is the wavelength of the light and $n$ is an integer representin
 \begin{align}
     \sin(\theta) &= \frac{\Delta x}{d} \\
     \sin(\theta) &= \frac{n\lambda}{d} \\
-    \theta &= \sin^{-1}\left(\frac{n\lambda}{d}\right)
+    \theta &= \sin^{-1}\left(\frac{n\lambda}{d}\right) %improve with gary's suggestions
 \end{align}
-and since we know that the wavelength $\lambda$ of light is orders of magnitudes larger than slit spacing $d$, and hence the value in $\sin$ is close to zero, we can use the sin angle approximation $\lim_{\theta \to 0} \sin(\theta) = \theta$ to simplify to
+and since we know that the wavelength $\lambda$ of light is orders of magnitudes smaller than slit spacing $d$, and hence the value in $\sin$ is close to zero, we can use the sin angle approximation $\lim_{\theta \to 0} \sin(\theta) = \theta$ to simplify to
 \begin{equation}
     \theta = \frac{n\lambda}{d}
 \end{equation}
@@ -280,7 +280,7 @@ To find the distance between fringes we need to find the distance $y_{a}$ of a f
 We have defined the distance from the central maximum as 
 \begin{itemize}
     \item the nth fringe as $y  = n\frac{D\lambda}{d}$
-    \item the nth + 1 (adjacent) fringe as $y  = \left(n+1)\right)\frac{D\lambda}{d}$
+    \item the nth + 1 (adjacent) fringe as $y  = \left(n+1\right)\frac{D\lambda}{d}$
 \end{itemize}
 finding the difference $\Delta y$ gives us the $s$ spacing between adjacent fringes
 \begin{align}
@@ -785,10 +785,10 @@ The distance is calculated by
 \begin{equation}
     \text{Distance} = \text{initial distance} - \text{offset} + (\text{2 axis translation stage modifier})
 \end{equation}
-Recall that the distance of tables is based off of the origin point of the measuring tape, which is at 0cm. For instance the table is set to be [initial distance] away from the origin point of the measuring tape where [initial distance] is an experimental value D. However our 2 axis translation stage is closer to the table by a distance [offset] and must have that subtracted from the [initial distance]. Then we add the 2 axis translation stage modifier because recall that we have two systems responsible for controlling our independent variable, and this one is the one responsible for the "micro adjustments".
+Recall that the distance of tables is based off of the origin point of the measuring tape, which is at 0cm. For instance the table is set to be [initial distance] away from the origin point of the measuring tape where [initial distance] is an experimental value D. However our 2 axis translation stage is closer to the table by a distance [offset] and must have that subtracted from the [initial distance]. Then we add the 2 axis translation stage modifier because recall that we have two systems responsible for controlling our independent variable, and this one is the one responsible for the "micro adjustments". The uncertainty for this is set to be 0.5cm, despite the accuracy of the setup, error propagated forward would compound with each component.
 The predicted values are calculated by plugging the values into the equation we derived in the beginning. Namely:
 \begin{equation}
-    s = \frac{\lambda d}{D}
+    s = \frac{\lambda D}{d}
 \end{equation}
 Where lambda is the wavelength of light of our laser (532nm) and d is the distance between slits 0.45mm
 The difference is calculated with
@@ -809,7 +809,7 @@ And hence we get the following data (some are duplicate due to the two system me
 >{\centering\arraybackslash}p{0.22\textwidth}|
 >{\centering\arraybackslash}p{0.22\textwidth}|}
     \hline
-    Distance from slit (m) & Average Fringe Spacing (mm) & Predicted Values (mm) & Difference (mm)\\
+    Distance from slit (m) $\pm 0.0005m$ & Average Fringe Spacing (mm) & Predicted Values (mm) & Difference (mm)\\
     \hline
     2.478 & $3.0 \pm 0.2$ & 2.929547 & 0.038503 \\
     \hline              
@@ -843,16 +843,45 @@ And hence we get the following data (some are duplicate due to the two system me
     \hline
 \end{longtable}
 
-The line of best fit was calculated by \cite{desmos}. By plotting the average datapoints of fringe spacing with respect to displacement on desmos and using the linear regression feature. Desmos calculated an extremely strong correlation coefficient of 0.9991
+The line of best fit was calculated by \cite{desmos}. As By plotting the average datapoints of fringe spacing with respect to displacement on desmos and using the linear regression feature. Giving:
+\begin{equation}
+    y = 0.0000119974x - 0.0000429071
+\end{equation}
+Desmos evaluated an extremely strong correlation coefficient of 0.9991
 
-The maximum and minimum slope was calculated as following:
-% \begin{align}
-%     m_{max} &= \frac{\Delta y}{\Delta x} \\
-%     m_{max} &= \frac{\left(Largest average fringe spacing + uncertainty for that spacing)\right - \left(Smallest average fringe spacing - uncertainty for that spacing\right)}{maximum distance - minimum distance} \\
-%     m_{max} &= \frac{\left(0.01052955 + 0.000463)\right - \left(0.000276167 - 0.0000465\right)}{847.8-20} \\
-%             &= 
-% \end{align}
+The steepest slope was calculated in desmos manually using $y = \frac{y_{3}-y_{2}}{x_{3}-x_{2}}\left(x-x_{2}\right) + y_{2}$
+where:
+\begin{itemize}
+    \item $x_{3}=847.8+0.5$
+    \item $y_{3}=0.01052955+\frac{0.000926}{2}$
+    \item $x_{2}=20-0.5$
+    \item $y_{2}=0.000276167-\frac{0.000093}{2}$
+\end{itemize}
+correspond to values on the graph and unrounded uncertainties' greatest/least values (which can be found in the appendix)
+Likewise, the flattest slope was calculated with $y=\frac{y_{5}-y_{4}}{x_{5}-x_{4}}\left(x-x_{4}\right)+y_{4}$
+\begin{itemize}
+    \item $y_{5}=0.01052955-\frac{0.000926}{2}$
+    \item $x_{5}=847.8-0.5$
+    \item $y_{4}=0.000276167+\frac{0.000093}{2}$
+    \item $x_{4}=20+0.5$
+\end{itemize}
+Giving:
 
+\paragraph{Max} 
+\begin{equation}
+    y = 1.17850544267 * 10^{-5}(x-19.5) + 0.000229667
+\end{equation}
+\paragraph{Max} 
+\begin{equation}
+    y = 1.29861040058 * 10^{-5}(x-20.5) + 0.000322667
+\end{equation}
+
+
+
+and using min max to find the uncertainty
+\begin{equation}
+    \frac{1.29861040058 \cdot 10^{-5} - 1.17850544267 * 10^{-5}}{2} = 6.0052478955\cdot10^{-7} \approx 6\cdot10^{-7}
+\end{equation}
 
 \begin{figure}[htbp] %move this to the right place and make the title prettier
     \centering
@@ -869,6 +898,7 @@ The maximum and minimum slope was calculated as following:
 \section{Conclusion} % Ask giulian's conclusion how he yapped so much. Do I genuinely got nothing to say or just don't know the direction for my conclusion? 
 The goal of this research is to investigate a double slit system. Particularly, how change in displacement between the slit and the screen corresponds to a change in fringe spacing and determine the curve relationship
 
+
 We discovered that the relationship between these two variables is linear; an increase in the displacement respects a proportional increase in fringe spacing, which validates Thomas Young's mathematically derived equation we explored earlier since the values calculated with that equation are extremely close to the measured values, up to micrometer accuracy. For instance, for the following data listed below, it has $\pm 2 \mu m$ accuracy for the last datapoint
 \begin{longtable}{|
 >{\raggedright\arraybackslash}p{0.22\textwidth}|
@@ -878,13 +908,13 @@ We discovered that the relationship between these two variables is linear; an in
     \hline
     Distance from slit (m) & Average Fringe Spacing (mm) & Predicted Values (mm) & Difference (mm)\\
     \hline
-    $3.478 & 4.1 \pm 0.4$ & 4.111769 & 0.008113353 \\
+    3.478 & $4.1 \pm 0.4$ & 4.111769 & 0.008113353 \\
     \hline             
-    $5.478 & 6.5 \pm 0.6$ & 6.476213 & 0.007761387 \\
+    5.478 & $6.5 \pm 0.6$ & 6.476213 & 0.007761387 \\
     \hline           
-    $1.000 & 1.2 \pm 0.1$ & 1.182222 & 0.005922 \\
+    1.000 & $1.2 \pm 0.1$ & 1.182222 & 0.005922 \\
     \hline            
-    $0.800 & 0.9 \pm 0.1$ & 0.945778 & 0.002698190 \\
+    0.800 & $0.9 \pm 0.1$ & 0.945778 & 0.002698190 \\
     \hline
 \end{longtable}
 
@@ -901,7 +931,7 @@ What was unexpected is the magnitude of accuracy of the data to the predicted va
     \label{img:lack of tape}
 \end{figure}
 
-For the macro experiments I failed to tape the graphing paper onto the clipboard, compromising maximum flatness of the surface. This cannot be solved by perspective correction as the paper is no longer a flat plane. See fig \ref{img:lack of tape}.
+For the macro experiments I failed to tape the graphing paper onto the clipboard, compromising maximum flatness of thare ae surface. This cannot be solved by perspective correction as the paper is no longer a flat plane. See fig \ref{img:lack of tape}.
  %like this
 
 The wheel of the tables were not of premium quality, meaning the process of locking it could result in variations in distance. A methological consideration for a more accurate setup could be based off of a laser rangefinder or have used laser rangefinders to check accuracy and to validate distance.

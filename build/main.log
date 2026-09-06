@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.15)  4 SEP 2026 04:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.15)  6 SEP 2026 10:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -840,15 +840,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (build/main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                double slit system
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+ (build/main.bbl)
 Package biblatex Info: Reference section=0 on input line 30.
 Package biblatex Info: Reference segment=0 on input line 30.
  (build/main.toc)
@@ -858,18 +850,1079 @@ Package biblatex Info: Reference segment=0 on input line 30.
  [1
 
 {/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-LaTeX Warning: Citation 'double slit system' on page 2 undefined on input line 174.
-
 <Images/double slit system.png, id=12, 144.0582pt x 97.0827pt>
 File: Images/double slit system.png Graphic file (type png)
 <use Images/double slit system.png>
 Package pdftex.def Info: Images/double slit system.png  used on input line 177.
 (pdftex.def)             Requested size: 300.29344pt x 202.40865pt.
-[2 <./Images/double slit system.png>] [3] [4] [5{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+ [2 <./Images/double slit system.png>] [3] [4] [5{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 Package svg Info: Last page of `./svg-inkscape/s-image_svg-tex.pdf' is 1 on input line 307.
  (./svg-inkscape/s-image_svg-tex.pdf_tex
 <./svg-inkscape/s-image_svg-tex.pdf, id=36, page=1, 14968.42188pt x 10244.52344pt>
 File: ./svg-inkscape/s-image_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/s-image_svg-tex.pdf, page 1>
-Package pdf
+Package pdftex.def Info: ./svg-inkscape/s-image_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 350.33727pt x 239.63647pt.
+) [6 <./svg-inkscape/s-image_svg-tex.pdf>]
+<Images/Macro setup sketch.png, id=44, 7763.0025pt x 5762.52875pt>
+File: Images/Macro setup sketch.png Graphic file (type png)
+<use Images/Macro setup sketch.png>
+Package pdftex.def Info: Images/Macro setup sketch.png  used on input line 350.
+(pdftex.def)             Requested size: 250.24199pt x 185.70604pt.
+<Images/2 axis translation stage.jpg, id=45, 1562.83875pt x 1379.1525pt>
+File: Images/2 axis translation stage.jpg Graphic file (type jpg)
+<use Images/2 axis translation stage.jpg>
+Package pdftex.def Info: Images/2 axis translation stage.jpg  used on input line 356.
+(pdftex.def)             Requested size: 250.24199pt x 220.81621pt.
+ [7 <./Images/macro setup sketch.png>]
+<Images/graphing paper image.jpg, id=50, 8222.72pt x 6167.04pt>
+File: Images/graphing paper image.jpg Graphic file (type jpg)
+<use Images/graphing paper image.jpg>
+Package pdftex.def Info: Images/graphing paper image.jpg  used on input line 368.
+(pdftex.def)             Requested size: 250.24199pt x 187.63805pt.
+<Images/perspective correction screenshot.png, id=51, 1736.4875pt x 1135.24126pt>
+File: Images/perspective correction screenshot.png Graphic file (type png)
+<use Images/perspective correction screenshot.png>
+Package pdftex.def Info: Images/perspective correction screenshot.png  used on input line 376.
+(pdftex.def)             Requested size: 200.19054pt x 130.87045pt.
+ [8 <./Images/2 axis translation stage.jpg> <./Images/Graphing Paper image.jpg>]
+<Images/left and right edges.png, id=55, 588.1975pt x 364.36125pt>
+File: Images/left and right edges.png Graphic file (type png)
+<use Images/left and right edges.png>
+Package pdftex.def Info: Images/left and right edges.png  used on input line 388.
+(pdftex.def)             Requested size: 200.19054pt x 124.00905pt.
+<Images/interference envelope.png, id=56, 6183.1pt x 4299.06125pt>
+File: Images/interference envelope.png Graphic file (type png)
+<use Images/interference envelope.png>
+Package pdftex.def Info: Images/interference envelope.png  used on input line 395.
+(pdftex.def)             Requested size: 250.24199pt x 173.9667pt.
+ [9 <./Images/perspective correction screenshot.png> <./Images/left and right edges.png>]
+File: Images/Macro setup sketch.png Graphic file (type png)
+<use Images/Macro setup sketch.png>
+Package pdftex.def Info: Images/Macro setup sketch.png  used on input line 420.
+(pdftex.def)             Requested size: 250.24199pt x 185.70604pt.
+ [10 <./Images/Interference envelope.png>]
+<Images/cut off tracks.jpg, id=64, 4095.3pt x 3083.52pt>
+File: Images/cut off tracks.jpg Graphic file (type jpg)
+<use Images/cut off tracks.jpg>
+Package pdftex.def Info: Images/cut off tracks.jpg  used on input line 431.
+(pdftex.def)             Requested size: 350.33727pt x 263.76604pt.
+<Images/momentum test carts.jpg, id=65, 8222.72pt x 6167.04pt>
+File: Images/momentum test carts.jpg Graphic file (type jpg)
+<use Images/momentum test carts.jpg>
+Package pdftex.def Info: Images/momentum test carts.jpg  used on input line 438.
+(pdftex.def)             Requested size: 350.33727pt x 262.73091pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Images/laser slit instrument 1.jpg, id=66, 8222.72pt x 6167.04pt>
+File: Images/laser slit instrument 1.jpg Graphic file (type jpg)
+<use Images/laser slit instrument 1.jpg>
+Package pdftex.def Info: Images/laser slit instrument 1.jpg  used on input line 448.
+(pdftex.def)             Requested size: 300.29344pt x 225.18448pt.
+<Images/laser slit instrument 2.jpg, id=67, 8222.72pt x 6167.04pt>
+File: Images/laser slit instrument 2.jpg Graphic file (type jpg)
+<use Images/laser slit instrument 2.jpg>
+Package pdftex.def Info: Images/laser slit instrument 2.jpg  used on input line 452.
+(pdftex.def)             Requested size: 300.29344pt x 225.18448pt.
+<Images/laser slit instrument 3.jpg, id=68, 8222.72pt x 6167.04pt>
+File: Images/laser slit instrument 3.jpg Graphic file (type jpg)
+<use Images/laser slit instrument 3.jpg>
+Package pdftex.def Info: Images/laser slit instrument 3.jpg  used on input line 456.
+(pdftex.def)             Requested size: 300.29344pt x 225.18448pt.
+
+LaTeX Warning: Float too large for page by 20.89444pt on input line 460.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--477
+
+ []
+
+[11 <./Images/cut off tracks.jpg>]
+<Images/tape measuring tape.jpg, id=72, 4095.3pt x 3083.52pt>
+File: Images/tape measuring tape.jpg Graphic file (type jpg)
+<use Images/tape measuring tape.jpg>
+Package pdftex.def Info: Images/tape measuring tape.jpg  used on input line 495.
+(pdftex.def)             Requested size: 250.24199pt x 188.39087pt.
+<Images/stacking books.jpg, id=73, 4095.3pt x 3083.52pt>
+File: Images/stacking books.jpg Graphic file (type jpg)
+<use Images/stacking books.jpg>
+Package pdftex.def Info: Images/stacking books.jpg  used on input line 504.
+(pdftex.def)             Requested size: 350.33727pt x 263.76604pt.
+<Images/stacking cart tracks.jpg, id=74, 4095.3pt x 3083.52pt>
+File: Images/stacking cart tracks.jpg Graphic file (type jpg)
+<use Images/stacking cart tracks.jpg>
+Package pdftex.def Info: Images/stacking cart tracks.jpg  used on input line 511.
+(pdftex.def)             Requested size: 350.33727pt x 263.76604pt.
+ [12 <./Images/momentum test carts.jpg>] [13 <./Images/laser slit instrument 1.jpg> <./Images/laser slit instrument 2.jpg> <./Images/laser slit instrument 3.jpg>] [14 <./Images/tape measuring tape.jpg> <./Images/stacking books.jpg>]
+<Images/taped laser slit.png, id=85, 861.2175pt x 689.57625pt>
+File: Images/taped laser slit.png Graphic file (type png)
+<use Images/taped laser slit.png>
+Package pdftex.def Info: Images/taped laser slit.png  used on input line 524.
+(pdftex.def)             Requested size: 350.33727pt x 280.51845pt.
+<Images/complete macro setup.jpg, id=86, 3292.3pt x 2473.24pt>
+File: Images/complete macro setup.jpg Graphic file (type jpg)
+<use Images/complete macro setup.jpg>
+Package pdftex.def Info: Images/complete macro setup.jpg  used on input line 531.
+(pdftex.def)             Requested size: 350.33727pt x 263.15094pt.
+<Images/perpendicular meter stick.png, id=87, 8190.6pt x 6167.04pt>
+File: Images/perpendicular meter stick.png Graphic file (type png)
+<use Images/perpendicular meter stick.png>
+Package pdftex.def Info: Images/perpendicular meter stick.png  used on input line 539.
+(pdftex.def)             Requested size: 350.33727pt x 263.76604pt.
+<Images/retort one side.jpg, id=88, 8190.6pt x 6167.04pt>
+File: Images/retort one side.jpg Graphic file (type jpg)
+<use Images/retort one side.jpg>
+Package pdftex.def Info: Images/retort one side.jpg  used on input line 551.
+(pdftex.def)             Requested size: 350.33727pt x 263.76604pt.
+ [15 <./Images/stacking cart tracks.jpg>] [16 <./Images/taped laser slit.png (PNG copy)> <./Images/complete macro setup.jpg>]
+<Images/placement of ruler 1.jpg, id=95, 6167.04pt x 8222.72pt>
+File: Images/placement of ruler 1.jpg Graphic file (type jpg)
+<use Images/placement of ruler 1.jpg>
+Package pdftex.def Info: Images/placement of ruler 1.jpg  used on input line 559.
+(pdftex.def)             Requested size: 168.16037pt x 224.21211pt.
+<Images/placement of ruler 2.jpg, id=96, 6167.04pt x 8222.72pt>
+File: Images/placement of ruler 2.jpg Graphic file (type jpg)
+<use Images/placement of ruler 2.jpg>
+Package pdftex.def Info: Images/placement of ruler 2.jpg  used on input line 562.
+(pdftex.def)             Requested size: 168.16037pt x 224.21211pt.
+<Images/meter ruler alignment 1.jpg, id=97, 6167.04pt x 8222.72pt>
+File: Images/meter ruler alignment 1.jpg Graphic file (type jpg)
+<use Images/meter ruler alignment 1.jpg>
+Package pdftex.def Info: Images/meter ruler alignment 1.jpg  used on input line 571.
+(pdftex.def)             Requested size: 168.16037pt x 224.21211pt.
+<Images/meter ruler alignment 2.jpg, id=98, 6167.04pt x 8222.72pt>
+File: Images/meter ruler alignment 2.jpg Graphic file (type jpg)
+<use Images/meter ruler alignment 2.jpg>
+Package pdftex.def Info: Images/meter ruler alignment 2.jpg  used on input line 574.
+(pdftex.def)             Requested size: 168.16037pt x 224.21211pt.
+<Images/straight line theorem.jpg, id=99, 6167.04pt x 8190.6pt>
+File: Images/straight line theorem.jpg Graphic file (type jpg)
+<use Images/straight line theorem.jpg>
+Package pdftex.def Info: Images/straight line theorem.jpg  used on input line 585.
+(pdftex.def)             Requested size: 350.33727pt x 465.16936pt.
+ [17 <./Images/perpendicular meter stick.png>] [18 <./Images/retort one side.jpg> <./Images/placement of ruler 1.jpg> <./Images/placement of ruler 2.jpg>]
+<Images/laserslit propagation.jpg, id=107, 4095.3pt x 3083.52pt>
+File: Images/laserslit propagation.jpg Graphic file (type jpg)
+<use Images/laserslit propagation.jpg>
+Package pdftex.def Info: Images/laserslit propagation.jpg  used on input line 607.
+(pdftex.def)             Requested size: 350.33727pt x 263.76604pt.
+
+
+LaTeX Warning: Reference `fig:tape projected surface' on page 19 undefined on input line 616.
+
+<Images/tape projected surface.jpg, id=108, 6167.04pt x 8190.6pt>
+File: Images/tape projected surface.jpg Graphic file (type jpg)
+<use Images/tape projected surface.jpg>
+Package pdftex.def Info: Images/tape projected surface.jpg  used on input line 619.
+(pdftex.def)             Requested size: 350.33727pt x 465.16936pt.
+
+LaTeX Warning: Reference `fig:tape projected surface' on page 19 undefined on input line 625.
+
+[19 <./Images/meter ruler alignment 1.jpg> <./Images/meter ruler alignment 2.jpg>] [20 <./Images/straight line theorem.jpg>]
+<Images/backshot.jpg, id=116, 3292.3pt x 2473.24pt>
+File: Images/backshot.jpg Graphic file (type jpg)
+<use Images/backshot.jpg>
+Package pdftex.def Info: Images/backshot.jpg  used on input line 658.
+(pdftex.def)             Requested size: 350.33727pt x 263.15094pt.
+ [21 <./Images/laserslit propagation.jpg>] [22 <./Images/tape projected surface.jpg>]
+<Images/micro front view.jpg, id=123, 2473.24pt x 3292.3pt>
+File: Images/micro front view.jpg Graphic file (type jpg)
+<use Images/micro front view.jpg>
+Package pdftex.def Info: Images/micro front view.jpg  used on input line 669.
+(pdftex.def)             Requested size: 350.33727pt x 466.34439pt.
+<Images/micro back setup.jpg, id=124, 3292.3pt x 2473.24pt>
+File: Images/micro back setup.jpg Graphic file (type jpg)
+<use Images/micro back setup.jpg>
+Package pdftex.def Info: Images/micro back setup.jpg  used on input line 676.
+(pdftex.def)             Requested size: 250.24199pt x 187.97574pt.
+<Images/Cart offset thickness.jpg, id=125, 3292.3pt x 2473.24pt>
+File: Images/Cart offset thickness.jpg Graphic file (type jpg)
+<use Images/Cart offset thickness.jpg>
+Package pdftex.def Info: Images/Cart offset thickness.jpg  used on input line 685.
+(pdftex.def)             Requested size: 240.23016pt x 180.46577pt.
+<Images/Clipboard thickness.jpg, id=126, 2473.24pt x 3292.3pt>
+File: Images/Clipboard thickness.jpg Graphic file (type jpg)
+<use Images/Clipboard thickness.jpg>
+Package pdftex.def Info: Images/Clipboard thickness.jpg  used on input line 692.
+(pdftex.def)             Requested size: 240.23016pt x 319.75461pt.
+
+Overfull \hbox (500.484pt too wide) detected at line 721
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 720--726
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 726--730
+[] []
+ []
+
+<Images/lacking tape.jpg, id=127, 8190.6pt x 6167.04pt>
+File: Images/lacking tape.jpg Graphic file (type jpg)
+<use Images/lacking tape.jpg>
+Package pdftex.def Info: Images/lacking tape.jpg  used on input line 731.
+(pdftex.def)             Requested size: 151.0988pt x 113.76851pt.
+<Images/slanted lines.jpg, id=128, 1056.94875pt x 612.2875pt>
+File: Images/slanted lines.jpg Graphic file (type jpg)
+<use Images/slanted lines.jpg>
+Package pdftex.def Info: Images/slanted lines.jpg  used on input line 733.
+(pdftex.def)             Requested size: 105.70107pt x 61.23233pt.
+<Images/slanted.jpg, id=129, 8190.6pt x 6167.04pt>
+File: Images/slanted.jpg Graphic file (type jpg)
+<use Images/slanted.jpg>
+Package pdftex.def Info: Images/slanted.jpg  used on input line 733.
+(pdftex.def)             Requested size: 105.60669pt x 79.51563pt.
+<Images/too unclear.jpg, id=130, 578.16pt x 477.785pt>
+File: Images/too unclear.jpg Graphic file (type jpg)
+<use Images/too unclear.jpg>
+Package pdftex.def Info: Images/too unclear.jpg  used on input line 734.
+(pdftex.def)             Requested size: 172.14368pt x 142.25761pt.
+<Images/shadow the hedgeho.jpg, id=131, 4954.51pt x 3369.58875pt>
+File: Images/shadow the hedgeho.jpg Graphic file (type jpg)
+<use Images/shadow the hedgeho.jpg>
+Package pdftex.def Info: Images/shadow the hedgeho.jpg  used on input line 736.
+(pdftex.def)             Requested size: 125.49539pt x 85.35008pt.
+
+Underfull \hbox (badness 10000) in alignment at lines 730--739
+[] []
+ []
+
+[23 <./Images/backshot.jpg>] [24 <./Images/micro front view.jpg>] [25 <./Images/micro back setup.jpg> <./Images/Cart offset thickness.jpg> <./Images/Clipboard thickness.jpg>] [26 <./Images/lacking tape.jpg> <./Images/Slanted lines.jpg> <./Images/slanted.jpg> <./Images/Too Unclear.jpg> <./Images/shadow the hedgeho.jpg>]
+<Images/raw data extract.png, id=146, 491.8375pt x 981.6675pt>
+File: Images/raw data extract.png Graphic file (type png)
+<use Images/raw data extract.png>
+Package pdftex.def Info: Images/raw data extract.png  used on input line 772.
+(pdftex.def)             Requested size: 250.24199pt x 499.46046pt.
+ [27] [28 <./Images/raw data extract.png>]
+Underfull \hbox (badness 10000) in alignment at lines 810--844
+[] [] [] []
+ []
+
+[29]
+Package svg Info: Last page of `./svg-inkscape/processed graph_svg-tex.pdf' is 2 on input line 891.
+ (./svg-inkscape/processed graph_svg-tex.pdf_tex
+<./svg-inkscape/processed graph_svg-tex.pdf, id=159, page=1, 1829.26674pt x 1230.8167pt>
+File: ./svg-inkscape/processed graph_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/processed graph_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/processed graph_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 500.484pt x 336.73842pt.
+<./svg-inkscape/processed graph_svg-tex.pdf, id=160, page=2, 1829.26674pt x 1230.8167pt>
+File: ./svg-inkscape/processed graph_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/processed graph_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/processed graph_svg-tex.pdf , page2 used on input line 91.
+(pdftex.def)             Requested size: 500.484pt x 336.73842pt.
+)
+Underfull \hbox (badness 10000) in alignment at lines 907--919
+[] [] [] []
+ []
+
+[30] [31 <./svg-inkscape/processed graph_svg-tex.pdf> <./svg-inkscape/processed graph_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/processed graph_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<Images/No tape.jpg, id=170, 8190.6pt x 6167.04pt>
+File: Images/No tape.jpg Graphic file (type jpg)
+<use Images/No tape.jpg>
+Package pdftex.def Info: Images/No tape.jpg  used on input line 929.
+(pdftex.def)             Requested size: 250.24199pt x 188.39087pt.
+File: Images/slanted.jpg Graphic file (type jpg)
+<use Images/slanted.jpg>
+Package pdftex.def Info: Images/slanted.jpg  used on input line 943.
+(pdftex.def)             Requested size: 188.84225pt x 142.1871pt.
+ [32 <./Images/No tape.jpg>]
+File: Images/too unclear.jpg Graphic file (type jpg)
+<use Images/too unclear.jpg>
+Package pdftex.def Info: Images/too unclear.jpg  used on input line 957.
+(pdftex.def)             Requested size: 200.19054pt x 165.4338pt.
+<Images/Interference Noise.png, id=174, 2569.6pt x 1935.23pt>
+File: Images/Interference Noise.png Graphic file (type png)
+<use Images/Interference Noise.png>
+Package pdftex.def Info: Images/Interference Noise.png  used on input line 963.
+(pdftex.def)             Requested size: 200.19054pt x 150.74654pt.
+<Images/microscope 1.jpg, id=175, 6167.04pt x 8222.72pt>
+File: Images/microscope 1.jpg Graphic file (type jpg)
+<use Images/microscope 1.jpg>
+Package pdftex.def Info: Images/microscope 1.jpg  used on input line 969.
+(pdftex.def)             Requested size: 110.10709pt x 146.79808pt.
+<Images/microscope 2.jpg, id=176, 6167.04pt x 8222.72pt>
+File: Images/microscope 2.jpg Graphic file (type jpg)
+<use Images/microscope 2.jpg>
+Package pdftex.def Info: Images/microscope 2.jpg  used on input line 970.
+(pdftex.def)             Requested size: 110.10709pt x 146.79808pt.
+
+
+Package caption Warning: \label without proper reference on input line 980.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:weird effect' on page 33 undefined on input line 975.
+
+<Images/weird effect.png, id=177, 1201.48875pt x 476.78125pt>
+File: Images/weird effect.png Graphic file (type png)
+<use Images/weird effect.png>
+Package pdftex.def Info: Images/weird effect.png  used on input line 979.
+(pdftex.def)             Requested size: 350.33727pt x 139.01962pt.
+[33 <./Images/Interference Noise.png>]
+Overfull \hbox (500.484pt too wide) detected at line 992
+[]
+ []
+
+
+Overfull \hbox (9.46457pt too wide) in paragraph at lines 999--999
+[]|\OT1/cmr/m/n/12 150.4461667| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1000--1000
+[]|\OT1/cmr/m/n/12 Measurement of pa-per
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 1000--1000
+\OT1/cmr/m/n/12 graph square side length
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1000--1000
+\OT1/cmr/m/n/12 af-ter set-ting the mean
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1001--1001
+[]|\OT1/cmr/m/n/12 Measurement of pa-per
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 1001--1001
+\OT1/cmr/m/n/12 graph square side length
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1001--1001
+\OT1/cmr/m/n/12 af-ter set-ting the mean
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1002--1002
+[]|\OT1/cmr/m/n/12 Measurement of pa-per
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 1002--1002
+\OT1/cmr/m/n/12 graph square side length
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1002--1002
+\OT1/cmr/m/n/12 af-ter set-ting the mean
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1003--1003
+[]|\OT1/cmr/m/n/12 Central Max-ima (mm).
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 1003--1003
+\OT1/cmr/m/n/12 from the left/right edge
+ []
+
+
+Underfull \hbox (badness 4036) in paragraph at lines 1003--1003
+\OT1/cmr/m/n/12 of one bright fringe to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1003--1003
+[]|\OT1/cmr/m/n/12 Right
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1003--1003
+[]|\OT1/cmr/m/n/12 Right
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1003--1004
+[]|\OT1/cmr/m/n/12 Right
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1004--1004
+[]|\OT1/cmr/m/n/12 Central Max-ima (mm).
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 1004--1004
+\OT1/cmr/m/n/12 from the left/right edge
+ []
+
+
+Underfull \hbox (badness 4036) in paragraph at lines 1004--1004
+\OT1/cmr/m/n/12 of one bright fringe to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1005--1005
+[]|\OT1/cmr/m/n/12 Central Max-ima (mm).
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 1005--1005
+\OT1/cmr/m/n/12 from the left/right edge
+ []
+
+
+Underfull \hbox (badness 4036) in paragraph at lines 1005--1005
+\OT1/cmr/m/n/12 of one bright fringe to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1006--1006
+[]|\OT1/cmr/m/n/12 Central Max-ima (mm).
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 1006--1006
+\OT1/cmr/m/n/12 from the left/right edge
+ []
+
+
+Underfull \hbox (badness 4036) in paragraph at lines 1006--1006
+\OT1/cmr/m/n/12 of one bright fringe to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1007--1007
+[]|\OT1/cmr/m/n/12 Central Max-ima (mm).
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 1007--1007
+\OT1/cmr/m/n/12 from the left/right edge
+ []
+
+
+Underfull \hbox (badness 4036) in paragraph at lines 1007--1007
+\OT1/cmr/m/n/12 of one bright fringe to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1008--1008
+[]|\OT1/cmr/m/n/12 Central Max-ima (mm).
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 1008--1008
+\OT1/cmr/m/n/12 from the left/right edge
+ []
+
+
+Underfull \hbox (badness 4036) in paragraph at lines 1008--1008
+\OT1/cmr/m/n/12 of one bright fringe to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1009--1009
+[]|\OT1/cmr/m/n/12 Central Max-ima (mm).
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 1009--1009
+\OT1/cmr/m/n/12 from the left/right edge
+ []
+
+
+Underfull \hbox (badness 4036) in paragraph at lines 1009--1009
+\OT1/cmr/m/n/12 of one bright fringe to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1010--1010
+[]|\OT1/cmr/m/n/12 Central Max-ima (mm).
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 1010--1010
+\OT1/cmr/m/n/12 from the left/right edge
+ []
+
+
+Underfull \hbox (badness 4036) in paragraph at lines 1010--1010
+\OT1/cmr/m/n/12 of one bright fringe to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1011--1011
+[]|\OT1/cmr/m/n/12 Central Max-ima (mm).
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 1011--1011
+\OT1/cmr/m/n/12 from the left/right edge
+ []
+
+
+Underfull \hbox (badness 4036) in paragraph at lines 1011--1011
+\OT1/cmr/m/n/12 of one bright fringe to
+ []
+
+
+Underfull \hbox (badness 7116) in paragraph at lines 1019--1019
+\OT1/cmr/m/n/12 mea-sure con-sis-tently for
+ []
+
+
+Underfull \hbox (badness 7116) in paragraph at lines 1020--1020
+\OT1/cmr/m/n/12 mea-sure con-sis-tently for
+ []
+
+
+Underfull \hbox (badness 7116) in paragraph at lines 1021--1021
+\OT1/cmr/m/n/12 mea-sure con-sis-tently for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1022--1022
+[]|\OT1/cmr/m/n/12 Average fringe dis-place-
+ []
+
+
+Overfull \hbox (9.46457pt too wide) in paragraph at lines 1022--1022
+[]|\OT1/cmr/m/n/12 4.119882353| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1025--1025
+[]|\OT1/cmr/m/n/12 uncertainty of dis-tance
+ []
+
+
+Underfull \hbox (badness 7832) in paragraph at lines 1025--1025
+\OT1/cmr/m/n/12 be-tween ad-ja-cent bright
+ []
+
+
+Overfull \hbox (38.94296pt too wide) in alignment at lines 991--1027
+[] [] [] [] [] [] []
+ []
+
+[34 <./Images/microscope 1.jpg> <./Images/microscope 2.jpg> <./Images/weird effect.png (PNG copy)>] [35] [36]
+Overfull \hbox (500.484pt too wide) detected at line 1030
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1041--1041
+[]|\OT1/cmr/m/n/12 Right
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1041--1041
+[]|\OT1/cmr/m/n/12 Right
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1041--1041
+[]|\OT1/cmr/m/n/12 Right
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1041--1042
+[]|\OT1/cmr/m/n/12 Right
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 1054--1054
+[]|\OT1/cmr/m/n/12 only clear
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 1054--1054
+[]|\OT1/cmr/m/n/12 only clear
+ []
+
+
+Overfull \hbox (4.80556pt too wide) in paragraph at lines 1054--1054
+[]|\OT1/cmr/m/n/12 surprisingly
+ []
+
+
+Overfull \hbox (4.80556pt too wide) in paragraph at lines 1054--1055
+[]|\OT1/cmr/m/n/12 surprisingly
+ []
+
+
+Overfull \hbox (6.9597pt too wide) in paragraph at lines 1061--1061
+[]|\OT1/cmr/m/n/12 5.246733333| 
+ []
+
+
+Overfull \hbox (6.9597pt too wide) in paragraph at lines 1061--1061
+[]|\OT1/cmr/m/n/12 5.840387097| 
+ []
+
+
+Overfull \hbox (6.9597pt too wide) in paragraph at lines 1061--1061
+[]|\OT1/cmr/m/n/12 6.468451613| 
+ []
+
+
+Overfull \hbox (6.9597pt too wide) in paragraph at lines 1061--1061
+[]|\OT1/cmr/m/n/12 6.451115385| 
+ []
+
+
+Overfull \hbox (35.94435pt too wide) in alignment at lines 1029--1066
+[] [] [] [] [] [] [] []
+ []
+
+[37]
+Overfull \hbox (500.484pt too wide) detected at line 1069
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1093--1093
+[]|\OT1/cmr/m/n/12 data
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1093--1093
+\OT1/cmr/m/n/12 cropped
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 1068--1101
+[] [] [] [] [] []
+ []
+
+[38]
+Overfull \hbox (500.484pt too wide) detected at line 1104
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1108--1108
+[]|\OT1/cmr/m/n/12 Chose to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1108--1108
+\OT1/cmr/m/n/12 start with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1108--1108
+\OT1/cmr/m/n/12 100cm for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1108--1108
+[]|\OT1/cmr/m/n/12 too con-sis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1108--1108
+\OT1/cmr/m/n/12 tent and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1108--1108
+\OT1/cmr/m/n/12 closeby
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1108--1108
+\OT1/cmr/m/n/12 ad-di-tional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1108--1108
+\OT1/cmr/m/n/12 mea-sure-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1108--1108
+\OT1/cmr/m/n/12 ment is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1108--1108
+\OT1/cmr/m/n/12 deemed
+ []
+
+
+Underfull \hbox (badness 7291) in paragraph at lines 1113--1113
+\OT1/cmr/m/n/12 it for this
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1117
+[]|\OT1/cmr/m/n/12 One er-ror
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1117
+\OT1/cmr/m/n/12 could be
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 1117--1117
+\OT1/cmr/m/n/12 mid-dle ones
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1117
+\OT1/cmr/m/n/12 reach max
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1117
+\OT1/cmr/m/n/12 ex-po-sure
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1117
+\OT1/cmr/m/n/12 on their
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1117
+\OT1/cmr/m/n/12 edge and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1117
+\OT1/cmr/m/n/12 the fringes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1117
+\OT1/cmr/m/n/12 don't, but
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1117
+\OT1/cmr/m/n/12 I mea-sure
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1117
+\OT1/cmr/m/n/12 the point
+ []
+
+
+Underfull \hbox (badness 3780) in paragraph at lines 1117--1117
+\OT1/cmr/m/n/12 of ex-po-sure
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1117
+\OT1/cmr/m/n/12 change to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1117
+\OT1/cmr/m/n/12 could also
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1117
+\OT1/cmr/m/n/12 ef-fect as
+ []
+
+
+Underfull \hbox (badness 5756) in paragraph at lines 1117--1117
+\OT1/cmr/m/n/12 we go out
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1117
+[]|\OT1/cmr/m/n/12 One er-ror
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1117
+\OT1/cmr/m/n/12 could be
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 1117--1117
+\OT1/cmr/m/n/12 mid-dle ones
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1117
+\OT1/cmr/m/n/12 reach max
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1117
+\OT1/cmr/m/n/12 ex-po-sure
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1117
+\OT1/cmr/m/n/12 on their
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1117
+\OT1/cmr/m/n/12 edge and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1117
+\OT1/cmr/m/n/12 the fringes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1117
+\OT1/cmr/m/n/12 don't, but
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1117
+\OT1/cmr/m/n/12 I mea-sure
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1117
+\OT1/cmr/m/n/12 the point
+ []
+
+
+Underfull \hbox (badness 3780) in paragraph at lines 1117--1117
+\OT1/cmr/m/n/12 of ex-po-sure
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1117
+\OT1/cmr/m/n/12 change to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1117
+\OT1/cmr/m/n/12 could also
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1117
+\OT1/cmr/m/n/12 ef-fect as
+ []
+
+
+Underfull \hbox (badness 5756) in paragraph at lines 1117--1117
+\OT1/cmr/m/n/12 we go out
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 1103--1136
+[] [] [] [] [] []
+ []
+
+[39]
+Overfull \hbox (500.484pt too wide) detected at line 1139
+[]
+ []
+
+
+Underfull \hbox (badness 5161) in paragraph at lines 1157--1157
+\OT1/cmr/m/n/12 bet-ter with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1157
+\OT1/cmr/m/n/12 prac-tice.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1157
+\OT1/cmr/m/n/12 (Could've
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1157
+\OT1/cmr/m/n/12 re-done the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1157
+\OT1/cmr/m/n/12 be-gin-ning
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1157
+\OT1/cmr/m/n/12 ones for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1157
+\OT1/cmr/m/n/12 bet-ter ac-
+ []
+
+
+Underfull \hbox (badness 3009) in paragraph at lines 1157--1157
+\OT1/cmr/m/n/12 cu-racy, but
+ []
+
+
+Underfull \hbox (badness 5161) in paragraph at lines 1157--1157
+\OT1/cmr/m/n/12 bet-ter with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1157
+\OT1/cmr/m/n/12 prac-tice.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1157
+\OT1/cmr/m/n/12 (Could've
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1157
+\OT1/cmr/m/n/12 re-done the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1157
+\OT1/cmr/m/n/12 be-gin-ning
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1157
+\OT1/cmr/m/n/12 ones for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1157
+\OT1/cmr/m/n/12 bet-ter ac-
+ []
+
+
+Underfull \hbox (badness 3009) in paragraph at lines 1157--1157
+\OT1/cmr/m/n/12 cu-racy, but
+ []
+
+
+Underfull \hbox (badness 5161) in paragraph at lines 1157--1157
+\OT1/cmr/m/n/12 bet-ter with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1157
+\OT1/cmr/m/n/12 prac-tice.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1157
+\OT1/cmr/m/n/12 (Could've
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1157
+\OT1/cmr/m/n/12 re-done the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1157
+\OT1/cmr/m/n/12 be-gin-ning
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1157
+\OT1/cmr/m/n/12 ones for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1157
+\OT1/cmr/m/n/12 bet-ter ac-
+ []
+
+
+Underfull \hbox (badness 3009) in paragraph at lines 1157--1157
+\OT1/cmr/m/n/12 cu-racy, but
+ []
+
+
+Underfull \hbox (badness 5161) in paragraph at lines 1157--1158
+\OT1/cmr/m/n/12 bet-ter with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1158
+\OT1/cmr/m/n/12 prac-tice.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1158
+\OT1/cmr/m/n/12 (Could've
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1158
+\OT1/cmr/m/n/12 re-done the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1158
+\OT1/cmr/m/n/12 be-gin-ning
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1158
+\OT1/cmr/m/n/12 ones for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1158
+\OT1/cmr/m/n/12 bet-ter ac-
+ []
+
+
+Underfull \hbox (badness 3009) in paragraph at lines 1157--1158
+\OT1/cmr/m/n/12 cu-racy, but
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 1138--1167
+[] [] [] []
+ []
+
+[40] [41] (build/main.aux)
+ ***********
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-06-18>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 36281 strings out of 467168
+ 883326 string characters out of 5409468
+ 1936444 words of memory out of 5000000
+ 65036 multiletter control sequences out of 15000+600000
+ 634772 words of font info for 64 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 102i,15n,107p,1181b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on build/main.pdf (41 pages, 334128312 bytes).
+PDF statistics:
+ 270 PDF objects out of 1000 (max. 8388607)
+ 145 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 248 words of extra memory for PDF output out of 10000 (max. 10000000)
+

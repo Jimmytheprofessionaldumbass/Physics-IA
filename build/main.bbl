@@ -83,6 +83,40 @@
       \verb https://fiji.sc/
       \endverb
     \endentry
+    \entry{hyperphysics_multislit}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=834fff5ac9ea1d5e423efcfecb18b6ed}{%
+           family={{Georgia State University}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{834fff5ac9ea1d5e423efcfecb18b6ed}
+      \strng{fullhash}{834fff5ac9ea1d5e423efcfecb18b6ed}
+      \strng{fullhashraw}{834fff5ac9ea1d5e423efcfecb18b6ed}
+      \strng{bibnamehash}{834fff5ac9ea1d5e423efcfecb18b6ed}
+      \strng{authorbibnamehash}{834fff5ac9ea1d5e423efcfecb18b6ed}
+      \strng{authornamehash}{834fff5ac9ea1d5e423efcfecb18b6ed}
+      \strng{authorfullhash}{834fff5ac9ea1d5e423efcfecb18b6ed}
+      \strng{authorfullhashraw}{834fff5ac9ea1d5e423efcfecb18b6ed}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Multiple-Slit Diffraction}
+      \field{urlday}{3}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{n.d.}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/mulslid.html#c2
+      \endverb
+      \verb{url}
+      \verb http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/mulslid.html#c2
+      \endverb
+    \endentry
     \entry{photopea}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4d1da631c3d7156c14f91c2c6f130077}{%
@@ -260,6 +294,40 @@
       \verb https://fiji.sc/
       \endverb
     \endentry
+    \entry{hyperphysics_multislit}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=834fff5ac9ea1d5e423efcfecb18b6ed}{%
+           family={{Georgia State University}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{834fff5ac9ea1d5e423efcfecb18b6ed}
+      \strng{fullhash}{834fff5ac9ea1d5e423efcfecb18b6ed}
+      \strng{fullhashraw}{834fff5ac9ea1d5e423efcfecb18b6ed}
+      \strng{bibnamehash}{834fff5ac9ea1d5e423efcfecb18b6ed}
+      \strng{authorbibnamehash}{834fff5ac9ea1d5e423efcfecb18b6ed}
+      \strng{authornamehash}{834fff5ac9ea1d5e423efcfecb18b6ed}
+      \strng{authorfullhash}{834fff5ac9ea1d5e423efcfecb18b6ed}
+      \strng{authorfullhashraw}{834fff5ac9ea1d5e423efcfecb18b6ed}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Multiple-Slit Diffraction}
+      \field{urlday}{3}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{n.d.}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/mulslid.html#c2
+      \endverb
+      \verb{url}
+      \verb http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/mulslid.html#c2
+      \endverb
+    \endentry
     \entry{photopea}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4d1da631c3d7156c14f91c2c6f130077}{%
@@ -372,7 +440,6 @@
       \field{year}{1807}
     \endentry
   \enddatalist
-  \missing{double slit system}
 \endrefsection
 \endinput
 
