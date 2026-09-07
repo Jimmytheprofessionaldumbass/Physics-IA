@@ -1,4 +1,4 @@
-%% Creator: Inkscape 1.4.4 (dcaf3e7, 2026-05-05), www.inkscape.org
+%% Creator: Inkscape 1.4.4 (dcaf3e7d9e, 2026-05-05), www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file 'processed graph_svg-tex.pdf' (pdf, eps, ps)
 %%
@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{1822.43261719bp}%
+    \setlength{\unitlength}{1822.48187256bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,44 +50,46 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.672847)%
+  \begin{picture}(1,0.67362374)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{processed graph_svg-tex.pdf}}%
-    \put(0.00396065,0.00137528){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0\end{tabular}}}}%
-    \put(0.00396065,0.00137528){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0\end{tabular}}}}%
-    \put(0.12102374,0.01948294){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}100\end{tabular}}}}%
-    \put(0.12102374,0.01948294){\color[rgb]{0.6,0.6,0.6}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}100\end{tabular}}}}%
-    \put(0.23076716,0.01948294){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}200\end{tabular}}}}%
-    \put(0.23076716,0.01948294){\color[rgb]{0.6,0.6,0.6}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}200\end{tabular}}}}%
-    \put(0.3405106,0.01948294){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}300\end{tabular}}}}%
-    \put(0.3405106,0.01948294){\color[rgb]{0.6,0.6,0.6}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}300\end{tabular}}}}%
-    \put(0.45025401,0.01948294){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}400\end{tabular}}}}%
-    \put(0.45025401,0.01948294){\color[rgb]{0.6,0.6,0.6}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}400\end{tabular}}}}%
-    \put(0.55999747,0.01948294){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}500\end{tabular}}}}%
-    \put(0.55999747,0.01948294){\color[rgb]{0.6,0.6,0.6}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}500\end{tabular}}}}%
-    \put(0.66974088,0.01948294){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}600\end{tabular}}}}%
-    \put(0.66974088,0.01948294){\color[rgb]{0.6,0.6,0.6}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}600\end{tabular}}}}%
-    \put(0.77948429,0.01948294){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}700\end{tabular}}}}%
-    \put(0.77948429,0.01948294){\color[rgb]{0.6,0.6,0.6}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}700\end{tabular}}}}%
-    \put(0.8892277,0.01948294){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}800\end{tabular}}}}%
-    \put(0.8892277,0.01948294){\color[rgb]{0.6,0.6,0.6}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}800\end{tabular}}}}%
-    \put(0.98688906,0.01948294){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}900\end{tabular}}}}%
-    \put(0.98688906,0.01948294){\color[rgb]{0.6,0.6,0.6}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}900\end{tabular}}}}%
-    \put(0.02816743,0.12989369){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.002\end{tabular}}}}%
-    \put(0.02816743,0.12989369){\color[rgb]{0.6,0.6,0.6}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.002\end{tabular}}}}%
-    \put(0.02816743,0.24853525){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.004\end{tabular}}}}%
-    \put(0.02816743,0.24853525){\color[rgb]{0.6,0.6,0.6}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.004\end{tabular}}}}%
-    \put(0.02816743,0.36717679){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.006\end{tabular}}}}%
-    \put(0.02816743,0.36717679){\color[rgb]{0.6,0.6,0.6}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.006\end{tabular}}}}%
-    \put(0.02816743,0.48581833){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.008\end{tabular}}}}%
-    \put(0.02816743,0.48581833){\color[rgb]{0.6,0.6,0.6}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.008\end{tabular}}}}%
-    \put(0.02496315,0.60445988){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.01\end{tabular}}}}%
-    \put(0.02496315,0.60445988){\color[rgb]{0.6,0.6,0.6}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.01\end{tabular}}}}%
-    \put(0.8287882,0.03414026){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}DIstance from screen (m)\end{tabular}}}}%
-    \put(0.8287882,0.03414026){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}DIstance from screen (m)\end{tabular}}}}%
-    \put(0.05410838,0.54152544){\color[rgb]{1,1,1}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Fringe Spacing (m)\end{tabular}}}}}%
-    \put(0.05410838,0.54152544){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Fringe Spacing (m)\end{tabular}}}}}%
+    \put(0.00398867,0.00134711){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0\end{tabular}}}}%
+    \put(0.00398867,0.00134711){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0\end{tabular}}}}%
+    \put(0.12104745,0.01945428){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1\end{tabular}}}}%
+    \put(0.12104745,0.01945428){\color[rgb]{0.6,0.6,0.6}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1\end{tabular}}}}%
+    \put(0.2307879,0.01945428){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}2\end{tabular}}}}%
+    \put(0.2307879,0.01945428){\color[rgb]{0.6,0.6,0.6}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}2\end{tabular}}}}%
+    \put(0.34052837,0.01945428){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}3\end{tabular}}}}%
+    \put(0.34052837,0.01945428){\color[rgb]{0.6,0.6,0.6}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}3\end{tabular}}}}%
+    \put(0.45026882,0.01945428){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}4\end{tabular}}}}%
+    \put(0.45026882,0.01945428){\color[rgb]{0.6,0.6,0.6}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}4\end{tabular}}}}%
+    \put(0.56000931,0.01945428){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}5\end{tabular}}}}%
+    \put(0.56000931,0.01945428){\color[rgb]{0.6,0.6,0.6}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}5\end{tabular}}}}%
+    \put(0.66974975,0.01945428){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}6\end{tabular}}}}%
+    \put(0.66974975,0.01945428){\color[rgb]{0.6,0.6,0.6}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}6\end{tabular}}}}%
+    \put(0.7794902,0.01945428){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}7\end{tabular}}}}%
+    \put(0.7794902,0.01945428){\color[rgb]{0.6,0.6,0.6}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}7\end{tabular}}}}%
+    \put(0.88923064,0.01945428){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}8\end{tabular}}}}%
+    \put(0.88923064,0.01945428){\color[rgb]{0.6,0.6,0.6}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}8\end{tabular}}}}%
+    \put(0.99329888,0.01945428){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}9\end{tabular}}}}%
+    \put(0.99329888,0.01945428){\color[rgb]{0.6,0.6,0.6}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}9\end{tabular}}}}%
+    \put(0.02818645,0.12096419){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.002\end{tabular}}}}%
+    \put(0.02818645,0.12096419){\color[rgb]{0.6,0.6,0.6}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.002\end{tabular}}}}%
+    \put(0.02818645,0.23070464){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.004\end{tabular}}}}%
+    \put(0.02818645,0.23070464){\color[rgb]{0.6,0.6,0.6}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.004\end{tabular}}}}%
+    \put(0.02818645,0.3404451){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.006\end{tabular}}}}%
+    \put(0.02818645,0.3404451){\color[rgb]{0.6,0.6,0.6}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.006\end{tabular}}}}%
+    \put(0.02818645,0.45018557){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.008\end{tabular}}}}%
+    \put(0.02818645,0.45018557){\color[rgb]{0.6,0.6,0.6}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.008\end{tabular}}}}%
+    \put(0.0249834,0.55992604){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.01\end{tabular}}}}%
+    \put(0.0249834,0.55992604){\color[rgb]{0.6,0.6,0.6}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.01\end{tabular}}}}%
+    \put(0.02818645,0.66143596){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.012\end{tabular}}}}%
+    \put(0.02818645,0.66143596){\color[rgb]{0.6,0.6,0.6}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.012\end{tabular}}}}%
+    \put(0.82958675,0.03411121){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Distance from screen (m)\end{tabular}}}}%
+    \put(0.82958675,0.03411121){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Distance from screen (m)\end{tabular}}}}%
+    \put(0.05411949,0.54149622){\color[rgb]{1,1,1}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Fringe Spacing (m)\end{tabular}}}}}%
+    \put(0.05411949,0.54149622){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Fringe Spacing (m)\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{processed graph_svg-tex.pdf}}%
   \end{picture}%
 \endgroup%

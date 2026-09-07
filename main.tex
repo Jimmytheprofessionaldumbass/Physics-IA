@@ -25,11 +25,11 @@
 \definecolor{icegray}{HTML}{C9D0D3}
 
 \title{An investigation on the relationship between slit distance and fringe spacing}
-\author{Jimmy Zeng}
+\author{IB Student Code:}
 
 \begin{document}
 \maketitle
-\tableofcontents
+Word count: 2950
 \pagebreak
 \section{Introduction and Background}
 Wave Phenomena states that waves could interfere when they overlap. When two waves are in opposite phase, it is said to interfere destructively and cancel out. However, if they are the same phase and interferes, it is said to be constructive, reaching a greater amplitude.
@@ -185,9 +185,116 @@ The formula proposed by Thomas Young was
 \end{equation}
 \par
 In which "S" is the distance between two adjacent bright fringes, $\lambda$ is the wavelength of the light, $D$ is the distance between the screen and slits in meters and $d$ is the distance between slits. 
-The mathematical geometric derivation is thus justified (\cite{weideman_double_slit}):
-Consider a point a on the screen of a double slit system at which two light rays touch from their respective slits.
-This is illustrated in figure \ref{fig:double slit diagram}
+% The mathematical geometric derivation is thus justified (\cite{weideman_double_slit}):
+% Consider a point a on the screen of a double slit system at which two light rays touch from their respective slits.
+% This is illustrated in figure \ref{fig:double slit diagram}
+% \begin{figure}[htbp]
+%     \center
+%     \begin{tikzpicture}
+%         \coordinate (Fringe) at (10, 8);
+%         \draw [very thick] (0,-1) -- (0,2);
+%         \draw [very thick] (0,3) -- (0,4);
+%         \draw [very thick] (0,8) -- (0,5);
+%
+%
+%         \draw [thick,color=icegreen] (0.5870021,2.82285115) -- node[fill=white] {$n\lambda$} (Fringe);
+%         \draw [thick,color=iceblue] (0,4.5) -- node[fill=white] {$n\lambda$} (Fringe);
+%         \draw [thick,color=icecyan,dashed] (0.37422, 3.6684) -- (Fringe);
+%
+%         \draw [thick,color=icecyan] (0,4.5) -- (0.72144289,2.89679359);
+%         \draw [thick,color=icecyan] (0,2.5) -- node[below] {$\Delta x$}(0.72144289,2.89679359);
+%         \draw [dashed,thin] (0,3.5) -- (10, 3.5);
+%
+%         \draw [{Rays[n=2]}-{Rays[n=2]}] (0,-1.2) -- node[fill=white] {D} (10,-1.2);
+%         \draw [{Rays[n=2]}-{Rays[n=2]}] (-0.4,2.5) -- node[fill=white] {d} (-0.4,4.5);
+%         \draw [{Rays[n=2]}-{Rays[n=2]}] (10.4,3.5) -- node[fill=white] {y} (10.4,8);
+%
+%         \draw [thick] (0,3) arc (270:270+atan(0.82335774588/1.75805516913):1.5) node[font=\small,midway,fill=white, inner sep=0.5pt] {$\theta$}; 
+%         \draw [thick] (1.5,3.5) arc (0:atan(4.5/10):1.5) node[font=\small,midway,fill=white,inner sep=0.5pt] {$\theta$}; 
+%
+%         \draw [thick] (10,-1) -- (10,8);
+%     \end{tikzpicture}
+%
+%     \caption{annotated view of double slit system}
+%     \label{fig:double slit diagram}
+% \end{figure}
+% \par
+% We observe that the $\theta$ that is related by the equation
+% \begin{equation}
+%     \sin(\theta) = \frac{\Delta x}{d}
+% \end{equation}
+% is equal to the $\theta$ represented by
+% \begin{equation}
+%     \tan(\theta) = \frac{y}{D}
+% \end{equation}
+% When the path difference between two rays is an integer multiple of the wavelength of the light, they engage in constructive interference.
+% We observe the fact that the path difference ($\Delta x$) for constructive waves is
+% \begin{equation}
+%     n\lambda
+%     \label{eq:path difference constructive}
+% \end{equation}
+% where $\lambda$ is the wavelength of the light and $n$ is an integer representing the nth bright fringe. where $n=0$ is the central maxima and negative values representing the nth bright fringe of the opposite direction. Hence we derive the equation.
+% \begin{align}
+%     \sin(\theta) &= \frac{\Delta x}{d} \\
+%     \sin(\theta) &= \frac{n\lambda}{d} \\
+%     \theta &= \sin^{-1}\left(\frac{n\lambda}{d}\right) %improve with gary's suggestions
+% \end{align}
+% and since we know that the wavelength $\lambda$ of light is orders of magnitudes smaller than slit spacing $d$, and hence the value in $\sin$ is close to zero, we can use the sin angle approximation $\lim_{\theta \to 0} \sin(\theta) = \theta$ to simplify to
+% \begin{equation}
+%     \theta = \frac{n\lambda}{d}
+% \end{equation}
+% relating $\theta$ to $d$ and $\lambda$.
+% This angle approximation for small values of $\theta$ also apply to $\tan(\theta)$ in the other representation of $\theta$
+% \begin{equation}
+%     \tan(\theta) = \frac{y}{D}
+% \end{equation}
+% and since we know that this is the same $\theta$ as the one used in $\sin(\theta)$ which is close to zero, we can simplify to 
+% \begin{equation}
+%     \theta = \frac{y}{D}
+% \end{equation}
+% and putting them together
+% \begin{align}
+%     \frac{y}{D} &= \theta \\
+%     \frac{n \lambda}{d} &= \theta \\
+%     \frac{y}{D} &= \frac{n \lambda}{d} \\
+%     y  &= n\frac{D\lambda}{d} \\
+% \end{align}
+% To find the distance between fringes we need to find the distance $y_{a}$ of a fringe to the central maxima and distance $y_{b}$ of a consecutive fringe to the central maxima and find the the difference between their distances $y_{b} - y_{a}$. % Diagram to show 
+% \begin{figure}[htbp]
+%     \center
+%     \begin{tikzpicture}
+%         \draw [very thick] (0,-1) -- (0,2);
+%         \draw [very thick] (0,3) -- (0,4);
+%         \draw [very thick] (0,8) -- (0,5);
+%         \draw [very thick] (10, -1) -- (10, 8);
+%         \draw [color=icegreen, very thick] (0, 3.5) -- node[fill=white] {$\left(n+1\right)\lambda$} (10, 8);
+%         \draw [color=iceblue, very thick] (0, 3.5) -- node[fill=white] {$n\lambda$} (10, 6);
+%
+%         \draw [{Rays[n=2]}-{Rays[n=2]}] (10.5, 3.5) -- node[fill=white] {$y_{b}$}(10.5, 8);
+%         \draw [{Rays[n=2]}-{Rays[n=2]}] (11, 3.5) -- node[fill=white] {$y_{a}$}(11, 6);
+%         \draw [{Rays[n=2]}-{Rays[n=2]}] (11.5, 8) -- node[fill=white,right] {$y_{b} - y_{a}$} (11.5, 6);
+%     \end{tikzpicture}
+%     \label{fig:difference proof}
+% \end{figure}
+% \par
+% We have defined the distance from the central maximum as 
+% \begin{itemize}
+%     \item the nth fringe as $y  = n\frac{D\lambda}{d}$
+%     \item the nth + 1 (adjacent) fringe as $y  = \left(n+1\right)\frac{D\lambda}{d}$
+% \end{itemize}
+% finding the difference $\Delta y$ gives us the $s$ spacing between adjacent fringes
+% \begin{align}
+%     \Delta y = s&= \left(n+1\right) \frac{D \lambda}{d} - n \frac{D \lambda}{d} \\
+%     s &= \left(n+1-n\right) \frac{D \lambda}{d} \\
+%     s &= \frac{D \lambda}{d} 
+% \end{align}
+% and now we arrive at our destination.
+
+\pagebreak
+\section{Methodology}
+\subsection{Research Hypothesis and Method variables}
+
+\paragraph{Independent Variable}\leavevmode\\
 \begin{figure}[htbp]
     \center
     \begin{tikzpicture}
@@ -195,8 +302,8 @@ This is illustrated in figure \ref{fig:double slit diagram}
         \draw [very thick] (0,-1) -- (0,2);
         \draw [very thick] (0,3) -- (0,4);
         \draw [very thick] (0,8) -- (0,5);
-        
-        
+
+
         \draw [thick,color=icegreen] (0.5870021,2.82285115) -- node[fill=white] {$n\lambda$} (Fringe);
         \draw [thick,color=iceblue] (0,4.5) -- node[fill=white] {$n\lambda$} (Fringe);
         \draw [thick,color=icecyan,dashed] (0.37422, 3.6684) -- (Fringe);
@@ -208,93 +315,16 @@ This is illustrated in figure \ref{fig:double slit diagram}
         \draw [{Rays[n=2]}-{Rays[n=2]}] (0,-1.2) -- node[fill=white] {D} (10,-1.2);
         \draw [{Rays[n=2]}-{Rays[n=2]}] (-0.4,2.5) -- node[fill=white] {d} (-0.4,4.5);
         \draw [{Rays[n=2]}-{Rays[n=2]}] (10.4,3.5) -- node[fill=white] {y} (10.4,8);
-        
+
         \draw [thick] (0,3) arc (270:270+atan(0.82335774588/1.75805516913):1.5) node[font=\small,midway,fill=white, inner sep=0.5pt] {$\theta$}; 
         \draw [thick] (1.5,3.5) arc (0:atan(4.5/10):1.5) node[font=\small,midway,fill=white,inner sep=0.5pt] {$\theta$}; 
 
         \draw [thick] (10,-1) -- (10,8);
     \end{tikzpicture}
-    
+
     \caption{annotated view of double slit system}
     \label{fig:double slit diagram}
 \end{figure}
-\par
-We observe that the $\theta$ that is related by the equation
-\begin{equation}
-    \sin(\theta) = \frac{\Delta x}{d}
-\end{equation}
-is equal to the $\theta$ represented by
-\begin{equation}
-    \tan(\theta) = \frac{y}{D}
-\end{equation}
-When the path difference between two rays is an integer multiple of the wavelength of the light, they engage in constructive interference.
-We observe the fact that the path difference ($\Delta x$) for constructive waves is
-\begin{equation}
-    n\lambda
-    \label{eq:path difference constructive}
-\end{equation}
-where $\lambda$ is the wavelength of the light and $n$ is an integer representing the nth bright fringe. where $n=0$ is the central maxima and negative values representing the nth bright fringe of the opposite direction. Hence we derive the equation.
-\begin{align}
-    \sin(\theta) &= \frac{\Delta x}{d} \\
-    \sin(\theta) &= \frac{n\lambda}{d} \\
-    \theta &= \sin^{-1}\left(\frac{n\lambda}{d}\right) %improve with gary's suggestions
-\end{align}
-and since we know that the wavelength $\lambda$ of light is orders of magnitudes smaller than slit spacing $d$, and hence the value in $\sin$ is close to zero, we can use the sin angle approximation $\lim_{\theta \to 0} \sin(\theta) = \theta$ to simplify to
-\begin{equation}
-    \theta = \frac{n\lambda}{d}
-\end{equation}
-relating $\theta$ to $d$ and $\lambda$.
-This angle approximation for small values of $\theta$ also apply to $\tan(\theta)$ in the other representation of $\theta$
-\begin{equation}
-    \tan(\theta) = \frac{y}{D}
-\end{equation}
-and since we know that this is the same $\theta$ as the one used in $\sin(\theta)$ which is close to zero, we can simplify to 
-\begin{equation}
-    \theta = \frac{y}{D}
-\end{equation}
-and putting them together
-\begin{align}
-    \frac{y}{D} &= \theta \\
-    \frac{n \lambda}{d} &= \theta \\
-    \frac{y}{D} &= \frac{n \lambda}{d} \\
-    y  &= n\frac{D\lambda}{d} \\
-\end{align}
-To find the distance between fringes we need to find the distance $y_{a}$ of a fringe to the central maxima and distance $y_{b}$ of a consecutive fringe to the central maxima and find the the difference between their distances $y_{b} - y_{a}$. % Diagram to show 
-\begin{figure}[htbp]
-    \center
-    \begin{tikzpicture}
-        \draw [very thick] (0,-1) -- (0,2);
-        \draw [very thick] (0,3) -- (0,4);
-        \draw [very thick] (0,8) -- (0,5);
-        \draw [very thick] (10, -1) -- (10, 8);
-        \draw [color=icegreen, very thick] (0, 3.5) -- node[fill=white] {$\left(n+1\right)\lambda$} (10, 8);
-        \draw [color=iceblue, very thick] (0, 3.5) -- node[fill=white] {$n\lambda$} (10, 6);
-
-        \draw [{Rays[n=2]}-{Rays[n=2]}] (10.5, 3.5) -- node[fill=white] {$y_{b}$}(10.5, 8);
-        \draw [{Rays[n=2]}-{Rays[n=2]}] (11, 3.5) -- node[fill=white] {$y_{a}$}(11, 6);
-        \draw [{Rays[n=2]}-{Rays[n=2]}] (11.5, 8) -- node[fill=white,right] {$y_{b} - y_{a}$} (11.5, 6);
-    \end{tikzpicture}
-    \label{fig:difference proof}
-\end{figure}
-\par
-We have defined the distance from the central maximum as 
-\begin{itemize}
-    \item the nth fringe as $y  = n\frac{D\lambda}{d}$
-    \item the nth + 1 (adjacent) fringe as $y  = \left(n+1\right)\frac{D\lambda}{d}$
-\end{itemize}
-finding the difference $\Delta y$ gives us the $s$ spacing between adjacent fringes
-\begin{align}
-    \Delta y = s&= \left(n+1\right) \frac{D \lambda}{d} - n \frac{D \lambda}{d} \\
-    s &= \left(n+1-n\right) \frac{D \lambda}{d} \\
-    s &= \frac{D \lambda}{d} 
-\end{align}
-and now we arrive at our destination.
-
-\pagebreak
-\section{Methodology}
-\subsection{Research Hypothesis and Method variables}
-
-\paragraph{Independent Variable}\leavevmode\\
 The independent variable is the distance $D$ between the slit and the screen (See figure \ref{fig:double slit diagram}). There will be two experiments carried out with different setups, namely, the "macro" and "micro" experiments. This is to satisfy the trial quantity and to increase validity
 \begin{itemize}
     \item Micro will solely focus on distances within a meter and will include (in cm) 20, 40, 60, 80, and 100.
@@ -318,7 +348,7 @@ And hence our research question is
     \end{minipage}
 \end{center}
 \par
-And we hypothesize that the relationship with the distance between screen and slit and the spacing between adjacent bright fringes would be a linear relationship. This is because our mathematically derived equation $s= D\dfrac{\lambda}{d}$ suggests a directly proportional linear relationship between $s$ and $D$.
+And we hypothesize that the relationship with the distance between screen and slit and the spacing between adjacent bright fringes would be a linear relationship. This is because our equation $s= D\dfrac{\lambda}{d}$ suggests a directly proportional linear relationship between $s$ and $D$.
 \pagebreak
 
 \subsection{Variable Control and Measurement}
@@ -413,7 +443,8 @@ The following control variables are considered and kept constant (by the best of
 \subsection{Setup and Experimental Procedure}
 
 %-- Add turning off the lights
-There is obvious danger when it comes to operating aparatus such as a laser, which is why the experiment was done on a day where scholars were absent from the premises. And I made the room dark so it raises fear to whomever enters my domain (and also such that the projected interference patterns appear more prominently)
+There are danger involved with operating a laser, the experiment was done in a period where only me and my friend didn't have class. The height of the laser was very low, so unless you are literally crawling it is highly unlikely to face the wrath of the laser.
+% There is obvious danger when it comes to operating aparatus such as a laser, which is why the experiment was done on a day where scholars were absent from the premises. And I made the room dark so it raises fear to whomever enters my domain (and also such that the projected interference patterns appear more prominently)
 
 \begin{figure}[htbp]
     \centering
@@ -421,7 +452,9 @@ There is obvious danger when it comes to operating aparatus such as a laser, whi
     \caption{"macro" experimental setup sketch}
 \end{figure}
 
-The laser-slit system is mounted on a two axis translation stage. This way it is possible to move sideways to project onto the table behind rather than moving it which was the original plan before it was realized that the tracks are not long enough. This also allows for changing the angle of the direction of the path. Required components for this build include:
+The laser-slit system is mounted on a two axis translation stage. 
+% This way it is possible to move sideways to project onto the table behind rather than moving it which was the original plan before it was realized that the tracks are not long enough. This also allows for changing the angle of the direction of the path. 
+Required components for this build include:
 \begin{itemize}
     \item Two axis translation stage
     \begin{itemize}
@@ -618,7 +651,7 @@ After the setup is complete begin the following experimental procedure:
                 \center
                 \includegraphics[width=.7\textwidth]{tape projected surface}
                 \caption{tape being applied on the projected surface}
-                \label{fig:Label Name}
+                \label{fig:tape projected surface}
             \end{figure}
         \item Ensure both tapes have the same distance in their placement on their end.
     \end{itemize}
@@ -781,12 +814,12 @@ The fringe distance is calculated by
 \end{equation}
 where \(s_i\) is each fringe spacing datapoint and \(N\) is the number of datapoints.
 
-The distance is calculated by
+Because our experimental setup has offsets and hence the corrected distance is calculated by
 \begin{equation}
-    \text{Distance} = \text{initial distance} - \text{offset} + (\text{2 axis translation stage modifier})
+    \text{Corrected distance} = \text{table distance} - \text{offset} + (\text{translation stage modifier})
 \end{equation}
-Recall that the distance of tables is based off of the origin point of the measuring tape, which is at 0cm. For instance the table is set to be [initial distance] away from the origin point of the measuring tape where [initial distance] is an experimental value D. However our 2 axis translation stage is closer to the table by a distance [offset] and must have that subtracted from the [initial distance]. Then we add the 2 axis translation stage modifier because recall that we have two systems responsible for controlling our independent variable, and this one is the one responsible for the "micro adjustments". The uncertainty for this is set to be 0.5cm, despite the accuracy of the setup, error propagated forward would compound with each component.
-The predicted values are calculated by plugging the values into the equation we derived in the beginning. Namely:
+Recall that the distance of tables (table distance) is based off of the origin point of the measuring tape, which is at 0cm. However our 2 axis translation stage's origin is not aligned with the zero-position of the measuring tape; it is closer to the table by a distance (offset) and must have that subtracted from the table distance. Then we add the translation stage modifier because we have two systems responsible for controlling our independent variable, and this one (translation stage modifier) is the one responsible for the "micro adjustments". The uncertainty for this is set to be 0.005m, despite the accuracy of the setup, error propagated forward would compound with each component.
+The predicted values are calculated by plugging the values into the equation. Namely:
 \begin{equation}
     s = \frac{\lambda D}{d}
 \end{equation}
@@ -799,7 +832,7 @@ The absolute uncertainty is calculated with max-min:
 \begin{equation}
     \frac{[Maximum measured DV]-[Minimum measured DV]}{2}
 \end{equation}
-And hence we get the following data (some are duplicate due to the two system method we have chosen to measure. For instance, tableside of 5m + translation stage of 100cm = table side of 6m and translatioin side of 0cm)
+And hence we get the following data (some are duplicate due to the two system method we have chosen to measure. For instance, tableside of 5m + translation stage of 100cm = table side of 6m and translation side of 0cm)
 
 
 
@@ -809,7 +842,7 @@ And hence we get the following data (some are duplicate due to the two system me
 >{\centering\arraybackslash}p{0.22\textwidth}|
 >{\centering\arraybackslash}p{0.22\textwidth}|}
     \hline
-    Distance from slit (m) $\pm 0.0005m$ & Average Fringe Spacing (mm) & Predicted Values (mm) & Difference (mm)\\
+    Distance from slit (m) $\pm 0.005m$ & Average Fringe Spacing (mm) & Predicted Values (mm) & Difference (mm)\\
     \hline
     2.478 & $3.0 \pm 0.2$ & 2.929547 & 0.038503 \\
     \hline              
@@ -845,43 +878,53 @@ And hence we get the following data (some are duplicate due to the two system me
 
 The line of best fit was calculated by \cite{desmos}. As By plotting the average datapoints of fringe spacing with respect to displacement on desmos and using the linear regression feature. Giving:
 \begin{equation}
-    y = 0.0000119974x - 0.0000429071
+    y=1.16287\cdot10^{-3}x+1.57806\cdot10^{-4}
 \end{equation}
-Desmos evaluated an extremely strong correlation coefficient of 0.9991
+Since the x and y axis were converted to meters, the fitted slolpe is dimensionless.
+Desmos evaluated an extremely strong positive correlation coefficient of 0.9954 meaning the data suggests a linear relationship. The $r^{2}$ value was calculated to be $R^{2}=0.9909$ suggesting that 99.09\% of the variation can be explained by a linear relationship with D.
 
 The steepest slope was calculated in desmos manually using $y = \frac{y_{3}-y_{2}}{x_{3}-x_{2}}\left(x-x_{2}\right) + y_{2}$
 where:
 \begin{itemize}
-    \item $x_{3}=847.8+0.5$
+    \item $x_{3}=8.478+0.005$
     \item $y_{3}=0.01052955+\frac{0.000926}{2}$
-    \item $x_{2}=20-0.5$
+    \item $x_{2}=.2-0.005$
     \item $y_{2}=0.000276167-\frac{0.000093}{2}$
 \end{itemize}
 correspond to values on the graph and unrounded uncertainties' greatest/least values (which can be found in the appendix)
 Likewise, the flattest slope was calculated with $y=\frac{y_{5}-y_{4}}{x_{5}-x_{4}}\left(x-x_{4}\right)+y_{4}$
 \begin{itemize}
+    \item $x_{5}=8.478-0.005$
     \item $y_{5}=0.01052955-\frac{0.000926}{2}$
-    \item $x_{5}=847.8-0.5$
+    \item $x_{4}=.20+0.005$
     \item $y_{4}=0.000276167+\frac{0.000093}{2}$
-    \item $x_{4}=20+0.5$
 \end{itemize}
 Giving:
 
-\paragraph{Max} 
+\paragraph{Maximum Gradient} 
 \begin{equation}
-    y = 1.17850544267 * 10^{-5}(x-19.5) + 0.000229667
+    y=1.29861040058\cdot10^{-3}\left(x-0.195\right)+2.29667\cdot10^{-4}
 \end{equation}
-\paragraph{Max} 
+\paragraph{Minimum Gradient} 
 \begin{equation}
-    y = 1.29861040058 * 10^{-5}(x-20.5) + 0.000322667
+    y=1.17850544267\cdot10^{-3}\left(x-0.205\right)+3.22667\cdot10^{-4}
 \end{equation}
-
-
 
 and using min max to find the uncertainty
 \begin{equation}
-    \frac{1.29861040058 \cdot 10^{-5} - 1.17850544267 * 10^{-5}}{2} = 6.0052478955\cdot10^{-7} \approx 6\cdot10^{-7}
+    \frac{1.29861040058\cdot10^{-3} - 1.17850544267\cdot10^{-3}}{2} = 6.0052478955\cdot10^{-5} \approx 6\cdot10^{-5}
 \end{equation}
+
+The theoretical slope is calculated to be
+\begin{equation}
+    \frac{\lambda}{d} = \frac{5.32\cdot10^{-7}}{4.5\cdot10^{-4}} = 1.18222222222\cdot10^{-3}
+\end{equation}
+and the percentage difference is calculated with
+\begin{align}
+    \mathrm{Percentage Difference} &=  \frac{|\mathrm{experimental} - \mathrm{theoretical}|}{\mathrm{theoretical}} \cdot  100
+                                   &= \frac{|1.16287\cdot10^{-3} - 1.18222222222\cdot10^{-3}|}{1.18222222222\cdot10^{-3}} \cdot 100 \\
+                                   &= 1.63693609004 \approx 1.6 \%
+\end{align}
 
 \begin{figure}[htbp] %move this to the right place and make the title prettier
     \centering
@@ -896,10 +939,9 @@ and using min max to find the uncertainty
 
 
 \section{Conclusion} % Ask giulian's conclusion how he yapped so much. Do I genuinely got nothing to say or just don't know the direction for my conclusion? 
-The goal of this research is to investigate a double slit system. Particularly, how change in displacement between the slit and the screen corresponds to a change in fringe spacing and determine the curve relationship
+The goal of this research is to investigate a double slit system. Particularly, how change in displacement between the slit and the screen corresponds to a change in fringe spacing and determine the curve relationship.
 
-
-We discovered that the relationship between these two variables is linear; an increase in the displacement respects a proportional increase in fringe spacing, which validates Thomas Young's mathematically derived equation we explored earlier since the values calculated with that equation are extremely close to the measured values, up to micrometer accuracy. For instance, for the following data listed below, it has $\pm 2 \mu m$ accuracy for the last datapoint
+Our experimental data suggests that there is a strong linear relationship between spacing between fringes and distance from slits as our correlation coefficient and $r^{2}$ value is high (0.9954 and 0.9909 respectively). The theoretical slope ($\frac{\lambda}{d}=1.1822\cdot10^{-3}$) differs from the measured slope by $1.6\%$. These results support the hypothesis that fringe spacing is linearly proportional to distance from slit and screen which verifies Thomas Young's equation since the values calculated with that equation are extremely close to the measured values. 
 \begin{longtable}{|
 >{\raggedright\arraybackslash}p{0.22\textwidth}|
 >{\centering\arraybackslash}p{0.22\textwidth}|
@@ -977,17 +1019,18 @@ For the trials, as the screen gets closer the fringes closer to the middle are u
 \begin{figure}[htbp]
     \center
     \includegraphics[width=.7\textwidth]{weird effect}
+    \caption{exposure bias}
     \label{fig:weird effect}
 \end{figure}
 %add images from docx
 
 \section{Works Cited}
     
-\printbibliography %add bibliography for software
+\printbibliography
     
 \section{Appendix}
-\subsection{Raw Numerical Data}
-The raw numerical data imports exactly the excel book I worked on while writing down measured values. Meaning it could also include additional observations or notes made along the process of measurement.
+\subsection{Raw Data}
+The raw numerical data imports exactly the excel book I worked on while writing down measured values. Meaning it could also include additional observations or notes made along the process of measurement. This is not edited to maintain authenticity of the original document. The numbering system 1-3, 3-3, etc aligns with the aforementioned "finger encoding system" used to encode the images
 \begin{longtable}{p{0.28\linewidth}p{0.105\linewidth}p{0.105\linewidth}p{0.105\linewidth}p{0.105\linewidth}p{0.105\linewidth}p{0.105\linewidth}}
 \caption{Measurements for data sets 1-1, 1-2, and 1-3}\label{tab:data1}\\
 \hline
@@ -1165,13 +1208,12 @@ Able to see better with practice. (Could've redone the beginning ones for better
 \ensuremath{\pm}0.064 &  & \ensuremath{\pm}0.0465 &  \\
 \hline
 \end{longtable}
-\subsection{Raw Images}
-Raw image entails the original image directly taken from step 10 for Macro experimental procedure and step 3 in the Micro experimental procedure.
+% \subsection{Raw Images}
+% Raw image entails the original image directly taken from step 10 for Macro experimental procedure and step 3 in the Micro experimental procedure.
+%
+% \subsection{Perspective Corrected Images}
+% Perspective corrected data is the data that is perspective corrected using Photopea (\cite{photopea}) that is then put into Fiji (\cite{fiji}) used to measure fringe distance.
 
-\subsection{Perspective Corrected Images}
-Perspective corrected data is the data that is perspective corrected using Photopea (\cite{photopea}) that is then put into Fiji (\cite{fiji}) used to measure fringe distance.
-    
-    
 
 
 \end{document}
